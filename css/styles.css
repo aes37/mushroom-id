@@ -191,8 +191,10 @@ kbd {
   margin: 24px auto;
   max-width: 460px;
 }
+.intro-preview figcaption { grid-column: 1 / -1; color: var(--muted); font-size: .9rem; font-style: italic; }
 .intro-preview img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: var(--radius);
@@ -456,6 +458,7 @@ dialog::backdrop { background: rgb(20 15 10 / 55%); }
 .guide-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .guide-card img {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;

@@ -3,7 +3,7 @@ import {
   msUntilTomorrow, puzzleNumber, rankFor, scoreGame, shareText,
 } from './game.js';
 import { mulberry32 } from './rng.js';
-import { load, save } from './storage.js';
+import { load, pruneDailyGames, save } from './storage.js';
 
 const app = document.getElementById('app');
 const modal = document.getElementById('modal');
@@ -85,6 +85,7 @@ function route() {
 
 function loadDaily() {
   const key = dateKey();
+  pruneDailyGames(key);
   const saved = load(`daily:${key}`, null);
   if (saved?.questions?.length && saved.questions.every(questionIsValid)) return saved;
   return {
@@ -142,7 +143,11 @@ function viewIntro() {
       <h1>Can you spot the lookalike?</h1>
       <p class="lede">Twenty pairs of mushrooms that people really do mix up, sometimes with deadly results.
         For each pair, pick the one we name.</p>
-      ${teaser.length === 2 ? `<div class="intro-preview">${teaser.map((p) => `<img src="${esc(p.file)}" alt="" width="${p.w}" height="${p.h}">`).join('')}</div>` : ''}
+      ${teaser.length === 2 ? `
+        <figure class="intro-preview">
+          ${teaser.map((p) => `<img src="${esc(p.file)}" alt="" width="${p.w}" height="${p.h}">`).join('')}
+          <figcaption>One is a prized edible. The other will make you very sick.</figcaption>
+        </figure>` : ''}
       <div class="rules">
         <ul>
           <li><strong>+1</strong> for a correct pick, <strong>−1</strong> for a wrong one.</li>
@@ -330,7 +335,7 @@ function viewResults() {
       </div>
       ${daily ? '<p class="next-in">New mushrooms in <strong id="countdown"></strong></p>' : ''}
       <div class="review">
-        <h3>Review today’s pairs</h3>
+        <h3>${daily ? 'Review today’s pairs' : 'Review the pairs'}</h3>
         <ol>${review}</ol>
       </div>
     </section>`;

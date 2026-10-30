@@ -18,3 +18,16 @@ export function save(key, value) {
     // Ignore: progress just won't survive a reload.
   }
 }
+
+// Daily game states are only needed for the current day; finished results live in
+// "history". Drop the rest so storage doesn't grow forever.
+export function pruneDailyGames(keepKey) {
+  try {
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const key = localStorage.key(i);
+      if (key.startsWith(`${PREFIX}daily:`) && key !== `${PREFIX}daily:${keepKey}`) localStorage.removeItem(key);
+    }
+  } catch {
+    // Storage unavailable: nothing to prune.
+  }
+}
