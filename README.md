@@ -51,7 +51,7 @@ Every "how to tell them apart" tip and edibility label was checked against field
 
 ## Photos and licensing
 
-All photos are research-grade iNaturalist observations taken from the [iNaturalist Open Dataset](https://github.com/inaturalist/inaturalist-open-data) on AWS. Only photos licensed **CC0**, **CC BY** or **CC BY-SA** are used (no non-commercial or no-derivatives licenses), so the game can be used and shared freely as long as attribution is kept. Each photo is credited in the game after you answer, and all of them are listed on the credits page with links to the original. Photos have been resized and re-encoded but are otherwise unaltered.
+All photos are research-grade iNaturalist observations taken from the [iNaturalist Open Dataset](https://github.com/inaturalist/inaturalist-open-data) on AWS. Only photos licensed **CC0**, **CC BY** or **CC BY-SA** are used (no non-commercial or no-derivatives licenses), so the game can be used and shared freely as long as attribution is kept. From the openly licensed candidates, 4–8 photos per species (359 in total) were picked for clarity and for showing the features that separate each pair, and every pick was independently re-checked for misidentification. Each photo is credited in the game after you answer, and all of them are listed on the credits page with links to the original. Photos have been resized and re-encoded but are otherwise unaltered.
 
 To rebuild or extend the photo set:
 
