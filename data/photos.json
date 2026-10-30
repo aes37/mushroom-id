@@ -1,0 +1,4402 @@
+{
+ "golden-chanterelle": [
+  {
+   "id": "157741908",
+   "file": "photos/157741908.webp",
+   "w": 600,
+   "h": 800,
+   "author": "A. Johann",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/157741908",
+   "taxon": "Cantharellus cibarius"
+  },
+  {
+   "id": "554625939",
+   "file": "photos/554625939.webp",
+   "w": 800,
+   "h": 628,
+   "author": "Ben Gruhot",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/554625939",
+   "taxon": "Cantharellus phasmatis"
+  },
+  {
+   "id": "564122057",
+   "file": "photos/564122057.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Axel Gudmundsson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/564122057",
+   "taxon": "Cantharellus cibarius"
+  },
+  {
+   "id": "335047662",
+   "file": "photos/335047662.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Tristan Lindgren",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/335047662",
+   "taxon": "Cantharellus formosus"
+  },
+  {
+   "id": "324735387",
+   "file": "photos/324735387.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Tomas B.",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/324735387",
+   "taxon": "Cantharellus cibarius"
+  },
+  {
+   "id": "315323016",
+   "file": "photos/315323016.webp",
+   "w": 800,
+   "h": 600,
+   "author": "carnifex",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/315323016",
+   "taxon": "Cantharellus cibarius"
+  },
+  {
+   "id": "5878897",
+   "file": "photos/5878897.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Lee Cain",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/5878897",
+   "taxon": "Cantharellus formosus"
+  }
+ ],
+ "jack-o-lantern": [
+  {
+   "id": "169794218",
+   "file": "photos/169794218.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Karim Haddad",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/169794218",
+   "taxon": "Omphalotus olearius"
+  },
+  {
+   "id": "164023331",
+   "file": "photos/164023331.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ben Smith",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/164023331",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "219573207",
+   "file": "photos/219573207.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kaela Wilbur",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/219573207",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "114785337",
+   "file": "photos/114785337.webp",
+   "w": 800,
+   "h": 599,
+   "author": "Eli Talhouk",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/114785337",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "25816266",
+   "file": "photos/25816266.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Paul Marek",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/25816266",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "426615323",
+   "file": "photos/426615323.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Frog The Kermit",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/426615323",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "91585694",
+   "file": "photos/91585694.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Juan C. Espinosa",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/91585694",
+   "taxon": "Omphalotus illudens"
+  },
+  {
+   "id": "239897113",
+   "file": "photos/239897113.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Craig Martin",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/239897113",
+   "taxon": "Omphalotus illudens"
+  }
+ ],
+ "false-chanterelle": [
+  {
+   "id": "103128458",
+   "file": "photos/103128458.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kryštof Boura",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/103128458",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "247916737",
+   "file": "photos/247916737.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Dominic McLean",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/247916737",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "418915212",
+   "file": "photos/418915212.webp",
+   "w": 600,
+   "h": 800,
+   "author": "relew",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/418915212",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "585210775",
+   "file": "photos/585210775.webp",
+   "w": 800,
+   "h": 560,
+   "author": "Victor Heng",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/585210775",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "4718319",
+   "file": "photos/4718319.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Alan Rockefeller",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/4718319",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "327468332",
+   "file": "photos/327468332.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jamie O'Neill",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/327468332",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "333149545",
+   "file": "photos/333149545.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Manuela Fiorini",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/333149545",
+   "taxon": "Hygrophoropsis aurantiaca"
+  },
+  {
+   "id": "12302458",
+   "file": "photos/12302458.webp",
+   "w": 600,
+   "h": 800,
+   "author": "LJ Moore-McClelland",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/12302458",
+   "taxon": "Hygrophoropsis aurantiaca"
+  }
+ ],
+ "morel": [
+  {
+   "id": "265334884",
+   "file": "photos/265334884.webp",
+   "w": 602,
+   "h": 800,
+   "author": "drtimk",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/265334884",
+   "taxon": "Morchella importuna"
+  },
+  {
+   "id": "316298319",
+   "file": "photos/316298319.webp",
+   "w": 564,
+   "h": 800,
+   "author": "Beau Meister",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/316298319",
+   "taxon": "Morchella australiana"
+  },
+  {
+   "id": "362308765",
+   "file": "photos/362308765.webp",
+   "w": 600,
+   "h": 800,
+   "author": "C. Oppermann",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/362308765",
+   "taxon": "Morchella esculenta"
+  },
+  {
+   "id": "68082116",
+   "file": "photos/68082116.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Enrico Tomschke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/68082116",
+   "taxon": "Distantes"
+  },
+  {
+   "id": "392225476",
+   "file": "photos/392225476.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Drew Meyer",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/392225476",
+   "taxon": "Morchella snyderi"
+  },
+  {
+   "id": "368341084",
+   "file": "photos/368341084.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Devin Kellar",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/368341084",
+   "taxon": "Morchella americana"
+  },
+  {
+   "id": "274241673",
+   "file": "photos/274241673.webp",
+   "w": 598,
+   "h": 800,
+   "author": "Patrick Schwager",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/274241673",
+   "taxon": "Morchella esculenta"
+  },
+  {
+   "id": "503570479",
+   "file": "photos/503570479.webp",
+   "w": 800,
+   "h": 800,
+   "author": "adam1420",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/503570479",
+   "taxon": "Morchella angusticeps"
+  }
+ ],
+ "false-morel": [
+  {
+   "id": "422271266",
+   "file": "photos/422271266.webp",
+   "w": 800,
+   "h": 360,
+   "author": "Virn Stothers",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/422271266",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "361270570",
+   "file": "photos/361270570.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Marius K.",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/361270570",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "365177001",
+   "file": "photos/365177001.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Peter Leth",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/365177001",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "126640920",
+   "file": "photos/126640920.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Татьяна Шатрова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/126640920",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "130719581",
+   "file": "photos/130719581.webp",
+   "w": 601,
+   "h": 800,
+   "author": "Елена Смирнова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/130719581",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "279155304",
+   "file": "photos/279155304.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Rae Bosley",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/279155304",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "100326841",
+   "file": "photos/100326841.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Michele Wiseman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/100326841",
+   "taxon": "Gyromitra esculenta"
+  },
+  {
+   "id": "507016509",
+   "file": "photos/507016509.webp",
+   "w": 593,
+   "h": 800,
+   "author": "Ivan Wiljanen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/507016509",
+   "taxon": "Gyromitra esculenta"
+  }
+ ],
+ "early-false-morel": [
+  {
+   "id": "110271768",
+   "file": "photos/110271768.webp",
+   "w": 762,
+   "h": 800,
+   "author": "Jan Vršovský",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/110271768",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "273397492",
+   "file": "photos/273397492.webp",
+   "w": 640,
+   "h": 800,
+   "author": "Fyodor Pudovikov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/273397492",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "270233085",
+   "file": "photos/270233085.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Vladimir Romanov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/270233085",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "484243608",
+   "file": "photos/484243608.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Cindy Bell",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/484243608",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "32442794",
+   "file": "photos/32442794.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Cindy Trubovitz",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/32442794",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "199698533",
+   "file": "photos/199698533.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Veljo Runnel",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/199698533",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "60711851",
+   "file": "photos/60711851.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Оксана Серикова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/60711851",
+   "taxon": "Verpa bohemica"
+  },
+  {
+   "id": "441642947",
+   "file": "photos/441642947.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Поляков Александр",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/441642947",
+   "taxon": "Verpa bohemica"
+  }
+ ],
+ "death-cap": [
+  {
+   "id": "438698647",
+   "file": "photos/438698647.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Virn Stothers",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/438698647",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "312224854",
+   "file": "photos/312224854.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Benjamin Carbuccia",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/312224854",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "420688488",
+   "file": "photos/420688488.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Елена Астахова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/420688488",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "149028818",
+   "file": "photos/149028818.webp",
+   "w": 534,
+   "h": 800,
+   "author": "Patrick Meurin",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/149028818",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "580497562",
+   "file": "photos/580497562.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Chris D Thomas",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/580497562",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "346128977",
+   "file": "photos/346128977.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Hilary Rose Dawson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/346128977",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "446516725",
+   "file": "photos/446516725.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Fabian Battiege",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/446516725",
+   "taxon": "Amanita phalloides"
+  },
+  {
+   "id": "360318036",
+   "file": "photos/360318036.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kristian Bosak",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/360318036",
+   "taxon": "Amanita phalloides"
+  }
+ ],
+ "paddy-straw": [
+  {
+   "id": "380550221",
+   "file": "photos/380550221.webp",
+   "w": 800,
+   "h": 563,
+   "author": "Liubov Ilminska",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/380550221",
+   "taxon": "Volvariella volvacea"
+  },
+  {
+   "id": "296268195",
+   "file": "photos/296268195.webp",
+   "w": 800,
+   "h": 800,
+   "author": "James K. Douch",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/296268195",
+   "taxon": "Volvariella volvacea"
+  },
+  {
+   "id": "429865140",
+   "file": "photos/429865140.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Turner Brockman",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/429865140",
+   "taxon": "Volvariella volvacea"
+  },
+  {
+   "id": "1316777",
+   "file": "photos/1316777.webp",
+   "w": 800,
+   "h": 555,
+   "author": "Jerry Cooper",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/1316777",
+   "taxon": "Volvariella volvacea"
+  },
+  {
+   "id": "640611514",
+   "file": "photos/640611514.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Tara Severns",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/640611514",
+   "taxon": "Volvariella volvacea"
+  },
+  {
+   "id": "677565034",
+   "file": "photos/677565034.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Павлик Лисицын",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/677565034",
+   "taxon": "Volvariella volvacea"
+  }
+ ],
+ "green-russula": [
+  {
+   "id": "13213448",
+   "file": "photos/13213448.webp",
+   "w": 800,
+   "h": 633,
+   "author": "Crystal Davidson",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/13213448",
+   "taxon": "Russula parvovirescens"
+  },
+  {
+   "id": "312010254",
+   "file": "photos/312010254.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Robert M Hallock",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/312010254",
+   "taxon": "Russula parvovirescens"
+  },
+  {
+   "id": "307937669",
+   "file": "photos/307937669.webp",
+   "w": 602,
+   "h": 800,
+   "author": "Piermario Maculan",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/307937669",
+   "taxon": "Russula virescens"
+  },
+  {
+   "id": "543494093",
+   "file": "photos/543494093.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Nathan Cobbett",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/543494093",
+   "taxon": "Russula parvovirescens"
+  },
+  {
+   "id": "49872827",
+   "file": "photos/49872827.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Morten DD Hansen",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/49872827",
+   "taxon": "Russula virescens"
+  },
+  {
+   "id": "434804735",
+   "file": "photos/434804735.webp",
+   "w": 451,
+   "h": 800,
+   "author": "Drumețul Dacic",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/434804735",
+   "taxon": "Russula virescens"
+  },
+  {
+   "id": "436758505",
+   "file": "photos/436758505.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Elizabeth Altman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/436758505",
+   "taxon": "Russula parvovirescens"
+  },
+  {
+   "id": "58480978",
+   "file": "photos/58480978.webp",
+   "w": 800,
+   "h": 600,
+   "author": "ivan_humljani",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/58480978",
+   "taxon": "Russula virescens"
+  }
+ ],
+ "false-death-cap": [
+  {
+   "id": "236351196",
+   "file": "photos/236351196.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Alessia Guggisberg",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/236351196",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "442852518",
+   "file": "photos/442852518.webp",
+   "w": 600,
+   "h": 800,
+   "author": "bigayon",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/442852518",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "234202022",
+   "file": "photos/234202022.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Andreas Soehlke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/234202022",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "162523399",
+   "file": "photos/162523399.webp",
+   "w": 800,
+   "h": 600,
+   "author": "xulescu_g",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/162523399",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "58704049",
+   "file": "photos/58704049.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Yves Bas",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/58704049",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "560458258",
+   "file": "photos/560458258.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ольга Калашникова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/560458258",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "326294453",
+   "file": "photos/326294453.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Bobo-X",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/326294453",
+   "taxon": "Amanita citrina"
+  },
+  {
+   "id": "582251804",
+   "file": "photos/582251804.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Miha Jurić",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/582251804",
+   "taxon": "Amanita citrina"
+  }
+ ],
+ "destroying-angel": [
+  {
+   "id": "466438505",
+   "file": "photos/466438505.webp",
+   "w": 634,
+   "h": 800,
+   "author": "Teodoro Chivatá Bedoya",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/466438505",
+   "taxon": "Amanita bisporigera"
+  },
+  {
+   "id": "8980309",
+   "file": "photos/8980309.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Garrett Taylor",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/8980309",
+   "taxon": "Amanita bisporigera"
+  },
+  {
+   "id": "153813250",
+   "file": "photos/153813250.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Barry Langdon-Lassagne",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/153813250",
+   "taxon": "Amanita bisporigera"
+  },
+  {
+   "id": "147455647",
+   "file": "photos/147455647.webp",
+   "w": 534,
+   "h": 800,
+   "author": "Игорь Васильев",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/147455647",
+   "taxon": "Amanita virosa"
+  },
+  {
+   "id": "256670398",
+   "file": "photos/256670398.webp",
+   "w": 620,
+   "h": 800,
+   "author": "Helen Mhari Graham",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/256670398",
+   "taxon": "Amanita virosa"
+  },
+  {
+   "id": "86876998",
+   "file": "photos/86876998.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Juvia Heuchert",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/86876998",
+   "taxon": "Amanita bisporigera"
+  },
+  {
+   "id": "19392302",
+   "file": "photos/19392302.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Carlos Domínguez-Rodríguez",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/19392302",
+   "taxon": "Amanita bisporigera"
+  },
+  {
+   "id": "83512102",
+   "file": "photos/83512102.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Katie Kucera",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/83512102",
+   "taxon": "Amanita bisporigera"
+  }
+ ],
+ "meadow-mushroom": [
+  {
+   "id": "13066113",
+   "file": "photos/13066113.webp",
+   "w": 800,
+   "h": 616,
+   "author": "mycowalt",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/13066113",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "100648037",
+   "file": "photos/100648037.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/100648037",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "167297648",
+   "file": "photos/167297648.webp",
+   "w": 601,
+   "h": 800,
+   "author": "Daniel Franco",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/167297648",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "376376428",
+   "file": "photos/376376428.webp",
+   "w": 800,
+   "h": 532,
+   "author": "Julian Pietragalla",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/376376428",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "430079535",
+   "file": "photos/430079535.webp",
+   "w": 600,
+   "h": 800,
+   "author": "gadus",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/430079535",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "430406186",
+   "file": "photos/430406186.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Janet Sibbald",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/430406186",
+   "taxon": "Agaricus campestris"
+  },
+  {
+   "id": "226658616",
+   "file": "photos/226658616.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Petr Harant",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/226658616",
+   "taxon": "Agaricus campestris"
+  }
+ ],
+ "yellow-stainer": [
+  {
+   "id": "349377743",
+   "file": "photos/349377743.webp",
+   "w": 800,
+   "h": 785,
+   "author": "Kat",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/349377743",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "390647588",
+   "file": "photos/390647588.webp",
+   "w": 749,
+   "h": 800,
+   "author": "Lucian Clanet",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/390647588",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "101666920",
+   "file": "photos/101666920.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tom Laster",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/101666920",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "353471879",
+   "file": "photos/353471879.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Archer Silverman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/353471879",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "283875010",
+   "file": "photos/283875010.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jeremiah Degenhardt",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/283875010",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "29332013",
+   "file": "photos/29332013.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Chris Sulots",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/29332013",
+   "taxon": "Agaricus xanthodermus"
+  },
+  {
+   "id": "79508776",
+   "file": "photos/79508776.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Brodie Cass Talbott",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/79508776",
+   "taxon": "Agaricus xanthodermus"
+  }
+ ],
+ "parasol": [
+  {
+   "id": "564666181",
+   "file": "photos/564666181.webp",
+   "w": 450,
+   "h": 800,
+   "author": "EN57",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/564666181",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "566330248",
+   "file": "photos/566330248.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Bethan Chapman",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/566330248",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "224934537",
+   "file": "photos/224934537.webp",
+   "w": 522,
+   "h": 800,
+   "author": "Saskia Kollegger",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/224934537",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "24893243",
+   "file": "photos/24893243.webp",
+   "w": 534,
+   "h": 800,
+   "author": "Marc Hermann",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/24893243",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "438316665",
+   "file": "photos/438316665.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jane Weeden",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/438316665",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "251129611",
+   "file": "photos/251129611.webp",
+   "w": 450,
+   "h": 800,
+   "author": "tarareare",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/251129611",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "229363210",
+   "file": "photos/229363210.webp",
+   "w": 600,
+   "h": 800,
+   "author": "David Grossmann",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/229363210",
+   "taxon": "Macrolepiota procera"
+  },
+  {
+   "id": "438179516",
+   "file": "photos/438179516.webp",
+   "w": 600,
+   "h": 800,
+   "author": "dennisvo",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/438179516",
+   "taxon": "Macrolepiota procera"
+  }
+ ],
+ "false-parasol": [
+  {
+   "id": "92038170",
+   "file": "photos/92038170.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Farren Dell Rossman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/92038170",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "566591360",
+   "file": "photos/566591360.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Andrew Conboy",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/566591360",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "413861135",
+   "file": "photos/413861135.webp",
+   "w": 600,
+   "h": 800,
+   "author": "itsmorefuntosneak",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/413861135",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "310032599",
+   "file": "photos/310032599.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jason Eriksen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/310032599",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "4631186",
+   "file": "photos/4631186.webp",
+   "w": 800,
+   "h": 600,
+   "author": "CK2AZ",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/4631186",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "206412545",
+   "file": "photos/206412545.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Ramon and Suzanne Vargas",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/206412545",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "4059438",
+   "file": "photos/4059438.webp",
+   "w": 800,
+   "h": 600,
+   "author": "John P Friel",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/4059438",
+   "taxon": "Chlorophyllum molybdites"
+  },
+  {
+   "id": "26022460",
+   "file": "photos/26022460.webp",
+   "w": 600,
+   "h": 800,
+   "author": "C Mo",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/26022460",
+   "taxon": "Chlorophyllum molybdites"
+  }
+ ],
+ "shaggy-parasol": [
+  {
+   "id": "128543835",
+   "file": "photos/128543835.webp",
+   "w": 800,
+   "h": 600,
+   "author": "P Holroyd",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/128543835",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "435828851",
+   "file": "photos/435828851.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Evgenij Samarin",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/435828851",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "12430183",
+   "file": "photos/12430183.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tim Sage",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/12430183",
+   "taxon": "Chlorophyllum olivieri"
+  },
+  {
+   "id": "232440333",
+   "file": "photos/232440333.webp",
+   "w": 800,
+   "h": 588,
+   "author": "aarongunnar",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/232440333",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "331673472",
+   "file": "photos/331673472.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Julie Travaglini",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/331673472",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "195878273",
+   "file": "photos/195878273.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Benjamin Flatt",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/195878273",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "38677393",
+   "file": "photos/38677393.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Peter Boyer",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/38677393",
+   "taxon": "Chlorophyllum rhacodes"
+  },
+  {
+   "id": "2629704",
+   "file": "photos/2629704.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Paul Wheeler",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/2629704",
+   "taxon": "Chlorophyllum rhacodes"
+  }
+ ],
+ "honey-fungus": [
+  {
+   "id": "6006671",
+   "file": "photos/6006671.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Alex Shepard",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/6006671",
+   "taxon": "Armillaria mellea"
+  },
+  {
+   "id": "238837506",
+   "file": "photos/238837506.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Camilla Lund Kristensen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/238837506",
+   "taxon": "Armillaria ostoyae"
+  },
+  {
+   "id": "163896978",
+   "file": "photos/163896978.webp",
+   "w": 679,
+   "h": 800,
+   "author": "Shirley Zundell",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/163896978",
+   "taxon": "Armillaria mellea"
+  },
+  {
+   "id": "26173196",
+   "file": "photos/26173196.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jason Grant",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/26173196",
+   "taxon": "Armillaria mellea"
+  },
+  {
+   "id": "430535208",
+   "file": "photos/430535208.webp",
+   "w": 734,
+   "h": 800,
+   "author": "Alan Prather",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/430535208",
+   "taxon": "Armillaria mellea"
+  },
+  {
+   "id": "362850041",
+   "file": "photos/362850041.webp",
+   "w": 530,
+   "h": 800,
+   "author": "Issao Shinobe",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/362850041",
+   "taxon": "Armillaria mellea"
+  },
+  {
+   "id": "45884947",
+   "file": "photos/45884947.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Николай Ковалев",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/45884947",
+   "taxon": "Armillaria borealis"
+  },
+  {
+   "id": "439512475",
+   "file": "photos/439512475.webp",
+   "w": 800,
+   "h": 534,
+   "author": "pmgaspar",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/439512475",
+   "taxon": "Armillaria mellea"
+  }
+ ],
+ "funeral-bell": [
+  {
+   "id": "60318958",
+   "file": "photos/60318958.webp",
+   "w": 766,
+   "h": 800,
+   "author": "natalie",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/60318958",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "27018858",
+   "file": "photos/27018858.webp",
+   "w": 767,
+   "h": 800,
+   "author": "aarongunnar",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/27018858",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "102765161",
+   "file": "photos/102765161.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Larry Jensen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/102765161",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "166119804",
+   "file": "photos/166119804.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Jeff Clark",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/166119804",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "579650106",
+   "file": "photos/579650106.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Stephanie Tran",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/579650106",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "98916989",
+   "file": "photos/98916989.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Виктория Билоус",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/98916989",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "578633148",
+   "file": "photos/578633148.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Daniel Zucker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/578633148",
+   "taxon": "Galerina marginata"
+  },
+  {
+   "id": "163294065",
+   "file": "photos/163294065.webp",
+   "w": 600,
+   "h": 800,
+   "author": "River Ahlquist",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/163294065",
+   "taxon": "Galerina marginata"
+  }
+ ],
+ "velvet-shank": [
+  {
+   "id": "196032418",
+   "file": "photos/196032418.webp",
+   "w": 800,
+   "h": 602,
+   "author": "David Hera",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/196032418",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "29906885",
+   "file": "photos/29906885.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Rob Norris",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/29906885",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "28522916",
+   "file": "photos/28522916.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Yann Kemper",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/28522916",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "372776152",
+   "file": "photos/372776152.webp",
+   "w": 534,
+   "h": 800,
+   "author": "botany08",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/372776152",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "488078982",
+   "file": "photos/488078982.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Max Elysian",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/488078982",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "322663296",
+   "file": "photos/322663296.webp",
+   "w": 800,
+   "h": 752,
+   "author": "earl woolsey",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/322663296",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "17328917",
+   "file": "photos/17328917.webp",
+   "w": 600,
+   "h": 800,
+   "author": "cheryl_bee_right",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/17328917",
+   "taxon": "Flammulina velutipes"
+  },
+  {
+   "id": "175724667",
+   "file": "photos/175724667.webp",
+   "w": 600,
+   "h": 800,
+   "author": "SquidTK",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/175724667",
+   "taxon": "Flammulina velutipes"
+  }
+ ],
+ "sheathed-woodtuft": [
+  {
+   "id": "209476827",
+   "file": "photos/209476827.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Kurt Miller",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/209476827",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "438974200",
+   "file": "photos/438974200.webp",
+   "w": 800,
+   "h": 600,
+   "author": "ahabo",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/438974200",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "443633282",
+   "file": "photos/443633282.webp",
+   "w": 800,
+   "h": 602,
+   "author": "Attila Oláh",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/443633282",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "420699223",
+   "file": "photos/420699223.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Bobo-X",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/420699223",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "289965185",
+   "file": "photos/289965185.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Igor Balashov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/289965185",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "203933650",
+   "file": "photos/203933650.webp",
+   "w": 800,
+   "h": 598,
+   "author": "Валерий Гончарук",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/203933650",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "266038138",
+   "file": "photos/266038138.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Dave",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/266038138",
+   "taxon": "Kuehneromyces mutabilis"
+  },
+  {
+   "id": "102773511",
+   "file": "photos/102773511.webp",
+   "w": 800,
+   "h": 735,
+   "author": "Michael Hansen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/102773511",
+   "taxon": "Kuehneromyces mutabilis"
+  }
+ ],
+ "conifer-tuft": [
+  {
+   "id": "330248908",
+   "file": "photos/330248908.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jeff",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/330248908",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "442436742",
+   "file": "photos/442436742.webp",
+   "w": 800,
+   "h": 600,
+   "author": "victor laborde",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/442436742",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "247826288",
+   "file": "photos/247826288.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Alex",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/247826288",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "101567215",
+   "file": "photos/101567215.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Thea Chesney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/101567215",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "447254310",
+   "file": "photos/447254310.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Thomas Ebner",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/447254310",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "435523916",
+   "file": "photos/435523916.webp",
+   "w": 600,
+   "h": 800,
+   "author": "wkee4ager",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/435523916",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "161717892",
+   "file": "photos/161717892.webp",
+   "w": 800,
+   "h": 600,
+   "author": "jspittal",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/161717892",
+   "taxon": "Hypholoma capnoides"
+  },
+  {
+   "id": "58864820",
+   "file": "photos/58864820.webp",
+   "w": 800,
+   "h": 800,
+   "author": "bogsuckers",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/58864820",
+   "taxon": "Hypholoma capnoides"
+  }
+ ],
+ "sulphur-tuft": [
+  {
+   "id": "275640130",
+   "file": "photos/275640130.webp",
+   "w": 600,
+   "h": 800,
+   "author": "hikerbuddy",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/275640130",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "178165",
+   "file": "photos/178165.webp",
+   "w": 800,
+   "h": 599,
+   "author": "Jörg Hempel",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/178165",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "29071484",
+   "file": "photos/29071484.webp",
+   "w": 800,
+   "h": 600,
+   "author": "dbmhartley",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/29071484",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "320254115",
+   "file": "photos/320254115.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Sebastián Fornés",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/320254115",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "163083535",
+   "file": "photos/163083535.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Stuart Fraser",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/163083535",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "575888980",
+   "file": "photos/575888980.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Clare Langrick",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/575888980",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "53960189",
+   "file": "photos/53960189.webp",
+   "w": 600,
+   "h": 800,
+   "author": "nico-da",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/53960189",
+   "taxon": "Hypholoma fasciculare"
+  },
+  {
+   "id": "320722782",
+   "file": "photos/320722782.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Dmitrii Mostovoi",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/320722782",
+   "taxon": "Hypholoma fasciculare"
+  }
+ ],
+ "brick-cap": [
+  {
+   "id": "107883445",
+   "file": "photos/107883445.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Nova Patch",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/107883445",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "442585429",
+   "file": "photos/442585429.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Katrin Simon",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/442585429",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "456174130",
+   "file": "photos/456174130.webp",
+   "w": 800,
+   "h": 600,
+   "author": "K.P.",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/456174130",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "159090156",
+   "file": "photos/159090156.webp",
+   "w": 593,
+   "h": 800,
+   "author": "Владимир Дворкин",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/159090156",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "171479420",
+   "file": "photos/171479420.webp",
+   "w": 800,
+   "h": 498,
+   "author": "aarongunnar",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/171479420",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "449380329",
+   "file": "photos/449380329.webp",
+   "w": 800,
+   "h": 800,
+   "author": "adam1420",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/449380329",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "241734087",
+   "file": "photos/241734087.webp",
+   "w": 800,
+   "h": 600,
+   "author": "szegedigombasz",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/241734087",
+   "taxon": "Hypholoma lateritium"
+  },
+  {
+   "id": "5741998",
+   "file": "photos/5741998.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Alan Rockefeller",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/5741998",
+   "taxon": "Hypholoma lateritium"
+  }
+ ],
+ "oyster": [
+  {
+   "id": "26573129",
+   "file": "photos/26573129.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Andrew Ryan Ramírez",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/26573129",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "171668073",
+   "file": "photos/171668073.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Lauren Nyquist",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/171668073",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "117129377",
+   "file": "photos/117129377.webp",
+   "w": 733,
+   "h": 800,
+   "author": "Вера",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/117129377",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "250116663",
+   "file": "photos/250116663.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Stuart",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/250116663",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "174715147",
+   "file": "photos/174715147.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Sheelagh Halsey",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/174715147",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "581026236",
+   "file": "photos/581026236.webp",
+   "w": 800,
+   "h": 600,
+   "author": "olmagon",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/581026236",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "255134876",
+   "file": "photos/255134876.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Sean Frederick Tuck",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/255134876",
+   "taxon": "Pleurotus ostreatus"
+  },
+  {
+   "id": "168080608",
+   "file": "photos/168080608.webp",
+   "w": 800,
+   "h": 600,
+   "author": "aga_l_",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/168080608",
+   "taxon": "Pleurotus ostreatus"
+  }
+ ],
+ "angel-wings": [
+  {
+   "id": "435208066",
+   "file": "photos/435208066.webp",
+   "w": 600,
+   "h": 800,
+   "author": "james_ferns_etc",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/435208066",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "162842134",
+   "file": "photos/162842134.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Dunverig",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/162842134",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "7827395",
+   "file": "photos/7827395.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Alex Abair",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/7827395",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "165211408",
+   "file": "photos/165211408.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Mandy Hackney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/165211408",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "441806754",
+   "file": "photos/441806754.webp",
+   "w": 800,
+   "h": 688,
+   "author": "Bryn",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/441806754",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "327675756",
+   "file": "photos/327675756.webp",
+   "w": 800,
+   "h": 600,
+   "author": "JSReiff",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/327675756",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "436947061",
+   "file": "photos/436947061.webp",
+   "w": 600,
+   "h": 800,
+   "author": "J_Skellington",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/436947061",
+   "taxon": "Pleurocybella porrigens"
+  },
+  {
+   "id": "169874266",
+   "file": "photos/169874266.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jessica Williams",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/169874266",
+   "taxon": "Pleurocybella porrigens"
+  }
+ ],
+ "ghost-fungus": [
+  {
+   "id": "506621382",
+   "file": "photos/506621382.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Roman Soroka",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/506621382",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "518420733",
+   "file": "photos/518420733.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Victor Phillips",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/518420733",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "409179499",
+   "file": "photos/409179499.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kristie Jennings",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/409179499",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "68021825",
+   "file": "photos/68021825.webp",
+   "w": 800,
+   "h": 702,
+   "author": "Brendan Costello",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/68021825",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "9077837",
+   "file": "photos/9077837.webp",
+   "w": 800,
+   "h": 534,
+   "author": "John Barkla",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/9077837",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "438527156",
+   "file": "photos/438527156.webp",
+   "w": 600,
+   "h": 800,
+   "author": "jody1351",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/438527156",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "135226339",
+   "file": "photos/135226339.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Kate Hocking",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/135226339",
+   "taxon": "Omphalotus nidiformis"
+  },
+  {
+   "id": "521061645",
+   "file": "photos/521061645.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Rob Gordon",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/521061645",
+   "taxon": "Omphalotus nidiformis"
+  }
+ ],
+ "porcini": [
+  {
+   "id": "519499329",
+   "file": "photos/519499329.webp",
+   "w": 600,
+   "h": 800,
+   "author": "serni bams",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/519499329",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "442087895",
+   "file": "photos/442087895.webp",
+   "w": 698,
+   "h": 800,
+   "author": "Tim Parker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/442087895",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "102756550",
+   "file": "photos/102756550.webp",
+   "w": 600,
+   "h": 800,
+   "author": "zappapy",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/102756550",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "582197515",
+   "file": "photos/582197515.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Uilleam Uir",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/582197515",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "14195861",
+   "file": "photos/14195861.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Grze Swis",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/14195861",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "232907248",
+   "file": "photos/232907248.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Myles McSweeney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/232907248",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "581049950",
+   "file": "photos/581049950.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Scarlet Rifles",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/581049950",
+   "taxon": "Boletus edulis"
+  },
+  {
+   "id": "841",
+   "file": "photos/841.webp",
+   "w": 534,
+   "h": 800,
+   "author": "Ken-ichi Ueda",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/841",
+   "taxon": "Boletus edulis"
+  }
+ ],
+ "bitter-bolete": [
+  {
+   "id": "426072422",
+   "file": "photos/426072422.webp",
+   "w": 800,
+   "h": 800,
+   "author": "nbasargin",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/426072422",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "158969335",
+   "file": "photos/158969335.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Gabriel Mayrhofer",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/158969335",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "544735081",
+   "file": "photos/544735081.webp",
+   "w": 800,
+   "h": 602,
+   "author": "Drew Palmer",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/544735081",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "85052235",
+   "file": "photos/85052235.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Daniel Ellehammer Larsen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/85052235",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "312197530",
+   "file": "photos/312197530.webp",
+   "w": 800,
+   "h": 533,
+   "author": "Daniel Benák",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/312197530",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "579593365",
+   "file": "photos/579593365.webp",
+   "w": 800,
+   "h": 600,
+   "author": "kedgehog",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/579593365",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "83204998",
+   "file": "photos/83204998.webp",
+   "w": 779,
+   "h": 800,
+   "author": "Denis Otkydach",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/83204998",
+   "taxon": "Tylopilus felleus"
+  },
+  {
+   "id": "48794285",
+   "file": "photos/48794285.webp",
+   "w": 600,
+   "h": 800,
+   "author": "relet",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/48794285",
+   "taxon": "Tylopilus felleus"
+  }
+ ],
+ "fly-agaric": [
+  {
+   "id": "108057353",
+   "file": "photos/108057353.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ellyne Geurts",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/108057353",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "52807346",
+   "file": "photos/52807346.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Erin Springinotic",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/52807346",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "268416785",
+   "file": "photos/268416785.webp",
+   "w": 800,
+   "h": 780,
+   "author": "Andreas Manz",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/268416785",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "438340488",
+   "file": "photos/438340488.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Marcello Manara",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/438340488",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "437374642",
+   "file": "photos/437374642.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Marie",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/437374642",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "373822634",
+   "file": "photos/373822634.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Aalbert Rebergen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/373822634",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "10722414",
+   "file": "photos/10722414.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tanja Milotić",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/10722414",
+   "taxon": "Amanita muscaria"
+  },
+  {
+   "id": "446836612",
+   "file": "photos/446836612.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Jan Philip Göpfert",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/446836612",
+   "taxon": "Amanita muscaria"
+  }
+ ],
+ "caesars-mushroom": [
+  {
+   "id": "318915200",
+   "file": "photos/318915200.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Lorenzo Emanuele Labate",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/318915200",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "572385083",
+   "file": "photos/572385083.webp",
+   "w": 451,
+   "h": 800,
+   "author": "Paula Nimigean",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/572385083",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "548338437",
+   "file": "photos/548338437.webp",
+   "w": 600,
+   "h": 800,
+   "author": "gerardbertrand",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/548338437",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "565327294",
+   "file": "photos/565327294.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Samuele Papeschi",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/565327294",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "438893238",
+   "file": "photos/438893238.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Pere Barnola",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/438893238",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "575507740",
+   "file": "photos/575507740.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Наталья Пикалова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/575507740",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "437021718",
+   "file": "photos/437021718.webp",
+   "w": 800,
+   "h": 602,
+   "author": "Kristian Bosak",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/437021718",
+   "taxon": "Amanita caesarea"
+  },
+  {
+   "id": "455860644",
+   "file": "photos/455860644.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ross Krisztina",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/455860644",
+   "taxon": "Amanita caesarea"
+  }
+ ],
+ "blusher": [
+  {
+   "id": "272420629",
+   "file": "photos/272420629.webp",
+   "w": 600,
+   "h": 800,
+   "author": "manu_de_pedro",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/272420629",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "306391953",
+   "file": "photos/306391953.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Марго",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/306391953",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "475517008",
+   "file": "photos/475517008.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tim Leilich",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/475517008",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "322781628",
+   "file": "photos/322781628.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Lisa Bennett",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/322781628",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "38562083",
+   "file": "photos/38562083.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jose Castro",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/38562083",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "95572257",
+   "file": "photos/95572257.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Sheelagh Halsey",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/95572257",
+   "taxon": "Amanita rubescens"
+  },
+  {
+   "id": "149171196",
+   "file": "photos/149171196.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jacek Pietruszewski",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/149171196",
+   "taxon": "Amanita rubescens"
+  }
+ ],
+ "panther-cap": [
+  {
+   "id": "577391281",
+   "file": "photos/577391281.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Daniel Ghyselinck",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/577391281",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "79810294",
+   "file": "photos/79810294.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Yuliana Leshchenko",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/79810294",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "450393043",
+   "file": "photos/450393043.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tim Parker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/450393043",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "51993313",
+   "file": "photos/51993313.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Stephanie G. Williams",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/51993313",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "582959956",
+   "file": "photos/582959956.webp",
+   "w": 800,
+   "h": 544,
+   "author": "yellowplant",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/582959956",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "155365930",
+   "file": "photos/155365930.webp",
+   "w": 598,
+   "h": 800,
+   "author": "ognevit",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/155365930",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "428632777",
+   "file": "photos/428632777.webp",
+   "w": 800,
+   "h": 600,
+   "author": "o2k",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/428632777",
+   "taxon": "Amanita pantherina"
+  },
+  {
+   "id": "443633627",
+   "file": "photos/443633627.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Scheufler Stefan",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/443633627",
+   "taxon": "Amanita pantherina"
+  }
+ ],
+ "ringless-honey": [
+  {
+   "id": "9615935",
+   "file": "photos/9615935.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Alan Rockefeller",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/9615935",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "50645037",
+   "file": "photos/50645037.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tom Zucker-Scharff",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/50645037",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "164265570",
+   "file": "photos/164265570.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Andy Jordan",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/164265570",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "5959635",
+   "file": "photos/5959635.webp",
+   "w": 800,
+   "h": 600,
+   "author": "cwwood",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/5959635",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "102840901",
+   "file": "photos/102840901.webp",
+   "w": 600,
+   "h": 800,
+   "author": "mattmsa",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/102840901",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "320470033",
+   "file": "photos/320470033.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Dominic",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/320470033",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "163641500",
+   "file": "photos/163641500.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Nonbinary-Naturalist",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/163641500",
+   "taxon": "Desarmillaria caespitosa"
+  },
+  {
+   "id": "443064265",
+   "file": "photos/443064265.webp",
+   "w": 600,
+   "h": 800,
+   "author": "リバー",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/443064265",
+   "taxon": "Desarmillaria tabescens"
+  }
+ ],
+ "wood-blewit": [
+  {
+   "id": "14148645",
+   "file": "photos/14148645.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Thea Chesney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/14148645",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "580989005",
+   "file": "photos/580989005.webp",
+   "w": 745,
+   "h": 800,
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/580989005",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "334336344",
+   "file": "photos/334336344.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Stuart",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/334336344",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "100887022",
+   "file": "photos/100887022.webp",
+   "w": 800,
+   "h": 600,
+   "author": "xulescu_g",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/100887022",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "449116019",
+   "file": "photos/449116019.webp",
+   "w": 800,
+   "h": 602,
+   "author": "ade sills",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/449116019",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "7067672",
+   "file": "photos/7067672.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Erlon Bailey",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/7067672",
+   "taxon": "Collybia nuda"
+  },
+  {
+   "id": "247918382",
+   "file": "photos/247918382.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Topher Mueller",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/247918382",
+   "taxon": "Collybia nuda"
+  }
+ ],
+ "purple-webcaps": [
+  {
+   "id": "110612584",
+   "file": "photos/110612584.webp",
+   "w": 595,
+   "h": 800,
+   "author": "Morten Ross",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/110612584",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "263583072",
+   "file": "photos/263583072.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Johannes",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/263583072",
+   "taxon": "Cortinarius traganus"
+  },
+  {
+   "id": "162452836",
+   "file": "photos/162452836.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Erin Springinotic",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/162452836",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "312582088",
+   "file": "photos/312582088.webp",
+   "w": 800,
+   "h": 509,
+   "author": "Mikko Heikkinen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/312582088",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "232526306",
+   "file": "photos/232526306.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Michael Hennig",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/232526306",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "563497142",
+   "file": "photos/563497142.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Antonina",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/563497142",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "314465809",
+   "file": "photos/314465809.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Pieter Huybrechts",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/314465809",
+   "taxon": "Cortinarius violaceus"
+  },
+  {
+   "id": "331444901",
+   "file": "photos/331444901.webp",
+   "w": 600,
+   "h": 800,
+   "author": "ewasiukb",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/331444901",
+   "taxon": "Cortinarius violaceus"
+  }
+ ],
+ "fairy-ring-champignon": [
+  {
+   "id": "477951076",
+   "file": "photos/477951076.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Maciej Boenisch",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/477951076",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "215705732",
+   "file": "photos/215705732.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Atsushi Nakajima",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/215705732",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "77018160",
+   "file": "photos/77018160.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Igor Balashov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/77018160",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "229104745",
+   "file": "photos/229104745.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Hazel",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/229104745",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "287360922",
+   "file": "photos/287360922.webp",
+   "w": 800,
+   "h": 600,
+   "author": "hgoem",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/287360922",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "167058900",
+   "file": "photos/167058900.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Mandy Hackney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/167058900",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "92292055",
+   "file": "photos/92292055.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Claire Webster",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/92292055",
+   "taxon": "Marasmius oreades"
+  },
+  {
+   "id": "233544082",
+   "file": "photos/233544082.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Letizia Weichgrebe",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/233544082",
+   "taxon": "Marasmius oreades"
+  }
+ ],
+ "fools-funnel": [
+  {
+   "id": "333384387",
+   "file": "photos/333384387.webp",
+   "w": 602,
+   "h": 800,
+   "author": "Piermario Maculan",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/333384387",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "344227020",
+   "file": "photos/344227020.webp",
+   "w": 600,
+   "h": 800,
+   "author": "reagan peschke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/344227020",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "329933421",
+   "file": "photos/329933421.webp",
+   "w": 600,
+   "h": 800,
+   "author": "empressmoth",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/329933421",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "343605802",
+   "file": "photos/343605802.webp",
+   "w": 800,
+   "h": 350,
+   "author": "Alex",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/343605802",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "440636318",
+   "file": "photos/440636318.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Lucian Clanet",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/440636318",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "236914741",
+   "file": "photos/236914741.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Karim Haddad",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/236914741",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "165693471",
+   "file": "photos/165693471.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Hilary Rose Dawson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/165693471",
+   "taxon": "Collybia rivulosa"
+  },
+  {
+   "id": "99583626",
+   "file": "photos/99583626.webp",
+   "w": 800,
+   "h": 580,
+   "author": "Kurt Miller",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/99583626",
+   "taxon": "Collybia dealbata"
+  }
+ ],
+ "st-georges-mushroom": [
+  {
+   "id": "273022945",
+   "file": "photos/273022945.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Wendy Herniman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/273022945",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "423006910",
+   "file": "photos/423006910.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Virn Stothers",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/423006910",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "77765975",
+   "file": "photos/77765975.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Enrico Tomschke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/77765975",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "74985210",
+   "file": "photos/74985210.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jens Ullenius",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/74985210",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "267048884",
+   "file": "photos/267048884.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Dave",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/267048884",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "277758619",
+   "file": "photos/277758619.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Liam Maguire",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/277758619",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "133591597",
+   "file": "photos/133591597.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Wilma Harper",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/133591597",
+   "taxon": "Calocybe gambosa"
+  },
+  {
+   "id": "371878325",
+   "file": "photos/371878325.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Charlotte Forrest-King",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/371878325",
+   "taxon": "Calocybe gambosa"
+  }
+ ],
+ "deadly-fibrecap": [
+  {
+   "id": "206834630",
+   "file": "photos/206834630.webp",
+   "w": 800,
+   "h": 600,
+   "author": "aga_l_",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/206834630",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "78468338",
+   "file": "photos/78468338.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Enrico Tomschke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/78468338",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "79821792",
+   "file": "photos/79821792.webp",
+   "w": 400,
+   "h": 800,
+   "author": "Peeter Talvistu",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/79821792",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "44009550",
+   "file": "photos/44009550.webp",
+   "w": 800,
+   "h": 450,
+   "author": "Elena A. Kizilova (Елена А. Кизилова)",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/44009550",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "519370221",
+   "file": "photos/519370221.webp",
+   "w": 600,
+   "h": 800,
+   "author": "victor laborde",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/519370221",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "702228227",
+   "file": "photos/702228227.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jose Castro",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/702228227",
+   "taxon": "Inosperma erubescens"
+  },
+  {
+   "id": "616290884",
+   "file": "photos/616290884.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Chaym Turak",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/616290884",
+   "taxon": "Inosperma erubescens"
+  }
+ ],
+ "common-puffball": [
+  {
+   "id": "156378224",
+   "file": "photos/156378224.webp",
+   "w": 641,
+   "h": 800,
+   "author": "Roger Rittmaster",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/156378224",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "156623148",
+   "file": "photos/156623148.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Daniel Zucker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/156623148",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "12045886",
+   "file": "photos/12045886.webp",
+   "w": 600,
+   "h": 800,
+   "author": "mtarsa",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/12045886",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "99969630",
+   "file": "photos/99969630.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Skjold Søndergaard",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/99969630",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "162477847",
+   "file": "photos/162477847.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Petr Knotek",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/162477847",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "307714909",
+   "file": "photos/307714909.webp",
+   "w": 636,
+   "h": 800,
+   "author": "Chris walker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/307714909",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "332331430",
+   "file": "photos/332331430.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Wolfgang Ahlmer",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/332331430",
+   "taxon": "Lycoperdon perlatum"
+  },
+  {
+   "id": "100857538",
+   "file": "photos/100857538.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Igor Balashov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/100857538",
+   "taxon": "Lycoperdon perlatum"
+  }
+ ],
+ "common-earthball": [
+  {
+   "id": "25891691",
+   "file": "photos/25891691.webp",
+   "w": 600,
+   "h": 800,
+   "author": "tsgeorge",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/25891691",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "164510349",
+   "file": "photos/164510349.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Hill Craddock",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/164510349",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "153713206",
+   "file": "photos/153713206.webp",
+   "w": 600,
+   "h": 800,
+   "author": "aga_l_",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/153713206",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "93089041",
+   "file": "photos/93089041.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Katrin Simon",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/93089041",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "86647598",
+   "file": "photos/86647598.webp",
+   "w": 800,
+   "h": 600,
+   "author": "cgmayers",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/86647598",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "313497219",
+   "file": "photos/313497219.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Kevin Popowich",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/313497219",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "334330686",
+   "file": "photos/334330686.webp",
+   "w": 800,
+   "h": 600,
+   "author": "hdobserver",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/334330686",
+   "taxon": "Scleroderma citrinum"
+  },
+  {
+   "id": "455483549",
+   "file": "photos/455483549.webp",
+   "w": 601,
+   "h": 800,
+   "author": "Vincent B.",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/455483549",
+   "taxon": "Scleroderma citrinum"
+  }
+ ],
+ "shaggy-ink-cap": [
+  {
+   "id": "51518833",
+   "file": "photos/51518833.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Jim Couillard",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/51518833",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "55195158",
+   "file": "photos/55195158.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Alex Goodfriend",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/55195158",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "230909391",
+   "file": "photos/230909391.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Lokal_Profil",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/230909391",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "24109213",
+   "file": "photos/24109213.webp",
+   "w": 533,
+   "h": 800,
+   "author": "Nova Patch",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/24109213",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "125826800",
+   "file": "photos/125826800.webp",
+   "w": 600,
+   "h": 800,
+   "author": "KAnatoliy",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/125826800",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "24885522",
+   "file": "photos/24885522.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Miranda Kohout",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/24885522",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "17411014",
+   "file": "photos/17411014.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jonathan Layman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/17411014",
+   "taxon": "Coprinus comatus"
+  },
+  {
+   "id": "49119955",
+   "file": "photos/49119955.webp",
+   "w": 800,
+   "h": 600,
+   "author": "adel-fridus",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/49119955",
+   "taxon": "Coprinus comatus"
+  }
+ ],
+ "common-ink-cap": [
+  {
+   "id": "95029702",
+   "file": "photos/95029702.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Sheelagh Halsey",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/95029702",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "99469962",
+   "file": "photos/99469962.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/99469962",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "96255910",
+   "file": "photos/96255910.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Peter Gabler",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/96255910",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "49291648",
+   "file": "photos/49291648.webp",
+   "w": 600,
+   "h": 800,
+   "author": "relet",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/49291648",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "236530174",
+   "file": "photos/236530174.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Поляков Александр",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/236530174",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "161017339",
+   "file": "photos/161017339.webp",
+   "w": 800,
+   "h": 365,
+   "author": "drtimk",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/161017339",
+   "taxon": "Coprinopsis atramentaria"
+  },
+  {
+   "id": "417188939",
+   "file": "photos/417188939.webp",
+   "w": 602,
+   "h": 800,
+   "author": "Азат Кадиров",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/417188939",
+   "taxon": "Coprinopsis atramentaria"
+  }
+ ],
+ "saffron-milk-cap": [
+  {
+   "id": "366307306",
+   "file": "photos/366307306.webp",
+   "w": 800,
+   "h": 800,
+   "author": "James K. Douch",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/366307306",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "6105503",
+   "file": "photos/6105503.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Marcus Tamura",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/6105503",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "74933708",
+   "file": "photos/74933708.webp",
+   "w": 800,
+   "h": 743,
+   "author": "Chris Clarke",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/74933708",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "59198778",
+   "file": "photos/59198778.webp",
+   "w": 800,
+   "h": 600,
+   "author": "LJ Moore-McClelland",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/59198778",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "210135320",
+   "file": "photos/210135320.webp",
+   "w": 800,
+   "h": 531,
+   "author": "Carlos Franquinho",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/210135320",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "439510185",
+   "file": "photos/439510185.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Rosie",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/439510185",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "12687615",
+   "file": "photos/12687615.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Adam J. Searcy",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/12687615",
+   "taxon": "Lactarius deliciosus"
+  },
+  {
+   "id": "162614089",
+   "file": "photos/162614089.webp",
+   "w": 600,
+   "h": 800,
+   "author": "A. Johann",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/162614089",
+   "taxon": "Lactarius deliciosus"
+  }
+ ],
+ "woolly-milkcap": [
+  {
+   "id": "317951625",
+   "file": "photos/317951625.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Ilkka Tuunainen",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/317951625",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "436042169",
+   "file": "photos/436042169.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Dr. Alan Inman",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/436042169",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "328488364",
+   "file": "photos/328488364.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Julia Henning",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/328488364",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "90227199",
+   "file": "photos/90227199.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Aleksandr Novikov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/90227199",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "49872414",
+   "file": "photos/49872414.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Elena A. Kizilova (Елена А. Кизилова)",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/49872414",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "236932311",
+   "file": "photos/236932311.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Anatoliy Ananin",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/236932311",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "60631807",
+   "file": "photos/60631807.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Виктория Билоус",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/60631807",
+   "taxon": "Lactarius torminosus"
+  },
+  {
+   "id": "94959313",
+   "file": "photos/94959313.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ilkka Kaita-aho",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/94959313",
+   "taxon": "Lactarius torminosus"
+  }
+ ],
+ "matsutake": [
+  {
+   "id": "340589963",
+   "file": "photos/340589963.webp",
+   "w": 600,
+   "h": 800,
+   "author": "evangerardo",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/340589963",
+   "taxon": "Tricholoma murrillianum"
+  },
+  {
+   "id": "315854862",
+   "file": "photos/315854862.webp",
+   "w": 600,
+   "h": 800,
+   "author": "wkee4ager",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/315854862",
+   "taxon": "Tricholoma matsutake"
+  },
+  {
+   "id": "154098428",
+   "file": "photos/154098428.webp",
+   "w": 360,
+   "h": 800,
+   "author": "Andreas Schneider",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/154098428",
+   "taxon": "Tricholoma matsutake"
+  },
+  {
+   "id": "447928461",
+   "file": "photos/447928461.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Ross",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/447928461",
+   "taxon": "Tricholoma murrillianum"
+  },
+  {
+   "id": "49903603",
+   "file": "photos/49903603.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Matt Berger",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/49903603",
+   "taxon": "Tricholoma murrillianum"
+  },
+  {
+   "id": "451240238",
+   "file": "photos/451240238.webp",
+   "w": 800,
+   "h": 600,
+   "author": "elik03",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/451240238",
+   "taxon": "Tricholoma murrillianum"
+  },
+  {
+   "id": "5668209",
+   "file": "photos/5668209.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Alan Rockefeller",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/5668209",
+   "taxon": "Tricholoma murrillianum"
+  }
+ ],
+ "smiths-amanita": [
+  {
+   "id": "352399439",
+   "file": "photos/352399439.webp",
+   "w": 600,
+   "h": 800,
+   "author": "jerryn",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/352399439",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "108849898",
+   "file": "photos/108849898.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Mandy Hackney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/108849898",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "249008817",
+   "file": "photos/249008817.webp",
+   "w": 600,
+   "h": 800,
+   "author": "mushroomshindig",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/249008817",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "166224012",
+   "file": "photos/166224012.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Hilary Rose Dawson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/166224012",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "102010353",
+   "file": "photos/102010353.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Michele Wiseman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/102010353",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "442167980",
+   "file": "photos/442167980.webp",
+   "w": 600,
+   "h": 800,
+   "author": "ewasiukb",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/442167980",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "109711265",
+   "file": "photos/109711265.webp",
+   "w": 450,
+   "h": 800,
+   "author": "Thea Chesney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/109711265",
+   "taxon": "Amanita smithiana"
+  },
+  {
+   "id": "591717825",
+   "file": "photos/591717825.webp",
+   "w": 600,
+   "h": 800,
+   "author": "moorebuesing",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/591717825",
+   "taxon": "Amanita smithiana"
+  }
+ ],
+ "hen-of-the-woods": [
+  {
+   "id": "25450275",
+   "file": "photos/25450275.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jason Hill",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/25450275",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "240356607",
+   "file": "photos/240356607.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Алина Урусова",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/240356607",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "329754067",
+   "file": "photos/329754067.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Ryan F. Mandelbaum",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/329754067",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "458314625",
+   "file": "photos/458314625.webp",
+   "w": 600,
+   "h": 800,
+   "author": "The Striped Gnome",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/458314625",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "334658398",
+   "file": "photos/334658398.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Sean Hartnett",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/334658398",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "434081029",
+   "file": "photos/434081029.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Kevin Barnes",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/434081029",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "163503149",
+   "file": "photos/163503149.webp",
+   "w": 600,
+   "h": 800,
+   "author": "T. J. Crow",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/163503149",
+   "taxon": "Grifola frondosa"
+  },
+  {
+   "id": "436621410",
+   "file": "photos/436621410.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Katerina",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/436621410",
+   "taxon": "Grifola frondosa"
+  }
+ ],
+ "black-staining-polypore": [
+  {
+   "id": "433357249",
+   "file": "photos/433357249.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Nathan Cobbett",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/433357249",
+   "taxon": "Meripilus sumstinei"
+  },
+  {
+   "id": "570029804",
+   "file": "photos/570029804.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Carl von Blixen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/570029804",
+   "taxon": "Meripilus giganteus"
+  },
+  {
+   "id": "159042511",
+   "file": "photos/159042511.webp",
+   "w": 800,
+   "h": 766,
+   "author": "Ken Kneidel",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/159042511",
+   "taxon": "Meripilus sumstinei"
+  },
+  {
+   "id": "554201868",
+   "file": "photos/554201868.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Angelika Baumann",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/554201868",
+   "taxon": "Meripilus giganteus"
+  },
+  {
+   "id": "582041051",
+   "file": "photos/582041051.webp",
+   "w": 602,
+   "h": 800,
+   "author": "Mark G",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/582041051",
+   "taxon": "Meripilus giganteus"
+  },
+  {
+   "id": "155325287",
+   "file": "photos/155325287.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Zeke Marshall",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/155325287",
+   "taxon": "Meripilus giganteus"
+  },
+  {
+   "id": "142979587",
+   "file": "photos/142979587.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kai Squires",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/142979587",
+   "taxon": "Meripilus sumstinei"
+  },
+  {
+   "id": "10873455",
+   "file": "photos/10873455.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Andre Hosper",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/10873455",
+   "taxon": "Meripilus giganteus"
+  }
+ ],
+ "turkey-tail": [
+  {
+   "id": "93075730",
+   "file": "photos/93075730.webp",
+   "w": 800,
+   "h": 800,
+   "author": "Aaron S",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/93075730",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "100319035",
+   "file": "photos/100319035.webp",
+   "w": 800,
+   "h": 600,
+   "author": "jodynaturenut",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/100319035",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "440732842",
+   "file": "photos/440732842.webp",
+   "w": 800,
+   "h": 600,
+   "author": "shadow_385",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/440732842",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "578068177",
+   "file": "photos/578068177.webp",
+   "w": 800,
+   "h": 560,
+   "author": "Paul Lewis",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/578068177",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "343706452",
+   "file": "photos/343706452.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Bethany Milam",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/343706452",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "32424877",
+   "file": "photos/32424877.webp",
+   "w": 800,
+   "h": 531,
+   "author": "Rolf Lawrenz",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/32424877",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "354972773",
+   "file": "photos/354972773.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Paulame",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/354972773",
+   "taxon": "Trametes versicolor"
+  },
+  {
+   "id": "66175941",
+   "file": "photos/66175941.webp",
+   "w": 497,
+   "h": 800,
+   "author": "Tom Weaver",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/66175941",
+   "taxon": "Trametes versicolor"
+  }
+ ],
+ "false-turkey-tail": [
+  {
+   "id": "15207482",
+   "file": "photos/15207482.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Nicola van Berkel",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/15207482",
+   "taxon": "Stereum ostrea"
+  },
+  {
+   "id": "93499615",
+   "file": "photos/93499615.webp",
+   "w": 800,
+   "h": 534,
+   "author": "Judy Gallagher",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/93499615",
+   "taxon": "Stereum lobatum"
+  },
+  {
+   "id": "457267172",
+   "file": "photos/457267172.webp",
+   "w": 600,
+   "h": 800,
+   "author": "danpatrick",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/457267172",
+   "taxon": "Stereum lobatum"
+  },
+  {
+   "id": "133742157",
+   "file": "photos/133742157.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Aimee Macarthur",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/133742157",
+   "taxon": "Stereum ostrea"
+  },
+  {
+   "id": "385761519",
+   "file": "photos/385761519.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Josie Hyatt",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/385761519",
+   "taxon": "Stereum lobatum"
+  },
+  {
+   "id": "172765774",
+   "file": "photos/172765774.webp",
+   "w": 800,
+   "h": 800,
+   "author": "bogsuckers",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/172765774",
+   "taxon": "Stereum subtomentosum"
+  },
+  {
+   "id": "556836074",
+   "file": "photos/556836074.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Cheryl Stinchcomb",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/556836074",
+   "taxon": "Stereum lobatum"
+  },
+  {
+   "id": "42981101",
+   "file": "photos/42981101.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Michael Cook",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/42981101",
+   "taxon": "Stereum lobatum"
+  }
+ ],
+ "livid-pinkgill": [
+  {
+   "id": "54291818",
+   "file": "photos/54291818.webp",
+   "w": 800,
+   "h": 530,
+   "author": "Eugene Popov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/54291818",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "551930596",
+   "file": "photos/551930596.webp",
+   "w": 800,
+   "h": 551,
+   "author": "Paula Nimigean",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/551930596",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "441238849",
+   "file": "photos/441238849.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Jo Ga",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/441238849",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "448862681",
+   "file": "photos/448862681.webp",
+   "w": 360,
+   "h": 800,
+   "author": "ÖkopatóPál",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/448862681",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "433974032",
+   "file": "photos/433974032.webp",
+   "w": 600,
+   "h": 800,
+   "author": "victor laborde",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/433974032",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "359080860",
+   "file": "photos/359080860.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Kristian Bosak",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/359080860",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "569059759",
+   "file": "photos/569059759.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Todd Patterson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/569059759",
+   "taxon": "Entoloma sinuatum"
+  },
+  {
+   "id": "91909734",
+   "file": "photos/91909734.webp",
+   "w": 800,
+   "h": 568,
+   "author": "Bill Sheehan",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/91909734",
+   "taxon": "Entoloma sinuatum"
+  }
+ ],
+ "clouded-funnel": [
+  {
+   "id": "238643153",
+   "file": "photos/238643153.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Igor Balashov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/238643153",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "165354599",
+   "file": "photos/165354599.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Tatiana Moiseeva",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/165354599",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "113534647",
+   "file": "photos/113534647.webp",
+   "w": 600,
+   "h": 800,
+   "author": "My-Lan Le",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/113534647",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "54137269",
+   "file": "photos/54137269.webp",
+   "w": 600,
+   "h": 800,
+   "author": "ctb",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/54137269",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "334955074",
+   "file": "photos/334955074.webp",
+   "w": 602,
+   "h": 800,
+   "author": "Owen and Carol Fawcett.",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/334955074",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "243365704",
+   "file": "photos/243365704.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Duncan Brooks",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/243365704",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "329653836",
+   "file": "photos/329653836.webp",
+   "w": 533,
+   "h": 800,
+   "author": "Mikko Heikkinen",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/329653836",
+   "taxon": "Clitocybe nebularis"
+  },
+  {
+   "id": "162400305",
+   "file": "photos/162400305.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Владимир Дворкин",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/162400305",
+   "taxon": "Clitocybe nebularis"
+  }
+ ],
+ "yellowfoot": [
+  {
+   "id": "175825692",
+   "file": "photos/175825692.webp",
+   "w": 600,
+   "h": 800,
+   "author": "rasenior",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/175825692",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "173089120",
+   "file": "photos/173089120.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Julien Renoult",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/173089120",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "320196863",
+   "file": "photos/320196863.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Jeff",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/320196863",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "103632630",
+   "file": "photos/103632630.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Robyn Hanson",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/103632630",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "1175009",
+   "file": "photos/1175009.webp",
+   "w": 677,
+   "h": 800,
+   "author": "Fluff Berger",
+   "license": "CC-BY-SA",
+   "source": "https://www.inaturalist.org/photos/1175009",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "584559049",
+   "file": "photos/584559049.webp",
+   "w": 800,
+   "h": 600,
+   "author": "ionafraser",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/584559049",
+   "taxon": "Craterellus tubaeformis"
+  },
+  {
+   "id": "52085695",
+   "file": "photos/52085695.webp",
+   "w": 800,
+   "h": 600,
+   "author": "David Anderson",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/52085695",
+   "taxon": "Craterellus tubaeformis"
+  }
+ ],
+ "deadly-webcap": [
+  {
+   "id": "544839462",
+   "file": "photos/544839462.webp",
+   "w": 800,
+   "h": 600,
+   "author": "Bohan Jia",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/544839462",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "541312560",
+   "file": "photos/541312560.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Dmitry Ivanov",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/541312560",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "317326036",
+   "file": "photos/317326036.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Donatas Pocius",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/317326036",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "310264751",
+   "file": "photos/310264751.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Matthew Rozanoff",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/310264751",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "152223143",
+   "file": "photos/152223143.webp",
+   "w": 800,
+   "h": 600,
+   "author": "melianie_max_and_asker",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/152223143",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "421652141",
+   "file": "photos/421652141.webp",
+   "w": 800,
+   "h": 699,
+   "author": "ikelman",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/421652141",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "225663311",
+   "file": "photos/225663311.webp",
+   "w": 704,
+   "h": 800,
+   "author": "Andreas Schneider",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/225663311",
+   "taxon": "Cortinarius rubellus"
+  },
+  {
+   "id": "445372784",
+   "file": "photos/445372784.webp",
+   "w": 600,
+   "h": 800,
+   "author": "Myles McSweeney",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/445372784",
+   "taxon": "Cortinarius rubellus"
+  }
+ ]
+}

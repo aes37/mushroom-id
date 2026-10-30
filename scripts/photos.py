@@ -50,8 +50,8 @@ PHOTO_DIR = ROOT / 'photos'
 BUCKET = 'https://inaturalist-open-data.s3.amazonaws.com/photos'
 OPEN_LICENSES = {'CC0', 'CC-BY', 'CC-BY-SA'}
 MIN_SHORT_SIDE = 800
-MAX_EDGE = 900
-WEBP_QUALITY = 74
+MAX_EDGE = 800
+WEBP_QUALITY = 72
 USER_AGENT = 'mushroom-id-photo-builder/1.0 (educational game)'
 
 csv.field_size_limit(sys.maxsize)

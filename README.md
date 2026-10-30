@@ -42,7 +42,7 @@ npm test
 | `data/content.json` | Hand-curated species, lookalike pairs, identification tips and sources |
 | `data/photo-picks.json` | The iNaturalist photo ids chosen for each species (reviewed by eye) |
 | `data/photos.json` | Generated: photo files plus attribution for each |
-| `photos/` | Generated: resized WebP photos (max 900 px) |
+| `photos/` | Generated: resized WebP photos (max 800 px) |
 | `scripts/photos.py` | Builds `photos/` and `data/photos.json` from iNaturalist open data |
 | `tests/` | `node --test` unit tests |
 
@@ -59,7 +59,7 @@ author, licence and a link to its iNaturalist page are shown under the photo in 
 in-app *Photo credits* page (`#/credits`). Photos were resized and converted to WebP; no other
 changes were made. CC BY-SA photos remain under CC BY-SA.
 
-The photos are stored in this repo (about 300 files at roughly 60 KB each). If the set grows a lot,
+The photos are stored in this repo (429 files, about 30 MB in total). If the set grows a lot,
 move `photos/` to a bucket or CDN and change the `file` paths in `data/photos.json`.
 
 ### Regenerating the photo set
