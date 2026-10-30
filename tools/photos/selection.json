@@ -1,0 +1,52 @@
+{
+ "paddy-straw": [
+  {
+   "id": 640611514,
+   "ext": "jpg",
+   "license": "CC-BY",
+   "by": "Tara Severns",
+   "taxon": "Volvariella volvacea",
+   "obs": "5b03a897-5fba-4350-bf44-bbf80d202060"
+  },
+  {
+   "id": 296268195,
+   "ext": "jpg",
+   "license": "CC-BY-SA",
+   "by": "James K. Douch",
+   "taxon": "Volvariella volvacea",
+   "obs": "51e2addf-4d0f-46c4-b399-1f7f7ed4048f"
+  },
+  {
+   "id": 380550221,
+   "ext": "jpeg",
+   "license": "CC0",
+   "by": "Liubov Ilminska",
+   "taxon": "Volvariella volvacea",
+   "obs": "daf75cdf-9f18-4249-8da6-e97719e29255"
+  },
+  {
+   "id": 677565034,
+   "ext": "jpg",
+   "license": "CC-BY",
+   "by": "Павлик Лисицын",
+   "taxon": "Volvariella volvacea",
+   "obs": "b04a8dba-de07-4acc-be0c-c0edca623d84"
+  },
+  {
+   "id": 429865140,
+   "ext": "jpeg",
+   "license": "CC-BY-SA",
+   "by": "Turner Brockman",
+   "taxon": "Volvariella volvacea",
+   "obs": "abb8258b-cbf1-400b-a50d-2f3453f254de"
+  },
+  {
+   "id": 406083689,
+   "ext": "jpeg",
+   "license": "CC-BY-SA",
+   "by": "Kurt Miller",
+   "taxon": "Volvariella volvacea",
+   "obs": "089ba028-18e8-4a5f-b8b9-90a4a63b8098"
+  }
+ ]
+}

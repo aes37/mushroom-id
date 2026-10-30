@@ -43,6 +43,12 @@ In the repository settings, open **Pages**, choose **Deploy from a branch**, and
 | `credits.html` | Attribution for every photo |
 | `tools/photos/` | Scripts used to find, curate and process the photos |
 
+## Content
+
+The game covers 37 well-documented lookalike pairs across 60 species, from classic forager confusions (chanterelle vs jack-o'-lantern, morel vs false morel, death cap vs green brittlegill or paddy straw mushroom, velvet shank vs deadly galerina) to regional ones (matsutake vs Smith's amanita in the Pacific Northwest, oyster vs ghost fungus in Australia).
+
+Every "how to tell them apart" tip and edibility label was checked against field guides and toxicology sources (mainly MushroomExpert.com, First Nature, Wild Food UK, NAMA and university extension pages), then independently re-checked by a second reviewer looking for errors and features that don't actually separate the two species. Sources are linked under each tip in the game. Tips are deliberately short and are not a substitute for a field guide or an expert.
+
 ## Photos and licensing
 
 All photos are research-grade iNaturalist observations taken from the [iNaturalist Open Dataset](https://github.com/inaturalist/inaturalist-open-data) on AWS. Only photos licensed **CC0**, **CC BY** or **CC BY-SA** are used (no non-commercial or no-derivatives licenses), so the game can be used and shared freely as long as attribution is kept. Each photo is credited in the game after you answer, and all of them are listed on the credits page with links to the original. Photos have been resized and re-encoded but are otherwise unaltered.

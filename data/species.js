@@ -190,8 +190,8 @@ export const SPECIES = {
   'angel-wings': {
     name: 'Angel Wings',
     sci: 'Pleurocybella porrigens',
-    edibility: 'toxic',
-    note: 'Linked to fatal brain disease in Japan.',
+    edibility: 'deadly',
+    note: 'Linked to fatal brain poisoning in Japan, mostly in people with kidney disease.',
   },
   'ghost-fungus': {
     name: 'Ghost Fungus',
@@ -255,9 +255,9 @@ export const SPECIES = {
   },
   'fools-funnel': {
     name: "Fool's Funnel",
-    sci: 'Clitocybe rivulosa',
-    edibility: 'toxic',
-    note: 'Contains muscarine: sweating, salivating, blurred vision.',
+    sci: 'Clitocybe rivulosa / Collybia rivulosa',
+    edibility: 'deadly',
+    note: 'Its muscarine can cause severe, potentially fatal poisoning.',
   },
   'st-georges': {
     name: "St George's Mushroom",
@@ -274,8 +274,8 @@ export const SPECIES = {
   'clouded-funnel': {
     name: 'Clouded Funnel',
     sci: 'Clitocybe nebularis',
-    edibility: 'inedible',
-    note: 'Upsets many people’s stomachs.',
+    edibility: 'toxic',
+    note: 'Makes many people ill.',
   },
   'livid-pinkgill': {
     name: 'Livid Pinkgill',
@@ -297,7 +297,7 @@ export const SPECIES = {
   },
   'wood-blewit': {
     name: 'Wood Blewit',
-    sci: 'Collybia nuda',
+    sci: 'Collybia nuda (Lepista nuda)',
     edibility: 'edible',
     note: 'Edible when cooked.',
   },
@@ -342,6 +342,12 @@ export const SPECIES = {
     sci: 'Lactarius torminosus',
     edibility: 'toxic',
     note: 'Causes stomach upsets.',
+  },
+  'paddy-straw': {
+    name: 'Paddy Straw Mushroom',
+    sci: 'Volvariella volvacea',
+    edibility: 'edible',
+    note: 'Widely farmed in Asia; mistaking young death caps for it has killed people.',
   },
   'turkey-tail': {
     name: 'Turkey Tail',
