@@ -18,8 +18,8 @@ import {
   computeStats,
   formatScore,
 } from './game.js';
-import { load, save } from './storage.js';
-import { EDIBILITY, imageUrl, creditNodes } from './attribution.js';
+import { load, save, remove, keys } from './storage.js';
+import { EDIBILITY, imageUrl, creditNodes, creditText } from './attribution.js';
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -30,12 +30,17 @@ for (const [species, list] of Object.entries(PHOTOS)) {
   for (const photo of list) PHOTO_BY_ID.set(photo.id, { ...photo, species });
 }
 
+// Ignore answers/advances this soon after the screen changes, so a double click or a held key
+// can't answer a question the player hasn't seen.
+const INPUT_GUARD_MS = 350;
+
 const today = dateKey();
 const todayNumber = puzzleNumber(today);
 
-// The round being played: { mode: 'daily' | 'practice', key, number, questions, answers }
+// The round being played: { mode: 'daily' | 'practice', key, number, questions, answers, summaryOnly? }
 let session = null;
 let revealed = false;
+let shownAt = 0;
 let countdownTimer = null;
 
 // ---------- helpers ----------
@@ -44,7 +49,6 @@ function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) {
     if (k === 'class') node.className = v;
-    else if (k === 'text') node.textContent = v;
     else node.setAttribute(k, v);
   }
   node.append(...children);
@@ -65,12 +69,16 @@ function showScreen(id) {
   window.scrollTo({ top: 0 });
 }
 
+function announce(message) {
+  $('#sr-status').textContent = message;
+}
+
 function toast(message) {
   const t = $('#toast');
   t.textContent = message;
-  t.hidden = false;
+  t.classList.add('show');
   clearTimeout(toast.timer);
-  toast.timer = setTimeout(() => (t.hidden = true), 2200);
+  toast.timer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
 function formatDate(key) {
@@ -78,16 +86,18 @@ function formatDate(key) {
   return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// A saved round is only usable if every species and photo it references still exists.
+const isComplete = (round) => round.answers.length >= round.questions.length;
+
+// A saved round stays usable as long as its pairs exist; a photo removed by a data update is
+// shown as "unavailable" rather than throwing the player's progress away.
 function isValidRound(saved) {
   return (
     saved &&
     Array.isArray(saved.questions) &&
     saved.questions.length === ROUND_SIZE &&
     Array.isArray(saved.answers) &&
-    saved.questions.every(
-      (q) => PAIR_BY_ID[q.pair] && PHOTO_BY_ID.has(q.left.photo) && PHOTO_BY_ID.has(q.right.photo),
-    )
+    saved.answers.length <= ROUND_SIZE &&
+    saved.questions.every((q) => PAIR_BY_ID[q.pair] && SPECIES[q.left?.species] && SPECIES[q.right?.species])
   );
 }
 
@@ -96,6 +106,25 @@ function persist() {
 }
 
 const results = () => session.answers.map((a, i) => grade(session.questions[i], a));
+
+// Record a finished daily round in the history (once).
+function recordDaily(key, round) {
+  const history = load('history', {});
+  if (history[key] || !isComplete(round)) return;
+  history[key] = summarize(round.answers.map((a, i) => grade(round.questions[i], a)));
+  save('history', history);
+}
+
+// Record any finished rounds that never made it into the history (e.g. the tab was closed on the
+// last reveal), then drop stored rounds from previous days.
+function tidyStorage() {
+  for (const key of keys('daily:')) {
+    const day = key.slice('daily:'.length);
+    const round = load(key, null);
+    if (isValidRound(round)) recordDaily(day, round);
+    if (day !== today) remove(key);
+  }
+}
 
 // ---------- intro ----------
 
@@ -106,22 +135,33 @@ function showIntro() {
   $('#intro-number').textContent = `Puzzle #${todayNumber} · ${formatDate(today)}`;
   HERO.forEach((key, i) => {
     const img = $(i ? '#hero-b' : '#hero-a');
-    if (PHOTOS[key]?.length) img.src = imageUrl(PHOTOS[key][0].id);
-    else img.hidden = true;
+    const photo = PHOTOS[key]?.[0];
+    if (!photo) {
+      img.hidden = true;
+      return;
+    }
+    img.src = imageUrl(photo.id);
+    img.title = `${speciesName(key)}. ${creditText(photo)}`;
   });
   showScreen('screen-intro');
 }
 
 function startDaily() {
   const saved = load(`daily:${today}`, null);
+  const recorded = load('history', {})[today];
   if (isValidRound(saved)) {
-    session = { mode: 'daily', key: today, number: todayNumber, ...saved };
+    session = { mode: 'daily', key: today, number: todayNumber, questions: saved.questions, answers: saved.answers };
+  } else if (recorded) {
+    // Today's result is final even if the stored round is gone; show it rather than a replay.
+    session = { mode: 'daily', key: today, number: todayNumber, questions: [], answers: [], summaryOnly: recorded };
+    showResults();
+    return;
   } else {
     const questions = buildRound({ pairs: PAIRS, photos: PHOTOS, seed: dailySeed(today) });
     session = { mode: 'daily', key: today, number: todayNumber, questions, answers: [] };
     persist();
   }
-  if (session.answers.length >= session.questions.length) finish();
+  if (isComplete(session)) finish();
   else showQuestion();
 }
 
@@ -146,15 +186,16 @@ function renderDots() {
 function setCard(side, card) {
   const fig = $(`#card-${side}`);
   const img = $('img', fig);
+  fig.classList.remove('is-answer', 'is-wrong', 'missing');
   // Hide the card until its new photo has loaded so the previous one never shows under a new prompt.
   fig.classList.add('loading');
-  img.onload = img.onerror = () => fig.classList.remove('loading');
+  img.onload = () => fig.classList.remove('loading');
+  img.onerror = () => fig.classList.replace('loading', 'missing');
   img.src = imageUrl(card.photo);
   if (img.complete && img.naturalWidth) fig.classList.remove('loading');
   img.alt = `${side === 'left' ? 'Left' : 'Right'} mushroom photo`;
   // Absolute URL: a relative url() in a custom property resolves against the stylesheet, not the page.
   fig.style.setProperty('--bg-img', `url("${new URL(imageUrl(card.photo), document.baseURI)}")`);
-  fig.classList.remove('is-answer', 'is-wrong', 'is-chosen');
   const label = $('.label', fig);
   label.hidden = true;
   label.replaceChildren();
@@ -167,6 +208,7 @@ function preload(question) {
 
 function showQuestion() {
   revealed = false;
+  shownAt = performance.now();
   const i = session.answers.length;
   const q = session.questions[i];
   const target = SPECIES[q.target];
@@ -186,19 +228,37 @@ function showQuestion() {
   $('#answer-actions').hidden = false;
   $('#feedback').hidden = true;
   showScreen('screen-play');
+  $('#prompt').focus({ preventScroll: true });
   preload(session.questions[i + 1]);
 }
 
+// Another tab may have moved today's round on; adopt its progress instead of overwriting it.
+function syncFromStorage() {
+  if (session?.mode !== 'daily' || session.summaryOnly) return false;
+  const stored = load(`daily:${session.key}`, null);
+  if (!isValidRound(stored) || stored.answers.length === session.answers.length) return false;
+  session.questions = stored.questions;
+  session.answers = stored.answers;
+  if (isComplete(session)) finish();
+  else showQuestion();
+  toast('Updated with progress from another tab');
+  return true;
+}
+
 function answer(choice) {
-  if (revealed || !session) return;
+  if (!session || revealed || $('#screen-play').hidden) return;
+  if (performance.now() - shownAt < INPUT_GUARD_MS || $('.card.loading')) return;
+  if (syncFromStorage()) return;
   const q = session.questions[session.answers.length];
   session.answers.push(choice);
   persist();
+  if (session.mode === 'daily') recordDaily(session.key, session);
   reveal(q, choice);
 }
 
 function reveal(q, choice) {
   revealed = true;
+  shownAt = performance.now();
   const result = grade(q, choice);
   const pair = PAIR_BY_ID[q.pair];
 
@@ -207,15 +267,11 @@ function reveal(q, choice) {
     const fig = $(`#card-${side}`);
     const photo = PHOTO_BY_ID.get(card.photo);
     fig.classList.toggle('is-answer', side === q.answer);
-    fig.classList.toggle('is-chosen', side === choice);
     fig.classList.toggle('is-wrong', side === choice && result === 'wrong');
-    $('img', fig).alt = `${speciesName(card.species)} (${photo.taxon})`;
+    $('img', fig).alt = photo ? `${speciesName(card.species)} (${photo.taxon})` : speciesName(card.species);
     const label = $('.label', fig);
-    label.replaceChildren(
-      el('span', { class: 'label-name' }, speciesName(card.species)),
-      edibilityBadge(card.species),
-      el('span', { class: 'label-credit' }, creditNodes(photo, { prefix: '' })),
-    );
+    label.replaceChildren(el('span', { class: 'label-name' }, speciesName(card.species)), edibilityBadge(card.species));
+    if (photo) label.append(el('span', { class: 'label-credit' }, creditNodes(photo, { prefix: '' })));
     label.hidden = false;
   }
   $$('.pick').forEach((b) => (b.disabled = true));
@@ -227,8 +283,7 @@ function reveal(q, choice) {
   else verdict.textContent = `Not quite: that was the ${speciesName(q[choice].species)}. −${-POINTS.wrong}`;
   if (isFatalMixup(q, result, SPECIES)) verdict.textContent += ' ☠️ In the field, this mix-up could be fatal.';
 
-  const ids = $('#ids');
-  ids.replaceChildren(
+  $('#ids').replaceChildren(
     ...[pair.a, pair.b].map((key) => {
       const s = SPECIES[key];
       return el(
@@ -253,36 +308,32 @@ function reveal(q, choice) {
 
   $('#answer-actions').hidden = true;
   $('#feedback').hidden = false;
-  $('#btn-next').textContent = session.answers.length >= session.questions.length ? 'See results' : 'Next';
+  $('#btn-next').textContent = isComplete(session) ? 'See results' : 'Next';
   $('#running-score').textContent = `Score ${formatScore(summarize(results()).score)}`;
   renderDots();
+  announce(verdict.textContent);
   $('#btn-next').focus({ preventScroll: true });
   const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   $('#feedback').scrollIntoView({ block: 'nearest', behavior: smooth ? 'smooth' : 'auto' });
 }
 
 function next() {
-  if (!revealed) return;
-  if (session.answers.length >= session.questions.length) finish();
+  if (!revealed || performance.now() - shownAt < INPUT_GUARD_MS) return;
+  if (isComplete(session)) finish();
   else showQuestion();
 }
 
 function finish() {
-  if (session.mode === 'daily') {
-    const history = load('history', {});
-    if (!history[session.key]) {
-      history[session.key] = summarize(results());
-      save('history', history);
-    }
-  }
+  if (session.mode === 'daily') recordDaily(session.key, session);
   showResults();
 }
 
 // ---------- results ----------
 
 function showResults() {
+  revealed = false;
+  const summary = session.summaryOnly ?? summarize(results());
   const res = results();
-  const summary = summarize(res);
   const rank = rankFor(summary.score);
 
   $('#results-title').textContent =
@@ -294,8 +345,7 @@ function showResults() {
   $('#score-max').textContent = summary.total;
   $('#breakdown').textContent = `${summary.correct} right · ${summary.wrong} wrong · ${summary.unsure} don't know`;
 
-  const grid = $('#result-grid');
-  grid.replaceChildren(
+  $('#result-grid').replaceChildren(
     ...session.questions.map((q, i) =>
       el('li', { title: `${i + 1}. ${speciesName(q.left.species)} vs ${speciesName(q.right.species)}: ${res[i]}` },
         resultEmoji(q, res[i], SPECIES)),
@@ -316,32 +366,46 @@ function showResults() {
   }
 
   renderReview(res);
-  const { streak } = computeStats(load('history', {}), today);
+  $('.review').hidden = !session.questions.length;
+  $('#btn-share').hidden = !session.questions.length;
+
+  const { streak } = computeStats(load('history', {}), dateKey());
   $('#streak-line').textContent = session.mode === 'daily' && streak > 1 ? `🔥 ${streak}-day streak · ` : '';
   $('#btn-practice').textContent = session.mode === 'practice' ? 'Another practice round' : 'Practice round';
+
+  // After a practice round, point back to the daily if it hasn't been played yet.
+  const daily = load(`daily:${today}`, null);
+  const dailyDone = load('history', {})[today] || (isValidRound(daily) && isComplete(daily));
+  const offerDaily = session.mode === 'practice' && !dailyDone;
+  $('#btn-daily').hidden = !offerDaily;
+  $('.next-puzzle').hidden = offerDaily;
+
   showScreen('screen-results');
-  startCountdown();
+  $('#rank-title').focus({ preventScroll: true });
+  announce(`${rank.title}. ${formatScore(summary.score)} points out of ${summary.total}.`);
+  if (!offerDaily) startCountdown();
 }
 
 function renderReview(res) {
-  const list = $('#review-list');
-  list.replaceChildren(
+  $('#review-list').replaceChildren(
     ...session.questions.map((q, i) => {
       const pair = PAIR_BY_ID[q.pair];
       const thumbs = el(
         'div',
         { class: 'review-thumbs' },
-        ...['left', 'right'].map((side) =>
-          el('figure', { class: side === q.answer ? 'is-answer' : '' },
-            el('img', { src: imageUrl(q[side].photo), alt: speciesName(q[side].species), loading: 'lazy' }),
-            el('figcaption', {}, speciesName(q[side].species))),
-        ),
+        ...['left', 'right'].map((side) => {
+          const photo = PHOTO_BY_ID.get(q[side].photo);
+          const img = el('img', { src: imageUrl(q[side].photo), alt: speciesName(q[side].species), loading: 'lazy' });
+          if (photo) img.title = creditText(photo);
+          return el('figure', { class: side === q.answer ? 'is-answer' : '' }, img,
+            el('figcaption', {}, speciesName(q[side].species)));
+        }),
       );
       return el(
         'li',
         { class: `review-item ${res[i]}` },
         el('p', { class: 'review-q' }, el('span', { class: 'review-mark' }, resultEmoji(q, res[i], SPECIES)),
-          ` Which one is ${speciesName(q.target)}?`),
+          ` Which one is the ${speciesName(q.target)}?`),
         thumbs,
         el('p', { class: 'review-tip' }, pair.tip),
       );
@@ -354,13 +418,12 @@ function startCountdown() {
   const out = $('#next-puzzle');
   const tick = () => {
     const now = new Date();
-    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-    const ms = midnight - now;
     if (dateKey(now) !== today) {
       out.replaceChildren('A new puzzle is ready. ', el('a', { href: './' }, 'Play it'));
       clearInterval(countdownTimer);
       return;
     }
+    const ms = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1) - now;
     const h = Math.floor(ms / 3.6e6);
     const m = Math.floor((ms % 3.6e6) / 6e4);
     const s = Math.floor((ms % 6e4) / 1000);
@@ -405,9 +468,10 @@ function renderRankList() {
 
 function showStats() {
   const history = load('history', {});
-  const s = computeStats(history, today);
-  const fmt = (v, digits = 0) => (v == null ? '–' : v.toFixed(digits));
-  const tile = (value, label) => el('div', { class: 'stat' }, el('span', { class: 'stat-value' }, value), el('span', { class: 'stat-label' }, label));
+  const s = computeStats(history, dateKey());
+  const fmt = (v, digits = 0) => (v == null ? '–' : v.toFixed(digits).replace('-', '−'));
+  const tile = (value, label) =>
+    el('div', { class: 'stat' }, el('span', { class: 'stat-value' }, value), el('span', { class: 'stat-label' }, label));
   const box = $('#stats');
   box.replaceChildren(
     tile(String(s.played), 'Played'),
@@ -434,23 +498,67 @@ function showStats() {
 }
 
 function openZoom(side) {
-  const q = session?.questions[revealed ? session.answers.length - 1 : session.answers.length];
+  if (!session || $('#screen-play').hidden) return;
+  const q = session.questions[revealed ? session.answers.length - 1 : session.answers.length];
   if (!q) return;
-  const photo = PHOTO_BY_ID.get(q[side].photo);
+  const card = q[side];
+  const photo = PHOTO_BY_ID.get(card.photo);
   const img = $('#zoom-img');
-  img.src = imageUrl(photo.id);
-  img.alt = revealed ? speciesName(photo.species) : `${side === 'left' ? 'Left' : 'Right'} mushroom photo`;
+  img.src = imageUrl(card.photo);
+  img.alt = revealed ? speciesName(card.species) : `${side === 'left' ? 'Left' : 'Right'} mushroom photo`;
   const credit = $('#zoom-credit');
   credit.replaceChildren();
-  if (revealed) credit.append(`${speciesName(photo.species)} (${photo.taxon}) · `, creditNodes(photo));
-  else credit.textContent = 'Photo credit appears after you answer.';
+  if (!revealed) credit.textContent = 'Photo credit appears after you answer.';
+  else if (photo) credit.append(`${speciesName(card.species)} (${photo.taxon}) · `, creditNodes(photo));
+  else credit.textContent = speciesName(card.species);
   $('#dlg-zoom').showModal();
+}
+
+// Close a dialog only when a press both starts and ends on the backdrop (outside its box).
+function closeOnBackdrop(dialog) {
+  let downOutside = false;
+  const outside = (e) => {
+    const r = dialog.getBoundingClientRect();
+    return e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+  };
+  dialog.addEventListener('pointerdown', (e) => (downOutside = e.target === dialog && outside(e)));
+  dialog.addEventListener('click', (e) => {
+    if (downOutside && e.target === dialog && outside(e)) dialog.close();
+    downOutside = false;
+  });
 }
 
 // ---------- wiring ----------
 
+const ANSWER_KEYS = { ArrowLeft: 'left', ArrowRight: 'right', d: 'unsure', D: 'unsure' };
+
+function onKeydown(e) {
+  if (e.repeat || e.metaKey || e.ctrlKey || e.altKey || document.querySelector('dialog[open]')) return;
+  if ($('#screen-play').hidden) return;
+  if (!revealed) {
+    const choice = ANSWER_KEYS[e.key];
+    if (choice && !e.target.closest?.('input, textarea, select')) {
+      e.preventDefault();
+      answer(choice);
+    }
+    return;
+  }
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  // Let links, buttons and other controls handle their own activation.
+  if (e.target.closest?.('a, button, summary, input, select, textarea, [tabindex]:not([tabindex="-1"])')) return;
+  e.preventDefault();
+  next();
+}
+
+// When the page comes back after midnight, start from the new day (unless mid-round).
+function onResume() {
+  if (document.visibilityState !== 'visible' || dateKey() === today) return;
+  if ($('#screen-play').hidden) location.reload();
+}
+
 function bind() {
   $('#btn-start').addEventListener('click', startDaily);
+  $('#btn-daily').addEventListener('click', startDaily);
   $('#btn-practice-intro').addEventListener('click', startPractice);
   $('#btn-practice').addEventListener('click', startPractice);
   $('#btn-next').addEventListener('click', next);
@@ -459,40 +567,22 @@ function bind() {
   $('#btn-stats').addEventListener('click', showStats);
   $$('[data-choice]').forEach((b) => b.addEventListener('click', () => answer(b.dataset.choice)));
   $$('[data-zoom]').forEach((b) => b.addEventListener('click', () => openZoom(b.dataset.zoom)));
-
-  // Click the backdrop to close dialogs.
-  $$('dialog').forEach((d) =>
-    d.addEventListener('click', (e) => {
-      if (e.target === d) d.close();
-    }),
-  );
+  $$('dialog').forEach(closeOnBackdrop);
   $('#zoom-img').addEventListener('click', () => $('#dlg-zoom').close());
-
-  document.addEventListener('keydown', (e) => {
-    if (e.metaKey || e.ctrlKey || e.altKey || document.querySelector('dialog[open]')) return;
-    if ($('#screen-play').hidden) return;
-    if (!revealed) {
-      const choice = { ArrowLeft: 'left', ArrowRight: 'right', ArrowDown: 'unsure' }[e.key];
-      if (choice) {
-        e.preventDefault();
-        answer(choice);
-      }
-      return;
-    }
-    // Enter/Space on a focused button already triggers its click.
-    const onButton = document.activeElement?.tagName === 'BUTTON';
-    if (e.key === 'ArrowRight' || ((e.key === 'Enter' || e.key === ' ') && !onButton)) {
-      e.preventDefault();
-      next();
-    }
+  document.addEventListener('keydown', onKeydown);
+  document.addEventListener('visibilitychange', onResume);
+  window.addEventListener('pageshow', onResume);
+  window.addEventListener('storage', (e) => {
+    if (e.key?.endsWith(`daily:${today}`) && !revealed && !$('#screen-play').hidden) syncFromStorage();
   });
 }
 
 function init() {
   bind();
   renderRankList();
+  tidyStorage();
   const saved = load(`daily:${today}`, null);
-  if (isValidRound(saved) && saved.answers.length > 0) {
+  if ((isValidRound(saved) && saved.answers.length > 0) || load('history', {})[today]) {
     // Resume today's round, or show its results if it's finished.
     startDaily();
   } else {
@@ -500,4 +590,10 @@ function init() {
   }
 }
 
-init();
+try {
+  init();
+} catch (err) {
+  console.error(err);
+  $('#loading-msg').textContent = 'Sorry, something went wrong loading the game. Please reload the page.';
+  showScreen('screen-loading');
+}

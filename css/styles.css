@@ -8,10 +8,10 @@
   --border: #e0d3bf;
   --accent: #8a4b22;
   --accent-text: #fffaf2;
-  --focus: #c47a2c;
+  --focus: #b06a20;
   --good: #2e7d32;
   --bad: #c62828;
-  --neutral: #8a8178;
+  --neutral: #746b62;
   --edible: #2e7d32;
   --inedible: #6f6252;
   --toxic: #c25e00;
@@ -98,6 +98,21 @@ button {
 
 .center {
   text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Headings that receive focus programmatically (for screen readers) don't need a ring. */
+[tabindex='-1']:focus {
+  outline: none;
 }
 
 /* ---------- top bar ---------- */
@@ -390,6 +405,12 @@ main {
   gap: 12px;
 }
 
+@supports (height: 100dvh) {
+  .cards {
+    --card: min(470px, calc((100vw - 44px) / 2), calc(100dvh - 330px));
+  }
+}
+
 .card {
   position: relative;
   margin: 0;
@@ -443,6 +464,29 @@ main {
   cursor: default;
 }
 
+.pick:focus-visible {
+  outline: none;
+}
+
+.card:has(.pick:focus-visible)::after {
+  border-color: var(--focus);
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.card.missing img {
+  visibility: hidden;
+}
+
+.card.missing .pick::after {
+  content: 'Photo unavailable';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
 .pick img {
   display: block;
   width: 100%;
@@ -483,6 +527,12 @@ main {
 
 .zoom:hover {
   background: rgb(0 0 0 / 0.7);
+}
+
+.zoom::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
 }
 
 .label {
@@ -534,7 +584,7 @@ main {
 }
 
 .badge.toxic {
-  background: #c25e00;
+  background: #b35500;
 }
 
 .badge.deadly {
@@ -671,13 +721,13 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(10, 1.9rem);
+  grid-template-columns: repeat(10, minmax(0, 1.9rem));
   justify-content: center;
   gap: 4px;
   margin: 0 0 16px;
   padding: 0;
-  font-size: 1.45rem;
-  line-height: 1.9rem;
+  font-size: min(1.45rem, 6.5vw);
+  line-height: 1.3;
   list-style: none;
 }
 
@@ -939,6 +989,17 @@ kbd {
   color: var(--bg);
   font-weight: 600;
   box-shadow: var(--shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.toast:empty {
+  padding: 0;
+}
+
+.toast.show {
+  opacity: 1;
 }
 
 /* ---------- small screens ---------- */
@@ -980,5 +1041,52 @@ kbd {
 
   .dist li {
     grid-template-columns: 9.5em 1fr;
+  }
+}
+
+/* ---------- short landscape screens ---------- */
+
+@media (orientation: landscape) and (max-height: 520px) {
+  .topbar {
+    padding: 4px 16px;
+  }
+
+  .icon-btn {
+    width: 34px;
+    height: 34px;
+  }
+
+  main {
+    padding-top: 8px;
+  }
+
+  .dots {
+    margin: 4px 0 6px;
+  }
+
+  .prompt {
+    font-size: 1.15rem;
+  }
+
+  .prompt-sci {
+    margin-bottom: 6px;
+  }
+
+  .cards {
+    --card: min(470px, calc((100vw - 44px) / 2), calc(100vh - 200px));
+  }
+
+  @supports (height: 100dvh) {
+    .cards {
+      --card: min(470px, calc((100vw - 44px) / 2), calc(100dvh - 200px));
+    }
+  }
+
+  .answer-actions {
+    margin-top: 8px;
+  }
+
+  .answer-actions .btn {
+    min-height: 40px;
   }
 }

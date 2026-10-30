@@ -9,7 +9,8 @@
   <meta name="theme-color" content="#15110d" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%84%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/styles.css">
-  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/app.js" onerror="document.getElementById('loading-msg').textContent = 'Sorry, the game could not load. Please use an up-to-date browser and open the game over http(s), not as a local file.'"></script>
+  <script nomodule>document.addEventListener('DOMContentLoaded', function () { document.getElementById('loading-msg').textContent = 'Sorry, this game needs a more recent browser.'; });</script>
 </head>
 <body>
   <header class="topbar">
@@ -24,7 +25,8 @@
 
   <main id="app">
     <section id="screen-loading" class="screen">
-      <p class="muted center">Loading…</p>
+      <p class="muted center" id="loading-msg">Loading…</p>
+      <noscript><p class="center">This game needs JavaScript to run.</p></noscript>
     </section>
 
     <section id="screen-intro" class="screen intro" hidden>
@@ -54,7 +56,7 @@
       </div>
       <ol id="dots" class="dots" aria-hidden="true"></ol>
 
-      <h2 class="prompt">Which one is <span id="prompt-article">the</span> <span id="prompt-name"></span>?</h2>
+      <h2 class="prompt" id="prompt" tabindex="-1">Which one is <span id="prompt-article">the</span> <span id="prompt-name"></span>?</h2>
       <p class="prompt-sci" id="prompt-sci"></p>
 
       <div class="cards">
@@ -80,7 +82,7 @@
 
       <div class="answer-actions" id="answer-actions">
         <button type="button" class="btn choice" data-choice="left"><span aria-hidden="true">←</span> Left</button>
-        <button type="button" class="btn choice unsure" data-choice="unsure">Don't know</button>
+        <button type="button" class="btn choice unsure" data-choice="unsure" aria-keyshortcuts="D">Don't know</button>
         <button type="button" class="btn choice" data-choice="right">Right <span aria-hidden="true">→</span></button>
       </div>
 
@@ -92,7 +94,7 @@
           <p id="tip"></p>
           <p class="sources" id="tip-sources"></p>
         </div>
-        <button type="button" class="btn primary" id="btn-next">Next</button>
+        <button type="button" class="btn primary" id="btn-next" aria-describedby="verdict">Next</button>
       </div>
     </section>
 
@@ -100,7 +102,7 @@
       <p class="eyebrow" id="results-title"></p>
       <div class="rank">
         <div class="rank-emoji" id="rank-emoji" aria-hidden="true"></div>
-        <h1 class="rank-title" id="rank-title"></h1>
+        <h1 class="rank-title" id="rank-title" tabindex="-1"></h1>
         <p class="rank-blurb" id="rank-blurb"></p>
       </div>
       <p class="score-line"><span class="score" id="score"></span> <span class="muted">points out of <span id="score-max"></span></span></p>
@@ -108,6 +110,7 @@
       <ol class="grid" id="result-grid" aria-label="Your answers"></ol>
       <div class="fatal" id="fatal" hidden></div>
       <div class="result-actions">
+        <button type="button" class="btn primary" id="btn-daily" hidden>Play today's challenge</button>
         <button type="button" class="btn primary" id="btn-share">Share result</button>
         <button type="button" class="btn ghost" id="btn-practice">Practice round</button>
       </div>
@@ -124,14 +127,14 @@
     <p>Photos from <a href="https://www.inaturalist.org/">iNaturalist</a> contributors under Creative Commons licenses. <a href="credits.html">Photo credits</a></p>
   </footer>
 
-  <dialog id="dlg-help" class="dialog">
+  <dialog id="dlg-help" class="dialog" aria-labelledby="dlg-help-title">
     <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
-    <h2>How to play</h2>
+    <h2 id="dlg-help-title">How to play</h2>
     <ul class="help-list">
       <li>Every day there's a new set of 20 lookalike pairs, the same for everyone.</li>
       <li>Two photos appear side by side. Tap the one that matches the name, or press <kbd>←</kbd> / <kbd>→</kbd>.</li>
-      <li>Not sure? Press <strong>Don't know</strong> (or <kbd>↓</kbd>). It scores 0, while a wrong answer costs a point.</li>
-      <li>After each answer you'll see both names, whether they're edible, and how to tell them apart.</li>
+      <li>Not sure? Press <strong>Don't know</strong> (or <kbd>D</kbd>). It scores 0, while a wrong answer costs a point.</li>
+      <li>After each answer you'll see both names, whether they're edible, and how to tell them apart. Press <kbd>Enter</kbd> for the next pair.</li>
       <li>Wrong answers on pairs involving a deadly species show up as 💀 in your results.</li>
       <li>Use the <span aria-hidden="true">⤢</span> button to enlarge a photo.</li>
     </ul>
@@ -140,19 +143,20 @@
     <p class="muted small">Photos are real observations, so some show only part of the mushroom, the same way you'd meet them in the field. That's part of the challenge.</p>
   </dialog>
 
-  <dialog id="dlg-stats" class="dialog">
+  <dialog id="dlg-stats" class="dialog" aria-labelledby="dlg-stats-title">
     <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
-    <h2>Your stats</h2>
+    <h2 id="dlg-stats-title">Your stats</h2>
     <div class="stats" id="stats"></div>
     <p class="muted small">Stats are stored only in this browser.</p>
   </dialog>
 
-  <dialog id="dlg-zoom" class="dialog zoom-dialog">
+  <dialog id="dlg-zoom" class="dialog zoom-dialog" aria-label="Enlarged photo">
     <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
     <img id="zoom-img" alt="">
     <p class="zoom-credit" id="zoom-credit"></p>
   </dialog>
 
-  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="visually-hidden" id="sr-status" role="status" aria-live="polite"></div>
 </body>
 </html>

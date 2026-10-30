@@ -60,4 +60,4 @@ To rebuild or extend the photo set:
 3. Choose the best photos by eye (clear, correctly identified, showing useful features) and add them to `tools/photos/selection.json`.
 4. `python3 tools/photos/build.py` downloads the chosen photos, writes `img/*.webp` and regenerates `data/photos.js`.
 
-The Python scripts need Python 3.9+ and Pillow.
+The Python scripts need Python 3.9+ and Pillow 9.1+ (with LittleCMS, included in the standard wheels).

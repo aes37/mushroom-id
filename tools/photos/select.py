@@ -16,11 +16,14 @@ FIELDS = ("id", "ext", "license", "by", "taxon", "obs")
 
 def main():
     work, species, picks = Path(sys.argv[1]), sys.argv[2], sys.argv[3]
-    candidates = json.loads((work / "candidates.json").read_text())[species]
-    chosen = [candidates[int(n) - 1] for n in picks.split(",")]
-    selection = json.loads(SELECTION.read_text()) if SELECTION.exists() else {}
+    candidates = json.loads((work / "candidates.json").read_text(encoding="utf-8"))[species]
+    numbers = [int(n) for n in picks.split(",")]
+    if len(set(numbers)) != len(numbers) or not all(1 <= n <= len(candidates) for n in numbers):
+        raise SystemExit(f"Picks must be distinct numbers from 1 to {len(candidates)}")
+    chosen = [candidates[n - 1] for n in numbers]
+    selection = json.loads(SELECTION.read_text(encoding="utf-8")) if SELECTION.exists() else {}
     selection[species] = [{k: p[k] for k in FIELDS} for p in chosen]
-    SELECTION.write_text(json.dumps(dict(sorted(selection.items())), indent=1, ensure_ascii=False) + "\n")
+    SELECTION.write_text(json.dumps(dict(sorted(selection.items())), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{species}: {len(chosen)} photos")
 
 

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { SPECIES } from '../data/species.js';
 import { PAIRS } from '../data/pairs.js';
 import { PHOTOS } from '../data/photos.js';
@@ -42,7 +42,10 @@ test('every species in a pair has enough openly licensed photos on disk', () => 
       seen.add(ph.id);
       assert.ok(LICENSES.has(ph.license), `photo ${ph.id} has license ${ph.license}`);
       assert.ok(ph.by && ph.taxon, `photo ${ph.id} needs attribution and taxon`);
-      assert.ok(existsSync(new URL(`../img/${ph.id}.webp`, import.meta.url)), `missing img/${ph.id}.webp`);
+      const file = new URL(`../img/${ph.id}.webp`, import.meta.url);
+      assert.ok(existsSync(file), `missing img/${ph.id}.webp`);
+      const head = readFileSync(file).subarray(0, 12);
+      assert.ok(head.toString('latin1', 0, 4) === 'RIFF' && head.toString('latin1', 8, 12) === 'WEBP', `img/${ph.id}.webp is not a valid WebP`);
     }
   }
 });

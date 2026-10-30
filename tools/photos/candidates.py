@@ -33,7 +33,7 @@ HERE = Path(__file__).resolve().parent
 
 def load_taxon_names(work, wanted):
     names = {}
-    with gzip.open(work / "taxa.csv.gz", "rt", newline="") as f:
+    with gzip.open(work / "taxa.csv.gz", "rt", newline="", encoding="utf-8") as f:
         for row in csv.reader(f, delimiter="\t"):
             if row[0].isdigit() and int(row[0]) in wanted:
                 names[int(row[0])] = row[4]
@@ -42,7 +42,7 @@ def load_taxon_names(work, wanted):
 
 def load_observer_names(work, wanted):
     names = {}
-    with gzip.open(work / "observers.csv.gz", "rt", newline="") as f:
+    with gzip.open(work / "observers.csv.gz", "rt", newline="", encoding="utf-8") as f:
         for row in csv.reader(f, delimiter="\t"):
             if row[0].isdigit() and int(row[0]) in wanted:
                 login, name = row[1], (row[2] if len(row) > 2 else "")
@@ -55,14 +55,14 @@ def collect(work, taxa_map):
     taxon_names = load_taxon_names(work, set(taxon_to_species))
 
     obs = {}
-    with open(work / "fungi_obs.tsv") as f:
+    with open(work / "fungi_obs.tsv", encoding="utf-8") as f:
         for line in f:
             uuid, _observer, _lat, _lon, taxon, date = line.rstrip("\n").split("\t")
             if taxon.isdigit() and int(taxon) in taxon_to_species:
                 obs[uuid] = (int(taxon), date)
 
     found = defaultdict(list)
-    with open(work / "fungi_photos.tsv") as f:
+    with open(work / "fungi_photos.tsv", encoding="utf-8") as f:
         for line in f:
             parts = line.rstrip("\n").split("\t")
             if len(parts) != 8:
@@ -100,7 +100,10 @@ def contact_sheet(species, photos, thumbs_dir, out_path):
     rows = (len(photos) + COLS - 1) // COLS
     sheet = Image.new("RGB", (COLS * TILE, rows * TILE), "white")
     draw = ImageDraw.Draw(sheet)
-    font = ImageFont.load_default(size=22)
+    try:
+        font = ImageFont.load_default(size=22)
+    except TypeError:  # Pillow < 10.1
+        font = ImageFont.load_default()
     for i, p in enumerate(photos):
         x, y = (i % COLS) * TILE, (i // COLS) * TILE
         try:
@@ -117,7 +120,7 @@ def contact_sheet(species, photos, thumbs_dir, out_path):
 def main():
     work = Path(sys.argv[1])
     only = set(sys.argv[2:])
-    taxa_map = json.loads((HERE / "taxa.json").read_text())
+    taxa_map = json.loads((HERE / "taxa.json").read_text(encoding="utf-8"))
     if only:
         taxa_map = {k: v for k, v in taxa_map.items() if k in only}
 
@@ -130,9 +133,9 @@ def main():
             p["by"] = names.get(p["observer"], f"iNaturalist user {p['observer']}")
 
     out = work / "candidates.json"
-    existing = json.loads(out.read_text()) if out.exists() and only else {}
+    existing = json.loads(out.read_text(encoding="utf-8")) if out.exists() and only else {}
     existing.update(candidates)
-    out.write_text(json.dumps(existing, indent=1))
+    out.write_text(json.dumps(existing, indent=1), encoding="utf-8")
 
     thumbs = work / "thumbs"
     sheets = work / "sheets"

@@ -16,10 +16,20 @@ export const EDIBILITY = {
 export const imageUrl = (id) => `img/${id}.webp`;
 export const sourceUrl = (id) => `https://www.inaturalist.org/photos/${id}`;
 
-// Builds "Photo: <a>Name</a> · <a>CC BY 4.0</a>" as DOM nodes (no innerHTML with user-supplied names).
-export function creditNodes(photo, { prefix = 'Photo: ' } = {}) {
+// CC0 works are dedicated to the public domain, so they get no copyright sign.
+const isPublicDomain = (photo) => photo.license === 'CC0';
+
+export function creditText(photo) {
+  const who = isPublicDomain(photo) ? photo.by : `© ${photo.by}`;
+  return `Photo: ${who} · ${LICENSES[photo.license].label} · iNaturalist`;
+}
+
+// Builds "Name · CC BY" as DOM nodes (no innerHTML with user-supplied names). With `copyright`,
+// prefixes "©" for licensed (non-CC0) photos.
+export function creditNodes(photo, { prefix = 'Photo: ', copyright = false } = {}) {
   const frag = document.createDocumentFragment();
   frag.append(prefix);
+  if (copyright && !isPublicDomain(photo)) frag.append('© ');
   const who = document.createElement('a');
   who.href = sourceUrl(photo.id);
   who.target = '_blank';

@@ -20,6 +20,17 @@ export function save(key, value) {
   }
 }
 
+// Keys (without our prefix) that start with `start`.
+export function keys(start = '') {
+  try {
+    return Object.keys(localStorage)
+      .filter((k) => k.startsWith(PREFIX + start))
+      .map((k) => k.slice(PREFIX.length));
+  } catch {
+    return [];
+  }
+}
+
 export function remove(key) {
   try {
     localStorage.removeItem(PREFIX + key);

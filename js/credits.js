@@ -34,7 +34,7 @@ for (const key of keys) {
     const cap = document.createElement('p');
     const taxon = document.createElement('em');
     taxon.textContent = photo.taxon;
-    cap.append(taxon, document.createElement('br'), creditNodes(photo, { prefix: '© ' }));
+    cap.append(taxon, document.createElement('br'), creditNodes(photo, { prefix: '', copyright: true }));
     li.append(img, cap);
     ul.append(li);
   }
