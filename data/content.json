@@ -1,0 +1,771 @@
+{
+  "teaser": ["golden-chanterelle", "jack-o-lantern"],
+  "species": {
+    "golden-chanterelle": {
+      "common": "Golden chanterelle",
+      "scientific": "Cantharellus cibarius group",
+      "edibility": "choice",
+      "note": "Egg-yolk yellow to orange. Underneath are blunt, shallow, forking ridges (not true gills) that run down the stem. Firm, pale flesh with a faint apricot smell. Grows singly or scattered on soil.",
+      "inat": [47347, 120443, 514152, 120444, 746378, 496875, 1636900, 499666]
+    },
+    "jack-o-lantern": {
+      "common": "Jack-o'-lantern",
+      "scientific": "Omphalotus illudens / O. olearius",
+      "edibility": "toxic",
+      "note": "Pumpkin-orange all over, in dense clusters from stumps or buried roots. True, sharp, unforked gills run far down the stem, and the flesh is orange right through. Its illudins cause hours of vomiting.",
+      "inat": [126831, 64021]
+    },
+    "false-chanterelle": {
+      "common": "False chanterelle",
+      "scientific": "Hygrophoropsis aurantiaca",
+      "edibility": "inedible",
+      "note": "Deeper orange than a chanterelle, with thin, crowded true gills that fork repeatedly. Soft, thin flesh. Often on conifer litter or rotting wood.",
+      "inat": [63538]
+    },
+    "morel": {
+      "common": "Morel",
+      "scientific": "Morchella spp.",
+      "edibility": "choice",
+      "note": "Honeycomb cap of pits and ridges, fused to the stem at its base. Sliced lengthwise it is one clean hollow from tip to base. Must be cooked: raw or undercooked morels make people ill.",
+      "inat": [56830],
+      "inatExclude": [133684, 500023, 1062775]
+    },
+    "false-morel": {
+      "common": "False morel",
+      "scientific": "Gyromitra esculenta",
+      "edibility": "deadly",
+      "note": "Brain-like folds and lobes rather than pits, usually reddish to chestnut-brown. Sliced, it is chambered or stuffed with cottony tissue. Its gyromitrin damages the liver and nervous system.",
+      "inat": [85120]
+    },
+    "early-false-morel": {
+      "common": "Early false morel",
+      "scientific": "Verpa bohemica",
+      "edibility": "toxic",
+      "note": "Wrinkled, thimble-like cap that hangs free, attached only at the very top of the stem. The stem is stuffed with cottony fibres. Causes stomach upsets and loss of coordination in some people.",
+      "inat": [126131]
+    },
+    "death-cap": {
+      "common": "Death cap",
+      "scientific": "Amanita phalloides",
+      "edibility": "deadly",
+      "note": "Olive-green to yellowish cap with fine radiating fibres, white gills, a skirt-like ring and a white sack-like volva at the base (often buried). Its amatoxins destroy the liver; it causes most mushroom deaths worldwide.",
+      "inat": [52135]
+    },
+    "paddy-straw": {
+      "common": "Paddy straw mushroom",
+      "scientific": "Volvariella volvacea",
+      "edibility": "choice",
+      "note": "Grey to brown cap, gills that turn pink, no ring on the stem, and a cup-like volva at the base. Pink spore print. A popular cultivated mushroom across Asia.",
+      "inat": [179054]
+    },
+    "green-russula": {
+      "common": "Green-cracking russula",
+      "scientific": "Russula virescens group",
+      "edibility": "choice",
+      "note": "Green cap that cracks into a quilted patchwork. White gills, no ring and no volva. Brittle flesh: the stem snaps cleanly, like chalk.",
+      "inat": [1640754]
+    },
+    "false-death-cap": {
+      "common": "False death cap",
+      "scientific": "Amanita citrina",
+      "edibility": "inedible",
+      "note": "Pale lemon to white cap, usually with flat whitish patches. A rounded bulb with a narrow, gutter-like rim instead of a loose sack. Smells of raw potato.",
+      "inat": [63271]
+    },
+    "destroying-angel": {
+      "common": "Destroying angel",
+      "scientific": "Amanita virosa / A. bisporigera / A. ocreata",
+      "edibility": "deadly",
+      "note": "White all over, including gills that stay white. A fragile ring that can fall off and a sack-like volva at the base, often buried. Same amatoxins as the death cap.",
+      "inat": [58685, 125390, 67356]
+    },
+    "meadow-mushroom": {
+      "common": "Meadow mushroom",
+      "scientific": "Agaricus campestris",
+      "edibility": "choice",
+      "note": "White cap; gills bright pink when young, then chocolate-brown; thin, fragile ring; no volva. Dark brown spore print. Grows in open grassland.",
+      "inat": [143563]
+    },
+    "yellow-stainer": {
+      "common": "Yellow stainer",
+      "scientific": "Agaricus xanthodermus",
+      "edibility": "toxic",
+      "note": "Turns chrome-yellow at once when the cap edge is scratched or the stem base is cut. Young gills whitish to greyish-pink; large ring; inky, phenolic smell.",
+      "inat": [118394]
+    },
+    "parasol": {
+      "common": "Parasol",
+      "scientific": "Macrolepiota procera",
+      "edibility": "choice",
+      "note": "Tall, with a brown snakeskin-banded stem, a big scaly cap and a thick double ring that slides up and down. Gills stay white; white spore print.",
+      "inat": [63401]
+    },
+    "false-parasol": {
+      "common": "Green-spored parasol",
+      "scientific": "Chlorophyllum molybdites",
+      "edibility": "toxic",
+      "note": "Smooth whitish stem without snakeskin bands; mature gills greyish-green; green spore print. Common in lawns, often in fairy rings. The most-reported poisonous mushroom in North America.",
+      "inat": [117308]
+    },
+    "shaggy-parasol": {
+      "common": "Shaggy parasol",
+      "scientific": "Chlorophyllum rhacodes group",
+      "edibility": "caution",
+      "note": "Shaggy, scaly cap on a smooth stem. Cut flesh reddens quickly. Gills stay white to cream; white spore print. Upsets some people.",
+      "inat": [56535, 58693, 424530]
+    },
+    "honey-fungus": {
+      "common": "Honey fungus",
+      "scientific": "Armillaria spp.",
+      "edibility": "caution",
+      "note": "Big, dense clusters on wood. Honey-coloured caps with fine dark scales at the centre, a whitish ring and often a white dusting of spores on the lower caps. Must be cooked well, and some people react even then.",
+      "inat": [55930]
+    },
+    "funeral-bell": {
+      "common": "Funeral bell (deadly galerina)",
+      "scientific": "Galerina marginata",
+      "edibility": "deadly",
+      "note": "Small brown caps on wood. A thin ring or ring zone that can vanish, silvery fibres on the stem, gills turning rusty brown and a rusty-brown spore print. Contains the same amatoxins as the death cap.",
+      "inat": [1672638]
+    },
+    "velvet-shank": {
+      "common": "Velvet shank (wild enoki)",
+      "scientific": "Flammulina velutipes",
+      "edibility": "edible",
+      "note": "Sticky orange-brown cap and a velvety stem that darkens to blackish from the base. No ring; white spore print. Fruits through winter. Looks nothing like pale cultivated enoki.",
+      "inat": [67594]
+    },
+    "sheathed-woodtuft": {
+      "common": "Sheathed woodtuft",
+      "scientific": "Kuehneromyces mutabilis",
+      "edibility": "edible",
+      "note": "Clusters on wood. Two-tone caps that dry out from the centre, and small dark shaggy scales on the stem below the ring. Only for experts, because of Galerina.",
+      "inat": [153033]
+    },
+    "conifer-tuft": {
+      "common": "Conifer tuft",
+      "scientific": "Hypholoma capnoides",
+      "edibility": "edible",
+      "note": "Clusters on conifer wood. Gills pale grey to smoky lilac-brown, never green. Mild taste.",
+      "inat": [64071]
+    },
+    "sulphur-tuft": {
+      "common": "Sulphur tuft",
+      "scientific": "Hypholoma fasciculare",
+      "edibility": "toxic",
+      "note": "Dense clusters on wood. Sulphur-yellow cap, often orange at the centre; gills sulphur-yellow to olive-green, darkening with age. Very bitter.",
+      "inat": [48767]
+    },
+    "brick-cap": {
+      "common": "Brick cap",
+      "scientific": "Hypholoma lateritium",
+      "edibility": "caution",
+      "note": "Clusters on hardwood stumps. Cap brick-red at the centre and paler towards the edge; gills cream to purplish-grey, never yellow-green. Eaten in North America and Japan, but European guides call it inedible.",
+      "inat": [130203]
+    },
+    "oyster": {
+      "common": "Oyster mushroom",
+      "scientific": "Pleurotus ostreatus group",
+      "edibility": "choice",
+      "note": "Fan-shaped shelves, mostly on hardwood. Fairly thick flesh, white to grey-brown, with gills running down to a short, stubby, off-centre stem.",
+      "inat": [1196165]
+    },
+    "angel-wings": {
+      "common": "Angel wings",
+      "scientific": "Pleurocybella porrigens",
+      "edibility": "toxic",
+      "note": "Pure white, thin-fleshed, stemless fans on conifer wood. Linked to an outbreak of fatal brain disease in Japan in 2004, mainly among people with kidney disease.",
+      "inat": [48509]
+    },
+    "ghost-fungus": {
+      "common": "Ghost fungus",
+      "scientific": "Omphalotus nidiformis",
+      "edibility": "toxic",
+      "note": "Australian. Creamy fans tinged smoky brown, grey or purple, with white gills running down an off-centre stem. The gills glow faintly green in the dark. Causes vomiting and cramps.",
+      "inat": [155166]
+    },
+    "porcini": {
+      "common": "Porcini (king bolete)",
+      "scientific": "Boletus edulis",
+      "edibility": "choice",
+      "note": "Brown, bun-shaped cap. Pores instead of gills, white when young and aging yellow to olive. A fine whitish net on the upper stem.",
+      "inat": [48701]
+    },
+    "bitter-bolete": {
+      "common": "Bitter bolete",
+      "scientific": "Tylopilus felleus",
+      "edibility": "inedible",
+      "note": "Pores white when young, turning pink with age; a coarse dark-brown net on a paler stem. Intensely bitter: one can ruin a whole dish.",
+      "inat": [63489]
+    },
+    "fly-agaric": {
+      "common": "Fly agaric",
+      "scientific": "Amanita muscaria",
+      "edibility": "toxic",
+      "note": "Red to orange cap usually dotted with white warts, which rain can wash off. White gills, white stem and ring, and a swollen bulb ringed with warty scales instead of a sack. Causes confusion, delirium and sometimes coma.",
+      "inat": [48715]
+    },
+    "caesars-mushroom": {
+      "common": "Caesar's mushroom",
+      "scientific": "Amanita caesarea",
+      "edibility": "choice",
+      "note": "Orange cap, usually without warts. Yellow gills, yellow stem and ring, and a large white sack-like volva at the base. Southern and central Europe.",
+      "inat": [204588]
+    },
+    "blusher": {
+      "common": "Blusher",
+      "scientific": "Amanita rubescens group",
+      "edibility": "caution",
+      "note": "Flesh, bruises and insect holes turn pinkish-red. Greyish warts, a ring that is grooved on top and a merely swollen base. Toxic raw: must be well cooked.",
+      "inat": [1678242]
+    },
+    "panther-cap": {
+      "common": "Panther cap",
+      "scientific": "Amanita pantherina",
+      "edibility": "toxic",
+      "note": "Brown cap with pure white warts; flesh never reddens. Smooth ring, and a bulb with a sharp rim and one or two woolly rings above it. More likely than the fly agaric to cause coma.",
+      "inat": [48418]
+    },
+    "ringless-honey": {
+      "common": "Ringless honey mushroom",
+      "scientific": "Desarmillaria caespitosa / D. tabescens",
+      "edibility": "caution",
+      "note": "Clusters on oak stumps and roots. Honey-brown, dry, finely scaly cap, pale gills, no ring and white flesh. Must be cooked well.",
+      "inat": [895035, 1238700]
+    },
+    "wood-blewit": {
+      "common": "Wood blewit",
+      "scientific": "Collybia nuda (Lepista nuda)",
+      "edibility": "caution",
+      "note": "Lilac to violet gills that fade to tan, no cobweb-like veil, a pinkish-buff spore print and often leaf litter matted at the base. Never eat raw; upsets some people even cooked.",
+      "inat": [1525548]
+    },
+    "purple-webcaps": {
+      "common": "Purple webcaps",
+      "scientific": "Cortinarius violaceus, C. alboviolaceus & allies",
+      "edibility": "inedible",
+      "note": "Young ones have a cobweb-like veil (cortina) between cap and stem; older ones show a rusty fibrous zone on the stem and rusty-brown gills. Their genus includes deadly kidney-destroying species.",
+      "inat": [124344, 58677, 58676, 499706]
+    },
+    "fairy-ring-champignon": {
+      "common": "Fairy ring champignon",
+      "scientific": "Marasmius oreades",
+      "edibility": "choice",
+      "note": "Tan, bell-shaped cap with a central bump, widely spaced gills that don't run down the stem, and a tough, bendy stem. Grows in rings in grass.",
+      "inat": [118240]
+    },
+    "fools-funnel": {
+      "common": "Fool's funnel",
+      "scientific": "Collybia rivulosa (Clitocybe rivulosa)",
+      "edibility": "toxic",
+      "note": "Whitish, frosted, flat to dished cap with crowded gills running down the stem. Grows in lawns, sometimes in the same rings as fairy ring champignons. Its muscarine causes sweating, salivation and a slow pulse.",
+      "inat": [1525557, 1525535]
+    },
+    "st-georges-mushroom": {
+      "common": "St George's mushroom",
+      "scientific": "Calocybe gambosa",
+      "edibility": "edible",
+      "note": "Thick, smooth, creamy-white cap and crowded white gills; never reddens. Strong smell of wet flour. Fruits in spring.",
+      "inat": [450829]
+    },
+    "deadly-fibrecap": {
+      "common": "Deadly fibrecap",
+      "scientific": "Inosperma erubescens",
+      "edibility": "deadly",
+      "note": "Conical cap with silky radial fibres and a margin that often splits. Gills whitish to pinkish-brown; the whole mushroom bruises and ages brick-red. Very high in muscarine.",
+      "inat": [1112491]
+    },
+    "common-puffball": {
+      "common": "Common puffball",
+      "scientific": "Lycoperdon perlatum",
+      "edibility": "edible",
+      "note": "White to tan and covered in small cone-shaped spines that rub off. Edible only while soft and pure white inside; any outline of a cap and gills means a deadly Amanita egg.",
+      "inat": [48443]
+    },
+    "common-earthball": {
+      "common": "Common earthball",
+      "scientific": "Scleroderma citrinum",
+      "edibility": "toxic",
+      "note": "Hard, potato-like ball with a coarse, scaly, yellow-brown 'pigskin' rind. Firm and purple-black inside, even when young.",
+      "inat": [55927]
+    },
+    "shaggy-ink-cap": {
+      "common": "Shaggy ink cap (shaggy mane)",
+      "scientific": "Coprinus comatus",
+      "edibility": "choice",
+      "note": "Tall, cylindrical white cap breaking into shaggy, brown-tipped scales, with a loose ring on the stem. The cap dissolves into black ink with age, so pick it young.",
+      "inat": [47392]
+    },
+    "common-ink-cap": {
+      "common": "Common ink cap",
+      "scientific": "Coprinopsis atramentaria",
+      "edibility": "toxic",
+      "edibilityLabel": "Toxic with alcohol",
+      "note": "Smooth to finely scaly, grey-brown, egg- or bell-shaped cap; grows in clusters. Its coprine causes flushing, palpitations and nausea if you drink alcohol within about three days before or after eating it.",
+      "inat": [48521]
+    },
+    "saffron-milk-cap": {
+      "common": "Saffron milk cap",
+      "scientific": "Lactarius deliciosus",
+      "edibility": "choice",
+      "note": "Carrot-orange cap with darker concentric zones and a smooth edge. Orange milk that slowly turns green, and green stains with age. Grows under pines.",
+      "inat": [155197]
+    },
+    "woolly-milkcap": {
+      "common": "Woolly milkcap",
+      "scientific": "Lactarius torminosus",
+      "edibility": "toxic",
+      "note": "Pinkish, zoned cap with a shaggy, inrolled, woolly edge. White, acrid milk. Grows under birch.",
+      "inat": [351313]
+    },
+    "matsutake": {
+      "common": "Matsutake",
+      "scientific": "Tricholoma matsutake / T. murrillianum",
+      "edibility": "choice",
+      "note": "Firm, with brown streaks or scales on the cap and a persistent membranous ring. Distinctive spicy, cinnamon-like smell.",
+      "inat": [62486, 521711]
+    },
+    "smiths-amanita": {
+      "common": "Smith's amanita",
+      "scientific": "Amanita smithiana",
+      "edibility": "toxic",
+      "note": "Pure white, with powdery veil remnants on the cap, a fragile or missing ring and a swollen, rooting base. Causes kidney failure days after eating.",
+      "inat": [62485]
+    },
+    "hen-of-the-woods": {
+      "common": "Hen of the woods (maitake)",
+      "scientific": "Grifola frondosa",
+      "edibility": "choice",
+      "note": "Dense rosette of many small, grey-brown, spoon-shaped caps at the base of trees, usually oaks. Doesn't blacken when handled.",
+      "inat": [53714]
+    },
+    "black-staining-polypore": {
+      "common": "Black-staining polypore",
+      "scientific": "Meripilus sumstinei / M. giganteus",
+      "edibility": "edible",
+      "note": "Fewer, larger and thinner fronds than maitake. Edges and pores bruise black within minutes of handling. Edible when young.",
+      "inat": [125738, 157989]
+    },
+    "turkey-tail": {
+      "common": "Turkey tail",
+      "scientific": "Trametes versicolor",
+      "edibility": "inedible",
+      "note": "Thin, leathery brackets with velvety, multicoloured concentric bands. The underside is cream with tiny pores. Used for tea and extracts, not as food.",
+      "inat": [54134]
+    },
+    "false-turkey-tail": {
+      "common": "False turkey tail",
+      "scientific": "Stereum ostrea group",
+      "edibility": "inedible",
+      "note": "Zoned, hairy brackets very like turkey tail on top, but the underside is smooth, buff to reddish, with no pores.",
+      "inat": [1599131]
+    },
+    "livid-pinkgill": {
+      "common": "Livid pinkgill",
+      "scientific": "Entoloma sinuatum",
+      "edibility": "toxic",
+      "note": "Large grey-white cap. Gills yellowish when young, turning salmon-pink, and not running down the stem. Pink spore print. Causes severe gastroenteritis.",
+      "inat": [510199]
+    },
+    "clouded-funnel": {
+      "common": "Clouded funnel",
+      "scientific": "Clitocybe nebularis",
+      "edibility": "inedible",
+      "note": "Grey cap with a bloom, and crowded whitish gills that run down the stem. Cream spore print. Once eaten widely, but it upsets so many people that it is no longer recommended.",
+      "inat": [63255]
+    },
+    "yellowfoot": {
+      "common": "Yellowfoot (winter chanterelle)",
+      "scientific": "Craterellus tubaeformis",
+      "edibility": "edible",
+      "note": "Small brown cap, a hollow yellow stem and blunt, forked, vein-like ridges instead of gills.",
+      "inat": [350511]
+    },
+    "deadly-webcap": {
+      "common": "Deadly webcap",
+      "scientific": "Cortinarius rubellus",
+      "edibility": "deadly",
+      "note": "Tawny-orange with a pointed cap and true, rusty-brown gills. Its orellanine destroys the kidneys after a symptom-free delay of two days to three weeks.",
+      "inat": [500053]
+    }
+  },
+  "pairs": [
+    {
+      "id": "chanterelle-jackolantern",
+      "a": "golden-chanterelle",
+      "b": "jack-o-lantern",
+      "region": "Eastern North America and the Mediterranean",
+      "tip": "Look underneath. Chanterelles have blunt, shallow, forking ridges that look melted onto the stem; jack-o'-lanterns have true, thin, sharp-edged gills. Jack-o'-lanterns grow in dense clusters from wood or buried roots and are orange right through the flesh; chanterelles grow singly or scattered from soil and are pale inside.",
+      "sources": [
+        { "label": "MushroomExpert: Omphalotus illudens", "url": "https://www.mushroomexpert.com/omphalotus_illudens.html" },
+        { "label": "Cornell Mycology Blog", "url": "https://blog.mycology.cornell.edu/2007/04/02/an-adventure-with-omphalotus/" },
+        { "label": "NAMA: poisoning syndromes", "url": "https://namyco.org/interests/toxicology/mushroom-poisoning-syndromes/" }
+      ]
+    },
+    {
+      "id": "chanterelle-false-chanterelle",
+      "a": "golden-chanterelle",
+      "b": "false-chanterelle",
+      "region": "Europe and North America",
+      "tip": "The false chanterelle has thin, crowded true gills that fork again and again and are often brighter orange than the cap; a chanterelle's ridges are blunt and vein-like. The false chanterelle is also deeper orange, softer and thinner-fleshed, and often grows on conifer litter or rotting wood.",
+      "sources": [
+        { "label": "First Nature: Hygrophoropsis aurantiaca", "url": "https://www.first-nature.com/fungi/hygrophoropsis-aurantiaca.php" },
+        { "label": "First Nature: Cantharellus cibarius", "url": "https://www.first-nature.com/fungi/cantharellus-cibarius.php" }
+      ]
+    },
+    {
+      "id": "morel-false-morel",
+      "a": "morel",
+      "b": "false-morel",
+      "region": "North America and Europe",
+      "tip": "A morel's cap is a honeycomb of pits and ridges; a false morel's is a mass of brain-like folds and lobes, usually reddish-brown. Slice lengthwise: a morel is one clean hollow from tip to base, while a false morel is chambered or stuffed with cottony tissue.",
+      "sources": [
+        { "label": "Michigan DNR: morel identification", "url": "https://www.michigan.gov/dnr/things-to-do/morels/morel-identification" },
+        { "label": "Michigan DHHS: false morel warning", "url": "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2011/05/26/use-caution-to-avoid-false-morel-mushrooms" }
+      ]
+    },
+    {
+      "id": "morel-verpa",
+      "a": "morel",
+      "b": "early-false-morel",
+      "region": "North America and Europe",
+      "tip": "The early false morel's wrinkled, thimble-like cap hangs free, attached only at the very top of the stem; a morel's pitted cap is fused to the stem at its base. Sliced, the Verpa's stem is stuffed with cottony fibres, while a morel is completely hollow.",
+      "sources": [
+        { "label": "MushroomExpert: Verpa bohemica", "url": "https://www.mushroomexpert.com/verpa_bohemica.html" },
+        { "label": "MSU Extension", "url": "https://www.canr.msu.edu/news/did_you_know_some_edible_mushrooms_can_still_make_you_sick" },
+        { "label": "FDA import alert: morels", "url": "https://www.accessdata.fda.gov/cms_ia/importalert_80.html" }
+      ]
+    },
+    {
+      "id": "deathcap-paddystraw",
+      "a": "death-cap",
+      "b": "paddy-straw",
+      "region": "Australia and North America, mostly among cooks who know Asian straw mushrooms",
+      "tip": "Both have a cup-like volva, so look higher up: death cap gills stay white and the stem has a skirt-like ring, while paddy straw mushrooms have no ring and gills that turn pink. Spore print: white versus pink. Unopened 'eggs' can't be told apart by eye.",
+      "sources": [
+        { "label": "Medical Journal of Australia (1999)", "url": "https://www.mja.com.au/journal/1999/171/5/poisoning-amanita-phalloides-deathcap-mushrooms-australian-capital-territory" },
+        { "label": "State Herbarium of South Australia", "url": "https://data.environment.sa.gov.au/Content/Publications/SHFacts%20Death%20Cap.pdf" }
+      ]
+    },
+    {
+      "id": "deathcap-green-russula",
+      "a": "death-cap",
+      "b": "green-russula",
+      "region": "Europe",
+      "tip": "Russulas never have a ring or a volva, and their stems snap cleanly like chalk. The green-cracking russula's cap breaks up into a quilted green patchwork; the death cap's is smooth with fine radiating fibres. Always dig up the whole base, because the death cap's volva is often buried.",
+      "sources": [
+        { "label": "German Federal Institute for Risk Assessment (BfR)", "url": "https://www.bfr.bund.de/en/press-release/pilze-verwechslungen-koennen-toedlich-enden-2026/" },
+        { "label": "Case report (2022)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8933750/" },
+        { "label": "First Nature: Russula virescens", "url": "https://www.first-nature.com/fungi/russula-virescens.php" }
+      ]
+    },
+    {
+      "id": "deathcap-false-deathcap",
+      "a": "death-cap",
+      "b": "false-death-cap",
+      "region": "Europe and eastern North America",
+      "tip": "Look at the base: the death cap sits in a loose white sack, while the false death cap has a rounded bulb with a narrow, gutter-like rim. The false death cap is pale lemon to white and usually carries flat whitish patches; the death cap is usually olive-green and bare. Young false death caps smell of raw potato.",
+      "sources": [
+        { "label": "First Nature: Amanita citrina", "url": "https://www.first-nature.com/fungi/amanita-citrina.php" },
+        { "label": "MushroomExpert: Amanita phalloides", "url": "https://www.mushroomexpert.com/amanita_phalloides.html" }
+      ]
+    },
+    {
+      "id": "destroying-angel-meadow",
+      "a": "destroying-angel",
+      "b": "meadow-mushroom",
+      "region": "Europe and North America",
+      "tip": "Check the gills: a meadow mushroom's are pink when young and chocolate-brown later, while a destroying angel's stay pure white. The angel also has a sack-like volva at the base (often buried) and a fragile ring. Buttons are the dangerous stage, so slice them in half.",
+      "sources": [
+        { "label": "First Nature: Amanita virosa", "url": "https://www.first-nature.com/fungi/amanita-virosa.php" },
+        { "label": "Norwegian Poison Information Centre", "url": "https://www.helsenorge.no/en/poison-information/poisonous-mushrooms/" }
+      ]
+    },
+    {
+      "id": "meadow-yellow-stainer",
+      "a": "meadow-mushroom",
+      "b": "yellow-stainer",
+      "region": "Europe and Australia, where it is Victoria's top cause of mushroom poisoning",
+      "tip": "Scratch the cap edge or cut the stem base: the yellow stainer flashes chrome-yellow at once, the meadow mushroom doesn't. Young yellow stainer gills are whitish to greyish-pink rather than bright pink, its ring is larger and thicker, and it smells of ink or phenol.",
+      "sources": [
+        { "label": "Royal Botanic Gardens Victoria", "url": "https://www.rbg.vic.gov.au/science/herbarium/yellow-staining-mushroom/" },
+        { "label": "First Nature: Agaricus xanthodermus", "url": "https://www.first-nature.com/fungi/agaricus-xanthodermus.php" },
+        { "label": "First Nature: Agaricus campestris", "url": "https://www.first-nature.com/fungi/agaricus-campestris.php" }
+      ]
+    },
+    {
+      "id": "parasol-false-parasol",
+      "a": "parasol",
+      "b": "false-parasol",
+      "region": "Warm regions: the southern and eastern US, California, the tropics and China",
+      "tip": "Look at the stem: the parasol's is banded with brown snakeskin markings and has a thick double ring that slides; the green-spored parasol's is smooth and whitish. Mature green-spored parasol gills turn greyish-green. The decisive test is a spore print: white for the parasol, green for Chlorophyllum molybdites.",
+      "sources": [
+        { "label": "University of Florida IFAS Extension", "url": "https://edis.ifas.ufl.edu/pp324" },
+        { "label": "First Nature: Macrolepiota procera", "url": "https://www.first-nature.com/fungi/macrolepiota-procera.php" }
+      ]
+    },
+    {
+      "id": "shaggy-parasol-false-parasol",
+      "a": "shaggy-parasol",
+      "b": "false-parasol",
+      "region": "California and other warm regions, especially lawns and gardens",
+      "tip": "Young specimens are nearly inseparable. Mature green-spored parasol gills turn grey-green, while shaggy parasol gills stay white to cream, and cut shaggy parasol flesh reddens quickly. Only a spore print is reliable: white versus green.",
+      "sources": [
+        { "label": "MushroomExpert: Chlorophyllum molybdites", "url": "https://www.mushroomexpert.com/chlorophyllum_molybdites.html" },
+        { "label": "Bay Area Mycological Society", "url": "https://www.bayareamushrooms.org/poisonings/non_fatal.html" },
+        { "label": "First Nature: Chlorophyllum rhacodes", "url": "https://www.first-nature.com/fungi/chlorophyllum-rhacodes.php" }
+      ]
+    },
+    {
+      "id": "honey-fungus-galerina",
+      "a": "honey-fungus",
+      "b": "funeral-bell",
+      "region": "Europe and North America",
+      "tip": "Honey fungus forms big, dense clusters with a whitish ring and often a white dusting of spores on the lower caps. Galerina is smaller, with a thin ring that can disappear, silvery fibres on the stem and gills that turn rusty brown. A spore print settles it: white versus rusty brown. A photo alone can never make a little brown mushroom safe.",
+      "sources": [
+        { "label": "PLOS ONE (2021): Galerina amatoxins", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246575" },
+        { "label": "MushroomExpert: Galerina marginata", "url": "https://www.mushroomexpert.com/galerina_marginata.html" },
+        { "label": "Wild Food UK: Honey fungus", "url": "https://www.wildfooduk.com/mushroom-guide/honey-fungus/" }
+      ]
+    },
+    {
+      "id": "velvet-shank-galerina",
+      "a": "velvet-shank",
+      "b": "funeral-bell",
+      "region": "Europe, North America and Japan",
+      "tip": "Velvet shank has no ring and a velvety stem that darkens to blackish from the base, under a sticky orange-brown cap. Galerina has a ring or ring zone with silvery fibres on the stem below it. Spore print: white versus rusty brown.",
+      "sources": [
+        { "label": "Wild Food UK: Funeral bell", "url": "https://www.wildfooduk.com/mushroom-guide/funeral-bell/" },
+        { "label": "Wild Food UK: Velvet shank", "url": "https://www.wildfooduk.com/mushroom-guide/velvet-shank/" }
+      ]
+    },
+    {
+      "id": "woodtuft-galerina",
+      "a": "sheathed-woodtuft",
+      "b": "funeral-bell",
+      "region": "Mainly Europe",
+      "tip": "Look below the ring: the sheathed woodtuft's stem is covered in small, dark, shaggy scales, while Galerina's has silvery lengthwise fibres. Both caps change colour as they dry, so the cap won't help. Even experts sometimes need a microscope for this one.",
+      "sources": [
+        { "label": "First Nature: Kuehneromyces mutabilis", "url": "https://www.first-nature.com/fungi/kuehneromyces-mutabilis.php" },
+        { "label": "MushroomExpert: Kuehneromyces mutabilis", "url": "https://www.mushroomexpert.com/kuehneromyces_mutabilis.html" }
+      ]
+    },
+    {
+      "id": "conifer-tuft-sulphur-tuft",
+      "a": "conifer-tuft",
+      "b": "sulphur-tuft",
+      "region": "Europe and North America",
+      "tip": "Check the gills: conifer tuft gills are pale grey to smoky lilac-brown and never green, while sulphur tuft gills are sulphur-yellow to olive-green. Sulphur tuft caps are a brighter sulphur-yellow. Sulphur tuft tastes very bitter, and conifer tuft grows only on conifer wood.",
+      "sources": [
+        { "label": "First Nature: Hypholoma capnoides", "url": "https://www.first-nature.com/fungi/hypholoma-capnoides.php" },
+        { "label": "First Nature: Hypholoma fasciculare", "url": "https://www.first-nature.com/fungi/hypholoma-fasciculare.php" }
+      ]
+    },
+    {
+      "id": "brick-cap-sulphur-tuft",
+      "a": "brick-cap",
+      "b": "sulphur-tuft",
+      "region": "Eastern North America, Europe and East Asia",
+      "tip": "Brick cap caps are brick-red in the centre, fading paler towards the edge, and the gills are cream to purplish-grey, never yellow-green. Sulphur tuft is sulphur-yellow with greenish-yellow gills. Both leave purple-brown spore prints, so a print won't help.",
+      "sources": [
+        { "label": "First Nature: Hypholoma lateritium", "url": "https://www.first-nature.com/fungi/hypholoma-lateritium.php" },
+        { "label": "Cornell Mycology Blog", "url": "https://blog.mycology.cornell.edu/2006/10/25/hypholoma-sublateritiumedible" }
+      ]
+    },
+    {
+      "id": "oyster-angel-wings",
+      "a": "oyster",
+      "b": "angel-wings",
+      "region": "Japan, plus conifer forests in North America and northern Europe",
+      "tip": "Angel wings are pure white, thin-fleshed and stemless, and grow on conifer wood. Oysters are thicker, rarely pure white, often have a stubby stem with gills running down it, and grow mostly on hardwood.",
+      "sources": [
+        { "label": "PubMed: 2004 encephalopathy outbreak", "url": "https://pubmed.ncbi.nlm.nih.gov/15954908/" },
+        { "label": "NAMA: Pleurocybella toxin", "url": "https://namyco.org/pleurocybella_toxin.php" },
+        { "label": "Beaty Biodiversity Museum", "url": "https://explore.beatymuseum.ubc.ca/mushroomsup/P_porrigens.html" }
+      ]
+    },
+    {
+      "id": "oyster-ghost-fungus",
+      "a": "oyster",
+      "b": "ghost-fungus",
+      "region": "Southern Australia",
+      "tip": "Ghost fungus usually has a distinct off-centre stem and creamy caps tinged smoky brown, grey or purple, and its gills glow faintly green in real darkness. Oysters don't glow. In Australia, be very wary of wild 'oysters' on trees.",
+      "sources": [
+        { "label": "Royal Botanic Gardens Victoria", "url": "https://www.rbg.vic.gov.au/science/identifications/edible-and-poisonous-fungi/" },
+        { "label": "Fungimap: Ghost fungus", "url": "https://fungimap.org.au/omphalotus-nidiformis-ghost-fungus/" }
+      ]
+    },
+    {
+      "id": "porcini-bitter-bolete",
+      "a": "porcini",
+      "b": "bitter-bolete",
+      "region": "Europe and eastern North America",
+      "tip": "Look at the pores and the stem net: bitter bolete pores turn pink with age and its stem carries a coarse dark-brown net, while porcini pores go from white to yellow to olive and its net is fine and whitish. Young bitter boletes still have white pores, so check the net. A tiny taste of a bitter bolete is intensely bitter (spit it out).",
+      "sources": [
+        { "label": "First Nature: Tylopilus felleus", "url": "https://www.first-nature.com/fungi/tylopilus-felleus.php" },
+        { "label": "Wild Food UK: Bitter bolete", "url": "https://www.wildfooduk.com/mushroom-guide/bitter-bolete-tylopilus-felleus/" },
+        { "label": "MushroomExpert: Tylopilus felleus", "url": "https://www.mushroomexpert.com/tylopilus_felleus.html" }
+      ]
+    },
+    {
+      "id": "fly-agaric-caesars",
+      "a": "fly-agaric",
+      "b": "caesars-mushroom",
+      "region": "Southern and central Europe",
+      "tip": "Caesar's mushroom has yellow gills, a yellow stem and ring, and a big white sack-like volva at the base. The fly agaric has white gills, a white stem and ring, and a bulb ringed with warty scales instead of a sack. Rain can wash off the fly agaric's white warts, which is behind many mix-ups.",
+      "sources": [
+        { "label": "Case report & review (2021)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7977045/" },
+        { "label": "First Nature: Amanita caesarea", "url": "https://www.first-nature.com/fungi/amanita-caesarea.php" }
+      ]
+    },
+    {
+      "id": "blusher-panther",
+      "a": "blusher",
+      "b": "panther-cap",
+      "region": "Europe",
+      "tip": "The blusher's flesh, bruises and insect holes turn pinkish-red; the panther cap never reddens. Panther cap warts are pure white (the blusher's are greyish), its ring is smooth rather than grooved on top, and its bulb has a sharp rim with woolly rings above it. Cap colour is unreliable.",
+      "sources": [
+        { "label": "Wild Food UK: Identifying the blusher", "url": "https://www.wildfooduk.com/articles/identifying-the-blusher/" },
+        { "label": "Czech case report (2023)", "url": "https://www.nel.edu/loss-of-consciousness-and-prolonged-convulsions-due-to-amanita-pantherina-intoxication-2948" },
+        { "label": "MushroomExpert: Amanita rubescens", "url": "https://www.mushroomexpert.com/amanita_rubescens.html" }
+      ]
+    },
+    {
+      "id": "ringless-honey-jackolantern",
+      "a": "ringless-honey",
+      "b": "jack-o-lantern",
+      "region": "Eastern and southeastern United States",
+      "tip": "The jack-o'-lantern is pumpkin-orange all over, with a smooth cap, sharp orange gills running far down the stem and orange flesh. The ringless honey mushroom is honey-brown, with a dry, finely scaly cap, pale gills and white flesh. Both grow in clusters on oak stumps and roots in autumn.",
+      "sources": [
+        { "label": "Missouri Dept. of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/jack-o-lantern" },
+        { "label": "MushroomExpert: Omphalotus illudens", "url": "https://www.mushroomexpert.com/omphalotus_illudens.html" },
+        { "label": "PubMed: Desarmillaria caespitosa", "url": "https://pubmed.ncbi.nlm.nih.gov/33914673/" }
+      ]
+    },
+    {
+      "id": "blewit-webcaps",
+      "a": "wood-blewit",
+      "b": "purple-webcaps",
+      "region": "Europe and North America",
+      "tip": "Young webcaps have a cobweb-like veil between cap and stem, and older ones show a rusty fibrous zone on the stem and rusty-brown gills. Blewits have no veil, lilac gills that fade to tan, and often leaf litter matted at the base. Spore print: pinkish-buff versus rusty brown.",
+      "sources": [
+        { "label": "First Nature: Lepista nuda", "url": "https://www.first-nature.com/fungi/lepista-nuda.php" },
+        { "label": "Missouri Dept. of Conservation: Blewit", "url": "https://mdc.mo.gov/discover-nature/field-guide/blewit" }
+      ]
+    },
+    {
+      "id": "fairy-ring-fools-funnel",
+      "a": "fairy-ring-champignon",
+      "b": "fools-funnel",
+      "region": "Europe and North America",
+      "tip": "Fairy ring champignons have tan, bell-shaped caps with a central bump, widely spaced gills that don't run down the stem, and tough, bendy stems. The fool's funnel is whitish and frosted, flat to dished, with crowded gills running down the stem. Both leave white spore prints, and they can grow in the same ring.",
+      "sources": [
+        { "label": "MykoWeb: Clitocybe rivulosa", "url": "https://www.mykoweb.com/CAF/species/Clitocybe_rivulosa.html" },
+        { "label": "First Nature: Marasmius oreades", "url": "https://www.first-nature.com/fungi/marasmius-oreades.php" },
+        { "label": "NAMA poisoning reports 2006–2017", "url": "https://namyco.org/wp-content/uploads/2023/08/2006-2017_Summary_of_Mushroom_Poisoning_Reports.pdf" }
+      ]
+    },
+    {
+      "id": "st-georges-fibrecap",
+      "a": "st-georges-mushroom",
+      "b": "deadly-fibrecap",
+      "region": "UK and central Europe",
+      "tip": "The deadly fibrecap has a conical cap with silky radial fibres, often splitting at the margin, gills that turn from whitish to pinkish-brown, and it bruises brick-red. St George's mushroom has a thick, smooth, creamy cap, crowded white gills, and never reddens. Spore print: white versus tobacco-brown.",
+      "sources": [
+        { "label": "First Nature: Calocybe gambosa", "url": "https://www.first-nature.com/fungi/calocybe-gambosa.php" },
+        { "label": "Wild Food UK: Deadly fibrecap", "url": "https://www.wildfooduk.com/mushroom-guide/deadly-fibrecap/" }
+      ]
+    },
+    {
+      "id": "puffball-earthball",
+      "a": "common-puffball",
+      "b": "common-earthball",
+      "region": "Europe, North America and Australia",
+      "tip": "The earthball has a hard, scaly, yellow-brown 'pigskin' rind; the common puffball is white to tan and covered in small spines that rub off. Cut it top to bottom: a puffball is soft and pure white inside, an earthball firm and purple-black. Any outline of a cap and gills inside means a deadly Amanita egg.",
+      "sources": [
+        { "label": "Northern New England Poison Center", "url": "https://www.nnepc.org/regional-news/dont-trifle-with-a-pigskin-poison-puffball" },
+        { "label": "MushroomExpert: Scleroderma citrinum", "url": "https://www.mushroomexpert.com/scleroderma_citrinum.html" },
+        { "label": "Queensland Poisons Information Centre", "url": "https://www.poisonsinfo.health.qld.gov.au/plants-and-mushrooms/earth-balls-scleroderma" }
+      ]
+    },
+    {
+      "id": "shaggy-mane-ink-cap",
+      "a": "shaggy-ink-cap",
+      "b": "common-ink-cap",
+      "region": "Europe and North America",
+      "tip": "The shaggy ink cap is tall and white, with shaggy, brown-tipped scales and a loose ring on the stem. The common ink cap is smooth to finely scaly, grey-brown and egg- or bell-shaped, and grows in clusters. Both dissolve into black ink, so inking won't separate them.",
+      "sources": [
+        { "label": "MushroomExpert: Coprinus comatus", "url": "https://www.mushroomexpert.com/coprinus_comatus.html" },
+        { "label": "First Nature: Coprinopsis atramentaria", "url": "https://www.first-nature.com/fungi/coprinopsis-atramentaria.php" }
+      ]
+    },
+    {
+      "id": "saffron-woolly-milkcap",
+      "a": "saffron-milk-cap",
+      "b": "woolly-milkcap",
+      "region": "Europe, especially Spain, where the woolly milkcap is called 'falso níscalo'",
+      "tip": "The woolly milkcap's cap edge is shaggy and rolled under, like a woolly blanket, and the cap is pinkish. The saffron milk cap has a smooth edge, carrot-orange gills, green stains and orange milk (the woolly milkcap's milk is white). Saffron milk caps grow under pines, woolly milkcaps under birch.",
+      "sources": [
+        { "label": "First Nature: Lactarius torminosus", "url": "https://www.first-nature.com/fungi/lactarius-torminosus.php" },
+        { "label": "First Nature: Lactarius deliciosus", "url": "https://www.first-nature.com/fungi/lactarius-deliciosus.php" },
+        { "label": "Comunidad de Madrid health authority", "url": "https://comunidad.madrid/sites/default/files/doc/sanidad/sali/intoxicaciones_lactarius.pdf" }
+      ]
+    },
+    {
+      "id": "matsutake-smithiana",
+      "a": "matsutake",
+      "b": "smiths-amanita",
+      "region": "Pacific Northwest: Oregon, Washington and British Columbia",
+      "tip": "Matsutake is firm, with brown streaks or scales on the cap and a persistent membranous ring. Smith's amanita is pure white with powdery veil remnants on the cap, a fragile or missing ring and a swollen, rooting base. Matsutake smells spicy, like cinnamon.",
+      "sources": [
+        { "label": "PubMed: 1998 case series", "url": "https://pubmed.ncbi.nlm.nih.gov/9715243/" },
+        { "label": "MykoWeb: Amanita smithiana", "url": "https://www.mykoweb.com/CAF/species/Amanita_smithiana.html" }
+      ]
+    },
+    {
+      "id": "maitake-black-staining",
+      "a": "hen-of-the-woods",
+      "b": "black-staining-polypore",
+      "region": "Eastern North America and Europe",
+      "tip": "Maitake is a dense rosette of many small, grey-brown, spoon-shaped caps. The black-staining polypore has fewer, larger, thinner fronds whose edges and pores turn black within minutes of handling. Both are edible, so this mix-up costs you a good meal, not your health.",
+      "sources": [
+        { "label": "MushroomExpert: Grifola frondosa", "url": "https://www.mushroomexpert.com/grifola_frondosa.html" },
+        { "label": "Missouri Dept. of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-staining-polypore" }
+      ]
+    },
+    {
+      "id": "turkey-tail-false",
+      "a": "turkey-tail",
+      "b": "false-turkey-tail",
+      "region": "Worldwide",
+      "tip": "Flip it over: turkey tail's underside is cream and covered in tiny pores, while false turkey tail's is smooth, buff to reddish, with no pores. Both tops are zoned and hairy, so the cap alone is unreliable.",
+      "sources": [
+        { "label": "MushroomExpert: Stereum ostrea", "url": "https://www.mushroomexpert.com/stereum_ostrea.html" },
+        { "label": "Tom Volk's Fungus of the Month", "url": "https://botit.botany.wisc.edu/toms_fungi/nov2000.html" },
+        { "label": "Missouri Dept. of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/false-turkey-tail" }
+      ]
+    },
+    {
+      "id": "livid-pinkgill-clouded-funnel",
+      "a": "clouded-funnel",
+      "b": "livid-pinkgill",
+      "region": "Western and central Europe",
+      "tip": "The livid pinkgill's gills are yellowish when young, turn salmon-pink and don't run down the stem. The clouded funnel has a grey cap and crowded whitish gills that do run down the stem. Spore print: cream versus pink.",
+      "sources": [
+        { "label": "Donostia Hospital poisoning protocol", "url": "https://www.fungipedia.org/media/kunena/attachments/267/IT-114_Intoxicaciones_por_Setas_v01.pdf" },
+        { "label": "First Nature: Entoloma sinuatum", "url": "https://www.first-nature.com/fungi/entoloma-sinuatum.php" }
+      ]
+    },
+    {
+      "id": "yellowfoot-deadly-webcap",
+      "a": "yellowfoot",
+      "b": "deadly-webcap",
+      "region": "Scandinavia and the UK",
+      "tip": "Yellowfoot has a hollow yellow stem and blunt, forked ridges instead of gills. The deadly webcap is tawny-orange with a pointed cap and true, rusty-brown gills. In Scandinavian forests, small webcaps grow right beside yellowfoot and get picked by accident.",
+      "sources": [
+        { "label": "Norwegian Institute of Public Health (FHI)", "url": "https://www.fhi.no/contentassets/30cab985eb8843d09dae8076ade0e3aa/vedlegg/bokmal_giftige-sopper-i-norge-2026.pdf" },
+        { "label": "Swedish kidney-outcome study (2017)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5379567/" }
+      ]
+    }
+  ]
+}

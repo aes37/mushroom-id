@@ -4,6 +4,8 @@ node_modules/
 # Local tooling caches (photo pipeline downloads, contact sheets, etc.)
 .cache/
 tools/.work/
+__pycache__/
+*.pyc
 
 # OS / editor
 .DS_Store
