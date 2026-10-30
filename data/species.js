@@ -65,7 +65,7 @@ export const SPECIES = {
     name: 'Meadow Mushroom',
     sci: 'Agaricus campestris',
     edibility: 'edible',
-    note: 'A wild cousin of the supermarket button mushroom.',
+    note: 'Edible, but deadly white amanitas and the yellow stainer are common lookalikes.',
   },
   'horse-mushroom': {
     name: 'Horse Mushroom',
@@ -94,14 +94,14 @@ export const SPECIES = {
   'panther-cap': {
     name: 'Panther Cap',
     sci: 'Amanita pantherina',
-    edibility: 'toxic',
-    note: 'Causes severe poisoning, stronger than the fly agaric.',
+    edibility: 'deadly',
+    note: 'Causes delirium, seizures and coma; deaths have been recorded.',
   },
   blusher: {
     name: 'Blusher',
     sci: 'Amanita rubescens',
     edibility: 'edible',
-    note: 'Edible only when well cooked; toxic raw.',
+    note: 'Edible only when well cooked (toxic raw), and easily confused with the deadly panther cap.',
   },
   galerina: {
     name: 'Deadly Galerina',
@@ -113,7 +113,7 @@ export const SPECIES = {
     name: 'Velvet Shank',
     sci: 'Flammulina velutipes',
     edibility: 'edible',
-    note: 'A winter mushroom, related to cultivated enoki.',
+    note: 'Related to cultivated enoki; deadly galerina grows on the same dead wood in overlapping seasons.',
   },
   'sheathed-woodtuft': {
     name: 'Sheathed Woodtuft',
@@ -143,7 +143,7 @@ export const SPECIES = {
     name: 'Sulphur Tuft',
     sci: 'Hypholoma fasciculare',
     edibility: 'toxic',
-    note: 'Causes vomiting and diarrhoea.',
+    note: 'Causes vomiting and diarrhoea; severe cases and suspected deaths are recorded.',
   },
   'conifer-tuft': {
     name: 'Conifer Tuft',
@@ -155,7 +155,7 @@ export const SPECIES = {
     name: 'Parasol',
     sci: 'Macrolepiota procera',
     edibility: 'edible',
-    note: 'A large, choice edible of fields and woodland edges.',
+    note: 'A large, choice edible, but some small parasol-like Lepiota species are deadly.',
   },
   'shaggy-parasol': {
     name: 'Shaggy Parasol',
@@ -197,7 +197,7 @@ export const SPECIES = {
     name: 'Ghost Fungus',
     sci: 'Omphalotus nidiformis',
     edibility: 'toxic',
-    note: 'An Australian jack-o-lantern relative that glows in the dark.',
+    note: 'A mainly Australian jack-o\'-lantern relative that glows in the dark.',
   },
   porcini: {
     name: 'Porcini',
@@ -221,7 +221,7 @@ export const SPECIES = {
     name: 'Black-staining Polypore',
     sci: 'Meripilus sumstinei & M. giganteus',
     edibility: 'edible',
-    note: 'Edible but tough.',
+    note: 'Edible but tough, and upsets some people\'s stomachs.',
   },
   'chicken-of-the-woods': {
     name: 'Chicken of the Woods',
@@ -233,7 +233,7 @@ export const SPECIES = {
     name: "Dyer's Polypore",
     sci: 'Phaeolus schweinitzii',
     edibility: 'inedible',
-    note: 'Woody and inedible; used to dye wool.',
+    note: 'Inedible: soft and hairy when young, tough and corky when old; used to dye wool.',
   },
   puffball: {
     name: 'Common Puffball',
@@ -245,13 +245,13 @@ export const SPECIES = {
     name: 'Common Earthball',
     sci: 'Scleroderma citrinum',
     edibility: 'toxic',
-    note: 'Causes stomach upsets.',
+    note: 'Causes stomach upsets, sometimes severe.',
   },
   'fairy-ring': {
     name: 'Fairy Ring Champignon',
     sci: 'Marasmius oreades',
     edibility: 'edible',
-    note: 'A small lawn mushroom that grows in rings.',
+    note: 'A small lawn mushroom, but the deadly fool\'s funnel grows in the same lawns, also in rings.',
   },
   'fools-funnel': {
     name: "Fool's Funnel",
@@ -263,7 +263,7 @@ export const SPECIES = {
     name: "St George's Mushroom",
     sci: 'Calocybe gambosa',
     edibility: 'edible',
-    note: 'A spring mushroom of grassland and hedgerows.',
+    note: 'A spring mushroom, but the deadly fibrecap appears in similar places from late spring.',
   },
   'deadly-fibrecap': {
     name: 'Deadly Fibrecap',
@@ -287,7 +287,7 @@ export const SPECIES = {
     name: 'Amethyst Deceiver',
     sci: 'Laccaria amethystina',
     edibility: 'edible',
-    note: 'A small violet woodland mushroom.',
+    note: 'Edible, but it can accumulate arsenic, especially from polluted soil.',
   },
   'lilac-bonnet': {
     name: 'Lilac Bonnet',
@@ -302,7 +302,7 @@ export const SPECIES = {
     note: 'Edible when cooked.',
   },
   'violet-webcap': {
-    name: 'Violet Webcap',
+    name: 'Webcap',
     sci: 'Cortinarius alboviolaceus, C. traganus & relatives',
     edibility: 'inedible',
     note: 'Webcaps include deadly species, so none should be eaten.',

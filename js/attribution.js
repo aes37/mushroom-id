@@ -24,7 +24,7 @@ export function creditNodes(photo, { prefix = 'Photo: ' } = {}) {
   who.href = sourceUrl(photo.id);
   who.target = '_blank';
   who.rel = 'noopener';
-  who.textContent = photo.license === 'CC0' ? `${photo.by} (public domain)` : photo.by;
+  who.textContent = photo.by;
   frag.append(who, ' · ');
   const lic = LICENSES[photo.license];
   const licLink = document.createElement('a');

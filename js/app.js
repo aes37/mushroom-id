@@ -16,6 +16,7 @@ import {
   resultEmoji,
   shareText,
   computeStats,
+  formatScore,
 } from './game.js';
 import { load, save } from './storage.js';
 import { EDIBILITY, imageUrl, creditNodes } from './attribution.js';
@@ -172,7 +173,7 @@ function showQuestion() {
 
   $('#q-count').textContent = `${i + 1} / ${session.questions.length}`;
   $('#mode-tag').hidden = session.mode !== 'practice';
-  $('#running-score').textContent = `Score ${summarize(results()).score}`;
+  $('#running-score').textContent = `Score ${formatScore(summarize(results()).score)}`;
   renderDots();
 
   $('#prompt-article').textContent = target.article ?? 'the';
@@ -253,7 +254,7 @@ function reveal(q, choice) {
   $('#answer-actions').hidden = true;
   $('#feedback').hidden = false;
   $('#btn-next').textContent = session.answers.length >= session.questions.length ? 'See results' : 'Next';
-  $('#running-score').textContent = `Score ${summarize(results()).score}`;
+  $('#running-score').textContent = `Score ${formatScore(summarize(results()).score)}`;
   renderDots();
   $('#btn-next').focus({ preventScroll: true });
   const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -289,7 +290,7 @@ function showResults() {
   $('#rank-emoji').textContent = rank.emoji;
   $('#rank-title').textContent = rank.title;
   $('#rank-blurb').textContent = rank.blurb;
-  $('#score').textContent = summary.score;
+  $('#score').textContent = formatScore(summary.score);
   $('#score-max').textContent = summary.total;
   $('#breakdown').textContent = `${summary.correct} right · ${summary.wrong} wrong · ${summary.unsure} don't know`;
 

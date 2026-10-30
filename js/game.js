@@ -74,19 +74,28 @@ export function shuffle(items, rng) {
 
 const sharesSpecies = (p, q) => p.a === q.a || p.a === q.b || p.b === q.a || p.b === q.b;
 
-// Reorder so that consecutive questions don't reuse a species when avoidable: append each pair,
-// or slot it into the first gap where it clashes with neither neighbour.
+// Append the pair, or slot it into the first gap where it clashes with neither neighbour.
+function place(out, item) {
+  if (!out.length || !sharesSpecies(out[out.length - 1], item)) {
+    out.push(item);
+    return true;
+  }
+  const gap = out.findIndex((next, i) => !sharesSpecies(next, item) && (i === 0 || !sharesSpecies(out[i - 1], item)));
+  if (gap === -1) return false;
+  out.splice(gap, 0, item);
+  return true;
+}
+
+// Reorder so that consecutive questions don't reuse a species when avoidable. Pairs that don't fit
+// yet are retried as the list grows; any that never fit go at the end.
 function spreadApart(list) {
   const out = [];
+  let pending = [];
   for (const item of list) {
-    let at = out.length;
-    if (out.length && sharesSpecies(out[out.length - 1], item)) {
-      const gap = out.findIndex((next, i) => !sharesSpecies(next, item) && (i === 0 || !sharesSpecies(out[i - 1], item)));
-      if (gap !== -1) at = gap;
-    }
-    out.splice(at, 0, item);
+    if (!place(out, item)) pending.push(item);
+    pending = pending.filter((p) => !place(out, p));
   }
-  return out;
+  return out.concat(pending);
 }
 
 // Build a round of `size` questions. Identical inputs and seed always give an identical round,
@@ -143,6 +152,11 @@ export function summarize(results) {
   return { ...counts, score, total: results.length };
 }
 
+// Typographic minus for negative scores.
+export function formatScore(score) {
+  return score < 0 ? `\u2212${-score}` : String(score);
+}
+
 export function rankFor(score) {
   return RANKS.find((r) => score >= r.min);
 }
@@ -166,7 +180,7 @@ export function shareText({ number, questions, results, species, url }) {
   const rows = [];
   for (let i = 0; i < cells.length; i += 10) rows.push(cells.slice(i, i + 10).join(''));
   const header = number ? `Mushroom ID #${number}` : 'Mushroom ID (practice)';
-  return [`${header}: ${score}/${total}`, ...rows, `${rank.emoji} ${rank.title}`, url].filter(Boolean).join('\n');
+  return [`${header}: ${formatScore(score)}/${total}`, ...rows, `${rank.emoji} ${rank.title}`, url].filter(Boolean).join('\n');
 }
 
 // Streaks and totals from a { [dateKey]: { score, ... } } history of completed dailies.
