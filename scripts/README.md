@@ -44,10 +44,10 @@ and keeps only rows for the species in the list.
 1. Get a `taxa.csv` to resolve names to ids. The dump's own taxa.csv is at the end of
    the archive, so either stream an older, smaller dump first (the April 2021 one is
    4.8 GB) or take the ids from the iNaturalist website.
-2. `python3 -I scripts/opendata/resolve_taxa.py taxa.csv scripts/species-inat.json scripts/opendata/extra-taxon-ids.json work/taxon_map.json`
-   then write `work/taxon_ids.txt` (one id per line, the keys of the map) and
-   `work/newmin.txt` (max taxon id in that taxa.csv + 1; observations of taxa created
-   later are kept separately in `obs_new.tsv` as a safety net for renamed species).
+2. `python3 -I scripts/opendata/resolve_taxa.py taxa.csv scripts/species-inat.json scripts/opendata/extra-taxon-ids.json work`
+   writes `work/taxon_map.json`, `work/taxon_ids.txt` and `work/newmin.txt` (max taxon id
+   in that taxa.csv + 1; research-grade observations of taxa created later are kept
+   separately in `obs_new.tsv` as a safety net for species renamed since the taxa.csv).
 3. `scripts/opendata/run.sh work` (30 to 40 minutes at 25 MB/s).
 4. `python3 -I scripts/opendata/build_candidates.py work 48` joins the tables and writes
    `work/candidates.json` (CC0 / CC BY / CC BY-SA only, first photo of each observation

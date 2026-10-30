@@ -39,11 +39,11 @@ export const PAIRS: Pair[] = [
     tip: "Look under the cap: the Field Mushroom's gills are pink, darkening to chocolate-brown, while the Destroying Angel's stay pure white. Then dig up the base: the Destroying Angel sits in a white sac, the Field Mushroom does not.",
   },
   {
-    id: 'destroying-angel-vs-white-dapperling',
+    id: 'destroying-angel-vs-horse-mushroom',
     a: 'amanita-virosa',
-    b: 'leucoagaricus-leucothites',
-    difficulty: 3,
-    tip: 'The White Dapperling grows in grass, has no volva at the base, and its gills turn faintly pink with age. The Destroying Angel grows near trees and has a sac-like volva that is easy to miss unless you dig.',
+    b: 'agaricus-arvensis',
+    difficulty: 2,
+    tip: "Both are large and white in grass near trees. The Horse Mushroom's gills are greyish-pink turning chocolate-brown, it smells of aniseed and it has no volva. The Destroying Angel's gills stay pure white, it smells of nothing much, and its base sits in a white sac. Dig it up.",
   },
   {
     id: 'funeral-bell-vs-velvet-shank',
@@ -247,13 +247,6 @@ export const PAIRS: Pair[] = [
     b: 'scleroderma-citrinum',
     difficulty: 1,
     tip: 'Cut it in half. A young Puffball is pure white and marshmallow-soft inside, with a thin skin. An Earthball has a thick tough skin and is purple-black and marbled inside even when young.',
-  },
-  {
-    id: 'pink-tipped-coral-vs-salmon-coral',
-    a: 'ramaria-botrytis',
-    b: 'ramaria-formosa',
-    difficulty: 2,
-    tip: 'The Pink-tipped Coral has a thick white base like a cauliflower stem with pink to wine-red branch tips. The Salmon Coral is salmon-pink to orange throughout with yellow tips, bruises brownish and tastes bitter.',
   },
   {
     id: 'sickener-vs-crab-brittlegill',

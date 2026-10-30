@@ -1,1 +1,3233 @@
-{}
+{
+ "amanita-phalloides": [
+  {
+   "file": "amanita-phalloides/175223238.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 175223238,
+   "obs": "29dc04bd-e38c-4b02-8580-31dc7752c4c2",
+   "by": "LJ Moore-McClelland",
+   "login": "ocean_beach_goth",
+   "license": "cc-by",
+   "observedOn": "2022-01-07"
+  },
+  {
+   "file": "amanita-phalloides/151259203.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 151259203,
+   "obs": "19ca1305-1192-4794-9836-54b34fd7f227",
+   "by": "Igor Balashov",
+   "login": "igor117",
+   "license": "cc-by",
+   "observedOn": "2021-08-16"
+  },
+  {
+   "file": "amanita-phalloides/436192028.jpg",
+   "w": 692,
+   "h": 1000,
+   "photoId": 436192028,
+   "obs": "0c49b58c-66f3-4b2b-97e9-9832b5f8b339",
+   "by": "Drumețul Dacic",
+   "login": "trizen",
+   "license": "cc0",
+   "observedOn": "2022-09-19"
+  },
+  {
+   "file": "amanita-phalloides/233934280.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 233934280,
+   "obs": "11a4ddff-0588-447d-a018-0e07747f9895",
+   "by": "ragged-robin",
+   "login": "ragged-robin",
+   "license": "cc-by",
+   "observedOn": "2022-09-30"
+  },
+  {
+   "file": "amanita-phalloides/154208771.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 154208771,
+   "obs": "23d800f3-53f3-41a3-9c5b-75dd552a41dd",
+   "by": "A. Johann",
+   "login": "zymi",
+   "license": "cc-by",
+   "observedOn": "2019-08-22"
+  }
+ ],
+ "volvariella-volvacea": [
+  {
+   "file": "volvariella-volvacea/640611514.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 640611514,
+   "obs": "5b03a897-5fba-4350-bf44-bbf80d202060",
+   "by": "Tara Severns",
+   "login": "taraseverns",
+   "license": "cc-by",
+   "observedOn": "2026-04-18"
+  },
+  {
+   "file": "volvariella-volvacea/406083689.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 406083689,
+   "obs": "089ba028-18e8-4a5f-b8b9-90a4a63b8098",
+   "by": "Kurt Miller",
+   "login": "komille277",
+   "license": "cc-by-sa",
+   "observedOn": "2024-07-12"
+  },
+  {
+   "file": "volvariella-volvacea/296268195.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 296268195,
+   "obs": "51e2addf-4d0f-46c4-b399-1f7f7ed4048f",
+   "by": "James K. Douch",
+   "login": "douch",
+   "license": "cc-by-sa",
+   "observedOn": "2023-07-02"
+  },
+  {
+   "file": "volvariella-volvacea/77910175.jpg",
+   "w": 419,
+   "h": 527,
+   "photoId": 77910175,
+   "obs": "7d1028b0-015f-4bf9-a8ef-b11dbba6f8a3",
+   "by": "Joel Trejos",
+   "login": "joeltrejos",
+   "license": "cc-by-sa",
+   "observedOn": "2020-06-08"
+  }
+ ],
+ "amanita-citrina": [
+  {
+   "file": "amanita-citrina/561951659.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 561951659,
+   "obs": "07825aee-3755-4d4d-828a-027e897bbf88",
+   "by": "Maria Kohanovskaya",
+   "login": "mariakohanovskaya",
+   "license": "cc-by",
+   "observedOn": "2025-09-03"
+  },
+  {
+   "file": "amanita-citrina/576584912.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 576584912,
+   "obs": "8efd3753-2162-4b3a-b710-dda7810a5249",
+   "by": "Garry Lydon",
+   "login": "networkentity",
+   "license": "cc-by",
+   "observedOn": "2025-10-04"
+  },
+  {
+   "file": "amanita-citrina/579374444.jpg",
+   "w": 753,
+   "h": 1000,
+   "photoId": 579374444,
+   "obs": "2481e989-2531-4a12-b508-abb871d728b5",
+   "by": "pmgaspar",
+   "login": "pmgaspar",
+   "license": "cc-by",
+   "observedOn": "2025-10-12"
+  },
+  {
+   "file": "amanita-citrina/732940356.jpg",
+   "w": 562,
+   "h": 1000,
+   "photoId": 732940356,
+   "obs": "73d18ecd-cf0c-45d5-9a19-02c7ce558767",
+   "by": "Tomas Pocius",
+   "login": "tomasp",
+   "license": "cc0",
+   "observedOn": "2026-09-12"
+  }
+ ],
+ "russula-virescens": [
+  {
+   "file": "russula-virescens/20511673.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 20511673,
+   "obs": "ed6eaf40-3079-442e-9d2a-feaee798a723",
+   "by": "Björn Sothmann",
+   "login": "bjoerns",
+   "license": "cc-by-sa",
+   "observedOn": "2017-08-27"
+  },
+  {
+   "file": "russula-virescens/350010391.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 350010391,
+   "obs": "a536c713-c6ab-42df-ad3d-97812fdf0203",
+   "by": "Lazar Popović",
+   "login": "lazar_zenit",
+   "license": "cc-by",
+   "observedOn": "2023-07-25"
+  },
+  {
+   "file": "russula-virescens/90284970.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 90284970,
+   "obs": "be427f6a-3cb1-4cef-8412-f0d7a7cb4c81",
+   "by": "Todd Patterson",
+   "login": "toddpatterson",
+   "license": "cc-by",
+   "observedOn": "2020-08-16"
+  },
+  {
+   "file": "russula-virescens/344714030.jpg",
+   "w": 1000,
+   "h": 649,
+   "photoId": 344714030,
+   "obs": "887ddfdc-ef4e-40aa-ab8a-d688e8575066",
+   "by": "Davide Puddu",
+   "login": "davidepuddu",
+   "license": "cc-by",
+   "observedOn": "2023-06-11"
+  }
+ ],
+ "amanita-bisporigera": [
+  {
+   "file": "amanita-bisporigera/86205024.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 86205024,
+   "obs": "9e672bee-2b27-469e-88a3-3ef1ffd98e7d",
+   "by": "mteeter",
+   "login": "mteeter",
+   "license": "cc-by",
+   "observedOn": "2020-07-24"
+  },
+  {
+   "file": "amanita-bisporigera/43766635.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 43766635,
+   "obs": "2931da70-55f4-41ce-9548-b92ad2c7b4db",
+   "by": "Brian C. Hunt",
+   "login": "hills47448",
+   "license": "cc-by",
+   "observedOn": "2019-07-02"
+  },
+  {
+   "file": "amanita-bisporigera/24539520.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 24539520,
+   "obs": "1c80b040-9e67-4a64-b421-9710691a11ad",
+   "by": "pinonbistro",
+   "login": "pinonbistro",
+   "license": "cc-by-sa",
+   "observedOn": "2012-09-09"
+  },
+  {
+   "file": "amanita-bisporigera/19392302.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 19392302,
+   "obs": "2187f963-ba6d-413b-a58c-40e2d01b5ff0",
+   "by": "Carlos Domínguez-Rodríguez",
+   "login": "blakesito",
+   "license": "cc-by",
+   "observedOn": "2010-09-30"
+  }
+ ],
+ "agaricus-campestris": [
+  {
+   "file": "agaricus-campestris/163942924.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 163942924,
+   "obs": "fd643692-9d49-4bc0-ba20-ad0958030ade",
+   "by": "Mandy Hackney",
+   "login": "mandymushii",
+   "license": "cc-by",
+   "observedOn": "2021-10-16"
+  },
+  {
+   "file": "agaricus-campestris/162392180.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 162392180,
+   "obs": "60c5f094-9d7a-4897-8ec6-bd0530d6fd15",
+   "by": "Zeke Marshall",
+   "login": "zekemarshall",
+   "license": "cc-by",
+   "observedOn": "2021-10-09"
+  },
+  {
+   "file": "agaricus-campestris/101124762.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 101124762,
+   "obs": "a776045b-1e9d-4995-998a-b35a4feac71e",
+   "by": "Eli Talhouk",
+   "login": "mythical_mold",
+   "license": "cc-by",
+   "observedOn": "2020-10-19"
+  },
+  {
+   "file": "agaricus-campestris/562203819.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 562203819,
+   "obs": "9baa9f42-b12d-4ed8-a46f-db83e73f7dc2",
+   "by": "bogsuckers",
+   "login": "bogsuckers",
+   "license": "cc-by",
+   "observedOn": "2025-09-04"
+  }
+ ],
+ "amanita-virosa": [
+  {
+   "file": "amanita-virosa/560269893.jpg",
+   "w": 989,
+   "h": 1000,
+   "photoId": 560269893,
+   "obs": "081e2c54-8ce9-476b-9235-5b3d1244b833",
+   "by": "North Ross",
+   "login": "northross",
+   "license": "cc0",
+   "observedOn": "2025-08-30"
+  },
+  {
+   "file": "amanita-virosa/412608983.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 412608983,
+   "obs": "a521c790-cde8-4bdf-a8fe-2f897df57b6b",
+   "by": "Linda Lötjönen",
+   "login": "lindalotjonen",
+   "license": "cc-by",
+   "observedOn": "2024-07-28"
+  },
+  {
+   "file": "amanita-virosa/13767279.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 13767279,
+   "obs": "8e803aed-de9e-4411-a376-89e4a8bf151a",
+   "by": "Thea Chesney",
+   "login": "theachesney",
+   "license": "cc-by",
+   "observedOn": "2012-09-11"
+  },
+  {
+   "file": "amanita-virosa/721646014.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 721646014,
+   "obs": "9e62c437-664f-45c3-867b-685c9e4a414b",
+   "by": "Patrice Dupont",
+   "login": "patrice_dupont",
+   "license": "cc-by",
+   "observedOn": "2026-08-20"
+  }
+ ],
+ "galerina-marginata": [
+  {
+   "file": "galerina-marginata/473783151.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 473783151,
+   "obs": "ccd926ff-c22b-44fc-9074-648d2522ee94",
+   "by": "Kevin Popowich",
+   "login": "heavykevy13",
+   "license": "cc-by",
+   "observedOn": "2025-03-01"
+  },
+  {
+   "file": "galerina-marginata/7000698.jpg",
+   "w": 1000,
+   "h": 903,
+   "photoId": 7000698,
+   "obs": "a330f6ff-104f-44d7-a6e5-45c161dde914",
+   "by": "Alex Abair",
+   "login": "alex_abair",
+   "license": "cc-by",
+   "observedOn": "2016-12-12"
+  },
+  {
+   "file": "galerina-marginata/242738298.jpg",
+   "w": 1000,
+   "h": 768,
+   "photoId": 242738298,
+   "obs": "005c646a-4185-4d3a-bd0e-256fa7f7748f",
+   "by": "Jeff Clark",
+   "login": "jeffdc",
+   "license": "cc-by",
+   "observedOn": "2022-11-10"
+  },
+  {
+   "file": "galerina-marginata/440666794.jpg",
+   "w": 1000,
+   "h": 774,
+   "photoId": 440666794,
+   "obs": "ecfbcf49-13c9-4aff-b402-d321a2d43a07",
+   "by": "Katrin Simon",
+   "login": "katrin_simon",
+   "license": "cc-by",
+   "observedOn": "2024-10-11"
+  }
+ ],
+ "flammulina-velutipes": [
+  {
+   "file": "flammulina-velutipes/401974944.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 401974944,
+   "obs": "e132e41f-3409-481d-b7ba-0986fd240a7c",
+   "by": "Archie",
+   "login": "archie_tarn",
+   "license": "cc-by",
+   "observedOn": "2024-06-26"
+  },
+  {
+   "file": "flammulina-velutipes/738188534.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 738188534,
+   "obs": "a90dd0da-1e86-414e-b655-f51f61703fa4",
+   "by": "Gabriele Vaudano",
+   "login": "gabrivauda",
+   "license": "cc-by",
+   "observedOn": "2026-09-21"
+  },
+  {
+   "file": "flammulina-velutipes/356615714.jpg",
+   "w": 1000,
+   "h": 887,
+   "photoId": 356615714,
+   "obs": "3a203f1c-6185-4e70-9283-82db16787ec5",
+   "by": "Bethany Teigen",
+   "login": "phillymycobeth",
+   "license": "cc0",
+   "observedOn": "2024-03-10"
+  },
+  {
+   "file": "flammulina-velutipes/676734070.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 676734070,
+   "obs": "d38fc22e-2f79-4833-a30c-5732a6873175",
+   "by": "Grey Smith",
+   "login": "grey",
+   "license": "cc-by",
+   "observedOn": "2025-04-05"
+  }
+ ],
+ "kuehneromyces-mutabilis": [
+  {
+   "file": "kuehneromyces-mutabilis/164377525.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 164377525,
+   "obs": "36d1d646-ef76-4084-b35b-4d969584d559",
+   "by": "T. Pedro Hafermann",
+   "login": "mangoblatt",
+   "license": "cc0",
+   "observedOn": "2021-10-19"
+  },
+  {
+   "file": "kuehneromyces-mutabilis/151950745.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 151950745,
+   "obs": "9be25ec3-3479-41a0-935c-d026f52a7d1a",
+   "by": "T. Pedro Hafermann",
+   "login": "mangoblatt",
+   "license": "cc0",
+   "observedOn": "2021-08-20"
+  },
+  {
+   "file": "kuehneromyces-mutabilis/426856437.jpg",
+   "w": 562,
+   "h": 1000,
+   "photoId": 426856437,
+   "obs": "0ec5818e-8941-4bb6-bac0-22d5ce5f49c6",
+   "by": "Павлик Лисицын",
+   "login": "lisopavlik",
+   "license": "cc-by",
+   "observedOn": "2024-09-03"
+  },
+  {
+   "file": "kuehneromyces-mutabilis/52778935.jpg",
+   "w": 1000,
+   "h": 601,
+   "photoId": 52778935,
+   "obs": "11aece55-a42a-42f4-a091-ea149f8ccc0b",
+   "by": "Frank Sengpiel",
+   "login": "frank103",
+   "license": "cc-by",
+   "observedOn": "2019-09-29"
+  }
+ ],
+ "armillaria-mellea": [
+  {
+   "file": "armillaria-mellea/169136642.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 169136642,
+   "obs": "1984e51e-a1b2-41b9-9f5f-f81ac7eed35e",
+   "by": "Elizabeth Axley",
+   "login": "actuallyaxley",
+   "license": "cc-by",
+   "observedOn": "2021-10-09"
+  },
+  {
+   "file": "armillaria-mellea/24640780.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 24640780,
+   "obs": "cfb3270e-933f-4a11-a180-c0249113da60",
+   "by": "Tomas Pocius",
+   "login": "tomasp",
+   "license": "cc0",
+   "observedOn": "2018-09-10"
+  },
+  {
+   "file": "armillaria-mellea/161905112.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 161905112,
+   "obs": "bbf41296-89d9-48fe-af59-8072b527c6f4",
+   "by": "Curtis Burke",
+   "login": "curtisburke",
+   "license": "cc-by",
+   "observedOn": "2021-10-05"
+  },
+  {
+   "file": "armillaria-mellea/583249588.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 583249588,
+   "obs": "3367181e-0ad4-4f3c-9f27-7f6c669bed6e",
+   "by": "Clément Maouche",
+   "login": "clementm",
+   "license": "cc-by",
+   "observedOn": "2025-10-22"
+  }
+ ],
+ "omphalotus-illudens": [
+  {
+   "file": "omphalotus-illudens/228531648.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 228531648,
+   "obs": "0730f606-3105-4e64-90f6-367cb829b934",
+   "by": "Bill Medvec",
+   "login": "wysiwyg6676",
+   "license": "cc0",
+   "observedOn": "2022-09-06"
+  },
+  {
+   "file": "omphalotus-illudens/311978329.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 311978329,
+   "obs": "26a91466-d570-401b-a89b-7f382d95b4e4",
+   "by": "wrigleybug",
+   "login": "wrigleybug",
+   "license": "cc0",
+   "observedOn": "2023-07-03"
+  },
+  {
+   "file": "omphalotus-illudens/225020318.jpg",
+   "w": 1000,
+   "h": 859,
+   "photoId": 225020318,
+   "obs": "df4dd48d-caa0-43aa-9d2a-1a52bd13e62a",
+   "by": "Trix Niernberger",
+   "login": "tniernberger",
+   "license": "cc0",
+   "observedOn": "2022-08-24"
+  },
+  {
+   "file": "omphalotus-illudens/153222830.jpg",
+   "w": 1000,
+   "h": 730,
+   "photoId": 153222830,
+   "obs": "ba893e64-eef3-49e8-86aa-aad68cd74f4c",
+   "by": "Dawn Nelson",
+   "login": "symphylan",
+   "license": "cc-by",
+   "observedOn": "2021-08-09"
+  }
+ ],
+ "cantharellus-cibarius": [
+  {
+   "file": "cantharellus-cibarius/53567738.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 53567738,
+   "obs": "d7fda283-0e0c-4871-b276-9a1f4a77a5a8",
+   "by": "Eugene Popov",
+   "login": "epopov",
+   "license": "cc-by",
+   "observedOn": "2019-10-08"
+  },
+  {
+   "file": "cantharellus-cibarius/408667903.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 408667903,
+   "obs": "7b74d7fc-8856-4a85-96dc-42888400fac7",
+   "by": "Dr. Alan Inman",
+   "login": "westerbraenature",
+   "license": "cc0",
+   "observedOn": "2024-07-18"
+  },
+  {
+   "file": "cantharellus-cibarius/411539341.jpg",
+   "w": 1000,
+   "h": 775,
+   "photoId": 411539341,
+   "obs": "fdc7f526-d67c-4d20-880c-403dbf0557ac",
+   "by": "jonsense",
+   "login": "jonsense",
+   "license": "cc-by",
+   "observedOn": "2024-07-25"
+  },
+  {
+   "file": "cantharellus-cibarius/85050013.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 85050013,
+   "obs": "0de8f171-b751-45af-80c5-bc868c31c766",
+   "by": "Nina Filippova",
+   "login": "ninacourlee",
+   "license": "cc-by",
+   "observedOn": "2020-07-18"
+  }
+ ],
+ "hygrophoropsis-aurantiaca": [
+  {
+   "file": "hygrophoropsis-aurantiaca/328033506.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 328033506,
+   "obs": "be085e05-66c3-4831-9dbf-709c8c13704d",
+   "by": "Robert M Hallock",
+   "login": "robhallock",
+   "license": "cc-by",
+   "observedOn": "2023-10-14"
+  },
+  {
+   "file": "hygrophoropsis-aurantiaca/330000242.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 330000242,
+   "obs": "7eec0183-c8f0-4038-a990-ecd4a039a0ba",
+   "by": "Kryštof Boura",
+   "login": "krystof_boura",
+   "license": "cc-by",
+   "observedOn": "2023-10-22"
+  },
+  {
+   "file": "hygrophoropsis-aurantiaca/180106105.jpg",
+   "w": 1000,
+   "h": 751,
+   "photoId": 180106105,
+   "obs": "c3a9efb9-92ab-441d-af50-7b4a5400982f",
+   "by": "Evgenii Iaitskii",
+   "login": "beh01d",
+   "license": "cc-by",
+   "observedOn": "2021-09-11"
+  },
+  {
+   "file": "hygrophoropsis-aurantiaca/327184828.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 327184828,
+   "obs": "a8e67806-33c2-4ebb-9a65-75ded4e3290e",
+   "by": "Adam J. Searcy",
+   "login": "serpophaga",
+   "license": "cc-by",
+   "observedOn": "2023-10-08"
+  }
+ ],
+ "gyromitra-esculenta": [
+  {
+   "file": "gyromitra-esculenta/117395993.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 117395993,
+   "obs": "9dfc2e36-d56d-49e3-bc5f-104241f884ac",
+   "by": "Erin Springinotic",
+   "login": "enspring",
+   "license": "cc0",
+   "observedOn": "2021-03-25"
+  },
+  {
+   "file": "gyromitra-esculenta/137637272.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 137637272,
+   "obs": "7b42ceb8-7829-4eb0-b56d-04896765a5cc",
+   "by": "Hilary Rose Dawson",
+   "login": "rosawoodsii",
+   "license": "cc-by",
+   "observedOn": "2021-06-19"
+  },
+  {
+   "file": "gyromitra-esculenta/422222066.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 422222066,
+   "obs": "b2af596f-3bce-41f2-9d1a-6da783b0dd6f",
+   "by": "Jose Castro",
+   "login": "jose_castro",
+   "license": "cc-by",
+   "observedOn": "2013-03-31"
+  },
+  {
+   "file": "gyromitra-esculenta/8264462.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 8264462,
+   "obs": "51415675-0d05-4333-a8b1-cd78b171fd58",
+   "by": "Sara L Giles",
+   "login": "rangersara",
+   "license": "cc0",
+   "observedOn": "2011-05-11"
+  }
+ ],
+ "morchella-esculenta": [
+  {
+   "file": "morchella-esculenta/169965177.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 169965177,
+   "obs": "4156b03e-984e-41aa-9e69-9a08350241be",
+   "by": "Сергей Неклюдов",
+   "login": "sneckl",
+   "license": "cc-by",
+   "observedOn": "2017-05-23"
+  },
+  {
+   "file": "morchella-esculenta/365652423.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 365652423,
+   "obs": "4ebd7d0e-7994-4745-979e-b7e98aa405b5",
+   "by": "T. Pedro Hafermann",
+   "login": "mangoblatt",
+   "license": "cc0",
+   "observedOn": "2024-04-12"
+  },
+  {
+   "file": "morchella-esculenta/67010850.jpg",
+   "w": 1000,
+   "h": 727,
+   "photoId": 67010850,
+   "obs": "1a8a7a93-bd4c-455d-8ed2-076c0b073562",
+   "by": "Django Grootmyers",
+   "login": "heelsplitter",
+   "license": "cc-by-sa",
+   "observedOn": "2020-03-13"
+  },
+  {
+   "file": "morchella-esculenta/270125071.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 270125071,
+   "obs": "ecc5ca63-ee67-48bd-b900-055ffd0e3a4b",
+   "by": "xulescu_g",
+   "login": "xulescu_g",
+   "license": "cc-by-sa",
+   "observedOn": "2023-04-23"
+  }
+ ],
+ "verpa-bohemica": [
+  {
+   "file": "verpa-bohemica/60711851.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 60711851,
+   "obs": "22fef7b9-eeb2-4a54-8bfe-6ecaec070281",
+   "by": "Оксана Серикова",
+   "login": "oksana_serikova",
+   "license": "cc-by",
+   "observedOn": "2018-05-25"
+  },
+  {
+   "file": "verpa-bohemica/15068115.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 15068115,
+   "obs": "253901c6-2567-4bd8-83be-d81221240020",
+   "by": "debk",
+   "login": "debk",
+   "license": "cc-by-sa",
+   "observedOn": "2018-03-11"
+  },
+  {
+   "file": "verpa-bohemica/125103411.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 125103411,
+   "obs": "34f4103e-71ee-49ac-97c2-174c09c030c1",
+   "by": "Вера",
+   "login": "valiast28527",
+   "license": "cc-by",
+   "observedOn": "2021-05-02"
+  },
+  {
+   "file": "verpa-bohemica/377571120.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 377571120,
+   "obs": "b3e42c1b-b53c-4699-9e28-132b097190a8",
+   "by": "Eugene Popov",
+   "login": "epopov",
+   "license": "cc-by",
+   "observedOn": "2024-05-01"
+  }
+ ],
+ "cortinarius-rubellus": [
+  {
+   "file": "cortinarius-rubellus/152223143.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 152223143,
+   "obs": "af217c8b-34b7-4d8c-8ccd-7a1557ac661e",
+   "by": "melianie_max_and_asker",
+   "login": "melianie_max_and_asker",
+   "license": "cc-by",
+   "observedOn": "2021-08-21"
+  },
+  {
+   "file": "cortinarius-rubellus/314683143.jpg",
+   "w": 1000,
+   "h": 914,
+   "photoId": 314683143,
+   "obs": "95aa0b77-26b7-4760-b1f1-b59666cbb5a6",
+   "by": "J Castillo",
+   "login": "tabernus",
+   "license": "cc-by",
+   "observedOn": "2023-08-28"
+  },
+  {
+   "file": "cortinarius-rubellus/317326036.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 317326036,
+   "obs": "f9d1725b-76ce-4857-a2f4-bdb8535a99f1",
+   "by": "Donatas Pocius",
+   "login": "donatas27464",
+   "license": "cc-by",
+   "observedOn": "2023-09-03"
+  },
+  {
+   "file": "cortinarius-rubellus/544839462.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 544839462,
+   "obs": "c88913ea-3604-431a-b67b-9dc3bc22543a",
+   "by": "Bohan Jia",
+   "login": "maiglocke",
+   "license": "cc-by",
+   "observedOn": "2025-07-30"
+  }
+ ],
+ "cortinarius-caperatus": [
+  {
+   "file": "cortinarius-caperatus/325416341.jpg",
+   "w": 1000,
+   "h": 810,
+   "photoId": 325416341,
+   "obs": "0cb00235-4d05-40af-ba5d-c62cc01b8f8c",
+   "by": "Bill Sheehan",
+   "login": "bill_sheehan",
+   "license": "cc-by-sa",
+   "observedOn": "2023-10-03"
+  },
+  {
+   "file": "cortinarius-caperatus/160358073.jpg",
+   "w": 1000,
+   "h": 688,
+   "photoId": 160358073,
+   "obs": "21a06b7d-af40-4798-b7c4-dc3a855a112c",
+   "by": "Annie Weissman",
+   "login": "wearethechampignons",
+   "license": "cc-by",
+   "observedOn": "2021-09-28"
+  },
+  {
+   "file": "cortinarius-caperatus/106883319.jpg",
+   "w": 1000,
+   "h": 771,
+   "photoId": 106883319,
+   "obs": "891ff077-880e-459e-b58e-cfc28868eb63",
+   "by": "Christine Young",
+   "login": "christineyoung",
+   "license": "cc-by",
+   "observedOn": "2018-10-13"
+  },
+  {
+   "file": "cortinarius-caperatus/139699213.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 139699213,
+   "obs": "7849e35a-1502-4661-96ca-75360750595f",
+   "by": "Jose Castro",
+   "login": "jose_castro",
+   "license": "cc-by",
+   "observedOn": "2011-12-06"
+  }
+ ],
+ "clitocybe-rivulosa": [
+  {
+   "file": "clitocybe-rivulosa/598781882.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 598781882,
+   "obs": "ce966b40-35b3-4df7-96dc-73d4a608cf78",
+   "by": "Lucian Clanet",
+   "login": "lucian_clanet",
+   "license": "cc-by",
+   "observedOn": "2025-12-10"
+  },
+  {
+   "file": "clitocybe-rivulosa/236914741.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 236914741,
+   "obs": "89fa88d0-1f6e-4802-a504-d3ce8c8d2e16",
+   "by": "Karim Haddad",
+   "login": "karimhaddad",
+   "license": "cc-by",
+   "observedOn": "2022-10-13"
+  },
+  {
+   "file": "clitocybe-rivulosa/246230330.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 246230330,
+   "obs": "daf6faef-fbfd-4c16-a958-690592a24b92",
+   "by": "Kristian Bosak",
+   "login": "kbosske",
+   "license": "cc-by",
+   "observedOn": "2022-11-30"
+  },
+  {
+   "file": "clitocybe-rivulosa/422217590.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 422217590,
+   "obs": "0b69fa21-f239-4e8d-9a25-0bd8897b6583",
+   "by": "Jose Castro",
+   "login": "jose_castro",
+   "license": "cc-by",
+   "observedOn": "2011-11-13"
+  }
+ ],
+ "marasmius-oreades": [
+  {
+   "file": "marasmius-oreades/278109358.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 278109358,
+   "obs": "99892b2d-ffcd-4a90-a3dc-32c32aaae8dc",
+   "by": "Emerentia Clarke",
+   "login": "duskywolf",
+   "license": "cc-by",
+   "observedOn": "2023-05-10"
+  },
+  {
+   "file": "marasmius-oreades/436688899.jpg",
+   "w": 902,
+   "h": 1000,
+   "photoId": 436688899,
+   "obs": "dac02ecd-3c92-461a-b7ce-4b063c0973f9",
+   "by": "Duncan Brooks",
+   "login": "duncan-brooks",
+   "license": "cc-by",
+   "observedOn": "2024-09-29"
+  },
+  {
+   "file": "marasmius-oreades/178398659.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 178398659,
+   "obs": "3e3c3e01-ab05-4170-8da8-f9cf47076cd0",
+   "by": "David Orlovich",
+   "login": "davidorlovich",
+   "license": "cc-by",
+   "observedOn": "2022-02-06"
+  },
+  {
+   "file": "marasmius-oreades/102628102.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 102628102,
+   "obs": "087499a4-2b9a-4695-b5d8-9837bdf3c4dc",
+   "by": "Michel Langeveld",
+   "login": "rudolphous",
+   "license": "cc-by",
+   "observedOn": "2020-10-31"
+  }
+ ],
+ "clitopilus-prunulus": [
+  {
+   "file": "clitopilus-prunulus/98557639.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 98557639,
+   "obs": "a463e43d-07ac-4cf9-95c2-28eba8da1ca9",
+   "by": "Азат Кадиров",
+   "login": "bilinet",
+   "license": "cc-by",
+   "observedOn": "2020-10-02"
+  },
+  {
+   "file": "clitopilus-prunulus/13070335.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 13070335,
+   "obs": "248192de-a409-44db-ba15-1b4838e7a71c",
+   "by": "mycowalt",
+   "login": "mycowalt",
+   "license": "cc-by-sa",
+   "observedOn": "2013-08-06"
+  },
+  {
+   "file": "clitopilus-prunulus/116597418.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 116597418,
+   "obs": "cae85f35-2c30-4aff-a7c5-00368c0a3680",
+   "by": "Ken Buegeleisen",
+   "login": "ken_b",
+   "license": "cc-by",
+   "observedOn": "2021-03-14"
+  },
+  {
+   "file": "clitopilus-prunulus/548027494.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 548027494,
+   "obs": "62ca1cc2-6063-4850-b03a-0b1df12daba4",
+   "by": "Erik",
+   "login": "erikoid",
+   "license": "cc-by",
+   "observedOn": "2025-08-05"
+  }
+ ],
+ "entoloma-sinuatum": [
+  {
+   "file": "entoloma-sinuatum/54291818.jpg",
+   "w": 1000,
+   "h": 662,
+   "photoId": 54291818,
+   "obs": "fd3e31ed-460e-4165-8cad-78e92aaef5da",
+   "by": "Eugene Popov",
+   "login": "epopov",
+   "license": "cc-by",
+   "observedOn": "2013-10-13"
+  },
+  {
+   "file": "entoloma-sinuatum/551930596.jpg",
+   "w": 1000,
+   "h": 688,
+   "photoId": 551930596,
+   "obs": "1788fa91-90eb-492b-9b37-bfaca3560ab4",
+   "by": "Paula Nimigean",
+   "login": "paulanimigean",
+   "license": "cc-by",
+   "observedOn": "2025-07-29"
+  },
+  {
+   "file": "entoloma-sinuatum/569059759.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 569059759,
+   "obs": "2a7a2ef7-9466-420d-ab81-49b1e7ff6044",
+   "by": "Todd Patterson",
+   "login": "toddpatterson",
+   "license": "cc-by",
+   "observedOn": "2025-09-19"
+  },
+  {
+   "file": "entoloma-sinuatum/359080860.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 359080860,
+   "obs": "ba3e3d23-231b-4ff1-9ffb-cb031ce6e37f",
+   "by": "Kristian Bosak",
+   "login": "kbosske",
+   "license": "cc-by",
+   "observedOn": "2023-11-25"
+  }
+ ],
+ "clitocybe-nebularis": [
+  {
+   "file": "clitocybe-nebularis/335007620.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 335007620,
+   "obs": "a5a73f15-3794-4b9a-825b-0f8e98f7a726",
+   "by": "Stuart",
+   "login": "sturuss",
+   "license": "cc0",
+   "observedOn": "2023-11-14"
+  },
+  {
+   "file": "clitocybe-nebularis/561592194.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 561592194,
+   "obs": "dd866ff5-16a5-4ce4-9f8e-b03d4230eae0",
+   "by": "Andrejus Gaidamavičius",
+   "login": "andrejus",
+   "license": "cc-by",
+   "observedOn": "2021-09-30"
+  },
+  {
+   "file": "clitocybe-nebularis/5664715.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 5664715,
+   "obs": "b46e3f39-c7b9-407b-a644-e3fc0c9cddcb",
+   "by": "Alan Rockefeller",
+   "login": "alan_rockefeller",
+   "license": "cc-by",
+   "observedOn": "2007-05-05"
+  },
+  {
+   "file": "clitocybe-nebularis/6815193.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 6815193,
+   "obs": "cd812fc2-1103-4b23-9cae-c2759448ea22",
+   "by": "Kathy Warburton",
+   "login": "katiew",
+   "license": "cc-by",
+   "observedOn": "2017-04-01"
+  }
+ ],
+ "calocybe-gambosa": [
+  {
+   "file": "calocybe-gambosa/275587998.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 275587998,
+   "obs": "e63fb046-53be-4954-a4c1-aef17837599c",
+   "by": "Pavel Kacl",
+   "login": "pavel_kacl",
+   "license": "cc-by",
+   "observedOn": "2023-04-29"
+  },
+  {
+   "file": "calocybe-gambosa/202670669.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 202670669,
+   "obs": "4cedd9b7-9adf-4ab9-889b-3f32763484ea",
+   "by": "Dmitry Semigradsky",
+   "login": "dmitry_semigradsky",
+   "license": "cc0",
+   "observedOn": "2022-06-02"
+  },
+  {
+   "file": "calocybe-gambosa/76385496.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 76385496,
+   "obs": "d0384ead-bf3c-4ee5-86e2-7303136929a8",
+   "by": "Elena A. Kizilova (Елена А. Кизилова)",
+   "login": "xilaria-step",
+   "license": "cc-by",
+   "observedOn": "2020-06-01"
+  },
+  {
+   "file": "calocybe-gambosa/133646945.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 133646945,
+   "obs": "5e8f1fb6-3b16-4631-823b-f699ac0cf0b0",
+   "by": "Björn Sothmann",
+   "login": "bjoerns",
+   "license": "cc-by-sa",
+   "observedOn": "2021-06-03"
+  }
+ ],
+ "inocybe-erubescens": [
+  {
+   "file": "inocybe-erubescens/78468338.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 78468338,
+   "obs": "ef05757a-039a-41e8-a215-764938e1050e",
+   "by": "Enrico Tomschke",
+   "login": "enricotomschke",
+   "license": "cc-by",
+   "observedOn": "2020-06-13"
+  },
+  {
+   "file": "inocybe-erubescens/617913849.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 617913849,
+   "obs": "233eaaf6-6afc-4ed5-b04a-2abe2b9b5972",
+   "by": "Chaym Turak",
+   "login": "chaym_turak",
+   "license": "cc-by-sa",
+   "observedOn": "2026-02-13"
+  },
+  {
+   "file": "inocybe-erubescens/702228227.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 702228227,
+   "obs": "712c99c8-df5a-43c6-b356-e049c00615a1",
+   "by": "Jose Castro",
+   "login": "jose_castro",
+   "license": "cc-by",
+   "observedOn": "2012-06-03"
+  },
+  {
+   "file": "inocybe-erubescens/619190153.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 619190153,
+   "obs": "a6f2a638-f536-4433-bb14-336624647c90",
+   "by": "Chaym Turak",
+   "login": "chaym_turak",
+   "license": "cc-by-sa",
+   "observedOn": "2026-02-13"
+  }
+ ],
+ "chlorophyllum-molybdites": [
+  {
+   "file": "chlorophyllum-molybdites/257251817.jpg",
+   "w": 1000,
+   "h": 668,
+   "photoId": 257251817,
+   "obs": "a087fb3d-cb39-48bb-bfac-13ef6ac0e8cc",
+   "by": "Jimmy Whatmore",
+   "login": "jimmy_whatmore",
+   "license": "cc0",
+   "observedOn": "2021-01-19"
+  },
+  {
+   "file": "chlorophyllum-molybdites/152245406.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 152245406,
+   "obs": "23e94ef9-ad31-4c97-8d76-6e4f7ebb2f6a",
+   "by": "Annie Weissman",
+   "login": "wearethechampignons",
+   "license": "cc-by",
+   "observedOn": "2021-08-21"
+  },
+  {
+   "file": "chlorophyllum-molybdites/218939104.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 218939104,
+   "obs": "5758ba1c-49c0-45a4-b7d7-b428638bc85b",
+   "by": "aarongunnar",
+   "login": "aarongunnar",
+   "license": "cc-by",
+   "observedOn": "2022-07-31"
+  },
+  {
+   "file": "chlorophyllum-molybdites/18524229.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 18524229,
+   "obs": "c7fee4b0-74f0-41bd-b9fb-64c772a99547",
+   "by": "Adena Arviso",
+   "login": "adenaarviso",
+   "license": "cc0",
+   "observedOn": "2018-05-23"
+  }
+ ],
+ "macrolepiota-procera": [
+  {
+   "file": "macrolepiota-procera/234203633.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 234203633,
+   "obs": "2cb691d0-5fca-4464-ad7f-d77299cbcef4",
+   "by": "Clive Edgar",
+   "login": "clive_edgar",
+   "license": "cc-by",
+   "observedOn": "2022-10-01"
+  },
+  {
+   "file": "macrolepiota-procera/29105127.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 29105127,
+   "obs": "cc7f18f9-ee4e-4a4e-bbbb-6da56e07643d",
+   "by": "Vsevolod Rudyi",
+   "login": "ruseva",
+   "license": "cc-by",
+   "observedOn": "2016-09-18"
+  },
+  {
+   "file": "macrolepiota-procera/101728589.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 101728589,
+   "obs": "93d8f68f-a6e5-4146-ba89-fc2ee16f9ca7",
+   "by": "Peter Gabler",
+   "login": "peter_gabler",
+   "license": "cc0",
+   "observedOn": "2020-10-24"
+  },
+  {
+   "file": "macrolepiota-procera/102184211.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 102184211,
+   "obs": "ed73efea-18c6-424a-8aed-f825ef455289",
+   "by": "Mario Bassini",
+   "login": "bssmnt52",
+   "license": "cc-by",
+   "observedOn": "2020-10-26"
+  }
+ ],
+ "chlorophyllum-rhacodes": [
+  {
+   "file": "chlorophyllum-rhacodes/235045234.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 235045234,
+   "obs": "45a0c9a4-0ef2-4e5f-8ffe-c8156be93350",
+   "by": "Piermario Maculan",
+   "login": "pilmar",
+   "license": "cc0",
+   "observedOn": "2022-10-04"
+  },
+  {
+   "file": "chlorophyllum-rhacodes/236929305.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 236929305,
+   "obs": "37495717-e7c8-4e35-a237-6bad56c3655e",
+   "by": "evanshome",
+   "login": "evanshome",
+   "license": "cc-by",
+   "observedOn": "2022-10-13"
+  },
+  {
+   "file": "chlorophyllum-rhacodes/600648238.jpg",
+   "w": 636,
+   "h": 1000,
+   "photoId": 600648238,
+   "obs": "00ab4b43-2503-40f6-8fa8-734db437ac46",
+   "by": "Leanne Stacy Reitan",
+   "login": "leannestacy",
+   "license": "cc0",
+   "observedOn": "2025-12-17"
+  },
+  {
+   "file": "chlorophyllum-rhacodes/11814917.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 11814917,
+   "obs": "14a24a30-2494-4dce-9eec-5dba2f5951e5",
+   "by": "Rita Clare",
+   "login": "ritaclare",
+   "license": "cc-by",
+   "observedOn": "2017-11-11"
+  }
+ ],
+ "hypholoma-fasciculare": [
+  {
+   "file": "hypholoma-fasciculare/380111782.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 380111782,
+   "obs": "c6fa7499-58be-46b6-af3b-c2ae336c2ec2",
+   "by": "Andreas Stiller",
+   "login": "astmuc",
+   "license": "cc-by",
+   "observedOn": "2024-05-11"
+  },
+  {
+   "file": "hypholoma-fasciculare/326366079.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 326366079,
+   "obs": "06d2570c-f524-46b0-9332-0037b540fec7",
+   "by": "Sheelagh Halsey",
+   "login": "sahalsey",
+   "license": "cc-by",
+   "observedOn": "2023-10-08"
+  },
+  {
+   "file": "hypholoma-fasciculare/69345438.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 69345438,
+   "obs": "3c137de7-57a8-4bde-8217-422be358264b",
+   "by": "Yves Bas",
+   "login": "yvesbas",
+   "license": "cc-by",
+   "observedOn": "2004-10-03"
+  },
+  {
+   "file": "hypholoma-fasciculare/603279437.jpg",
+   "w": 1000,
+   "h": 668,
+   "photoId": 603279437,
+   "obs": "fb6a9318-1f51-437b-8294-e09e789d32e8",
+   "by": "Cara Ennis",
+   "login": "cryptomarasmius",
+   "license": "cc-by",
+   "observedOn": "2025-12-27"
+  }
+ ],
+ "hypholoma-lateritium": [
+  {
+   "file": "hypholoma-lateritium/234421244.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 234421244,
+   "obs": "d0b17de6-108b-4cb2-9e57-967cf2e83fd4",
+   "by": "snaily_naily",
+   "login": "snaily_naily",
+   "license": "cc-by",
+   "observedOn": "2022-10-02"
+  },
+  {
+   "file": "hypholoma-lateritium/101400792.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 101400792,
+   "obs": "98191fa9-3f79-45af-a52f-5d7b9d9afc1b",
+   "by": "Eli Talhouk",
+   "login": "mythical_mold",
+   "license": "cc-by",
+   "observedOn": "2020-10-21"
+  },
+  {
+   "file": "hypholoma-lateritium/311889199.jpg",
+   "w": 847,
+   "h": 1000,
+   "photoId": 311889199,
+   "obs": "b308b59f-1bcc-480c-8b62-2dfffa9a019a",
+   "by": "J Castillo",
+   "login": "tabernus",
+   "license": "cc-by",
+   "observedOn": "2023-08-19"
+  },
+  {
+   "file": "hypholoma-lateritium/161261659.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 161261659,
+   "obs": "76761cf3-27a5-4c25-9074-c31734c0078b",
+   "by": "helen_golubeva",
+   "login": "helen_golubeva",
+   "license": "cc-by",
+   "observedOn": "2021-10-03"
+  }
+ ],
+ "tricholoma-pardinum": [
+  {
+   "file": "tricholoma-pardinum/581203534.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 581203534,
+   "obs": "3803a9b5-177e-4ae1-9dd1-0c2570c98223",
+   "by": "vuikaan",
+   "login": "vuikaan",
+   "license": "cc-by",
+   "observedOn": "2025-10-16"
+  },
+  {
+   "file": "tricholoma-pardinum/446827673.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 446827673,
+   "obs": "ea3f200e-c37e-4b70-a78b-670d101b854f",
+   "by": "Daniel Ghyselinck",
+   "login": "mycobel",
+   "license": "cc-by",
+   "observedOn": "2024-10-14"
+  },
+  {
+   "file": "tricholoma-pardinum/331490139.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 331490139,
+   "obs": "8e8845ec-4f5a-4959-b20c-104bdae24055",
+   "by": "Sarah Faulwetter",
+   "login": "sarahfaulwetter",
+   "license": "cc-by",
+   "observedOn": "2023-10-28"
+  },
+  {
+   "file": "tricholoma-pardinum/102367143.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 102367143,
+   "obs": "2838923c-0ec6-4fa8-9a6d-28e5fa7e1725",
+   "by": "Alan Rockefeller",
+   "login": "alan_rockefeller",
+   "license": "cc-by",
+   "observedOn": "2020-01-14"
+  }
+ ],
+ "tricholoma-terreum": [
+  {
+   "file": "tricholoma-terreum/575064575.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 575064575,
+   "obs": "0faf4ef8-a2f1-45cf-8c41-e4c759018dc0",
+   "by": "Andrejus Gaidamavičius",
+   "login": "andrejus",
+   "license": "cc-by",
+   "observedOn": "2021-09-28"
+  },
+  {
+   "file": "tricholoma-terreum/53653351.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 53653351,
+   "obs": "7e079f64-06e6-460d-90eb-2512adeb04ae",
+   "by": "Eugene Popov",
+   "login": "epopov",
+   "license": "cc-by",
+   "observedOn": "2019-10-09"
+  },
+  {
+   "file": "tricholoma-terreum/15858834.jpg",
+   "w": 1000,
+   "h": 803,
+   "photoId": 15858834,
+   "obs": "865b717e-f895-4e34-b5cf-c5e254cb88b5",
+   "by": "Django Grootmyers",
+   "login": "heelsplitter",
+   "license": "cc-by-sa",
+   "observedOn": "2017-11-24"
+  },
+  {
+   "file": "tricholoma-terreum/5746701.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 5746701,
+   "obs": "ab44e512-b36e-4024-854a-fd97334bc1b6",
+   "by": "Alan Rockefeller",
+   "login": "alan_rockefeller",
+   "license": "cc-by",
+   "observedOn": "2012-10-13"
+  }
+ ],
+ "amanita-muscaria": [
+  {
+   "file": "amanita-muscaria/572970043.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 572970043,
+   "obs": "9b1da415-1dcc-4b54-80e6-8487a72a06d5",
+   "by": "olmagon",
+   "login": "olmagon",
+   "license": "cc-by",
+   "observedOn": "2025-09-27"
+  },
+  {
+   "file": "amanita-muscaria/334083718.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 334083718,
+   "obs": "c7390c14-0447-46b1-b70c-5fd827e3fc19",
+   "by": "Tomas B.",
+   "login": "khmer_",
+   "license": "cc-by",
+   "observedOn": "2023-11-04"
+  },
+  {
+   "file": "amanita-muscaria/742076353.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 742076353,
+   "obs": "f8e0e01b-2782-404d-a099-4475298336c9",
+   "by": "davidbroadland",
+   "login": "davidbroadland",
+   "license": "cc0",
+   "observedOn": "2026-09-27"
+  },
+  {
+   "file": "amanita-muscaria/685236097.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 685236097,
+   "obs": "89be3920-ee8a-4321-a0b7-d8bef915e2b9",
+   "by": "ttsquid",
+   "login": "ttsquid",
+   "license": "cc-by",
+   "observedOn": "2026-06-14"
+  }
+ ],
+ "amanita-caesarea": [
+  {
+   "file": "amanita-caesarea/98671400.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 98671400,
+   "obs": "31069065-a2ec-45a2-8dff-c6e08a9af76d",
+   "by": "Mario Bassini",
+   "login": "bssmnt52",
+   "license": "cc-by",
+   "observedOn": "2020-10-02"
+  },
+  {
+   "file": "amanita-caesarea/438603965.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 438603965,
+   "obs": "37e34ce1-0ad1-4061-9d75-d43a9a939a82",
+   "by": "Asrın Akıncıoğlu",
+   "login": "asrinakincioglu",
+   "license": "cc-by",
+   "observedOn": "2024-10-05"
+  },
+  {
+   "file": "amanita-caesarea/565327294.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 565327294,
+   "obs": "c1dae870-f9d1-453f-a0bd-04f99ee71e20",
+   "by": "Samuele Papeschi",
+   "login": "geologyistheway",
+   "license": "cc-by",
+   "observedOn": "2025-09-09"
+  },
+  {
+   "file": "amanita-caesarea/232376851.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 232376851,
+   "obs": "305ee61f-d570-4072-9603-bc512b72f070",
+   "by": "szegedigombasz",
+   "login": "szegedigombasz",
+   "license": "cc0",
+   "observedOn": "2022-09-18"
+  }
+ ],
+ "amanita-pantherina": [
+  {
+   "file": "amanita-pantherina/236569702.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 236569702,
+   "obs": "1e13d812-5cc5-43c7-aab3-16361b83ebdb",
+   "by": "Eleftherios Katsillis",
+   "login": "eleftherioskats",
+   "license": "cc-by",
+   "observedOn": "2022-10-09"
+  },
+  {
+   "file": "amanita-pantherina/242979465.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 242979465,
+   "obs": "a7e83833-3ba4-4e24-9a54-ccb28f5c615d",
+   "by": "T. Pedro Hafermann",
+   "login": "mangoblatt",
+   "license": "cc0",
+   "observedOn": "2022-11-12"
+  },
+  {
+   "file": "amanita-pantherina/407827028.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 407827028,
+   "obs": "b4d9d02a-0142-41d2-80c0-65341b3d7fbc",
+   "by": "Солей",
+   "login": "solundergang",
+   "license": "cc0",
+   "observedOn": "2024-07-16"
+  },
+  {
+   "file": "amanita-pantherina/231095131.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 231095131,
+   "obs": "7dfd8b8e-3223-4f11-b97e-490f7435757d",
+   "by": "A. Johann",
+   "login": "zymi",
+   "license": "cc-by",
+   "observedOn": "2022-09-18"
+  }
+ ],
+ "amanita-rubescens": [
+  {
+   "file": "amanita-rubescens/99676534.jpg",
+   "w": 1000,
+   "h": 753,
+   "photoId": 99676534,
+   "obs": "f6d71ad1-6e56-4544-99d3-211b74afdf01",
+   "by": "Matthew Kvocera",
+   "login": "kvoco",
+   "license": "cc-by",
+   "observedOn": "2020-06-22"
+  },
+  {
+   "file": "amanita-rubescens/308162208.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 308162208,
+   "obs": "3fac8eeb-d458-4e28-acce-956e2183a32f",
+   "by": "Victoria M.",
+   "login": "eiriee",
+   "license": "cc-by",
+   "observedOn": "2023-08-07"
+  },
+  {
+   "file": "amanita-rubescens/95058124.jpg",
+   "w": 893,
+   "h": 1000,
+   "photoId": 95058124,
+   "obs": "f057d0a4-f230-4cfb-aa0b-63bf047262ef",
+   "by": "Eli",
+   "login": "elimadmartigan",
+   "license": "cc0",
+   "observedOn": "2020-09-13"
+  },
+  {
+   "file": "amanita-rubescens/107844234.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 107844234,
+   "obs": "e7a0f159-248d-4925-8455-236e6489fb83",
+   "by": "Michael Hansen",
+   "login": "meuchael",
+   "license": "cc-by",
+   "observedOn": "2005-08-21"
+  }
+ ],
+ "amanita-excelsa": [
+  {
+   "file": "amanita-excelsa/327963085.jpg",
+   "w": 1000,
+   "h": 820,
+   "photoId": 327963085,
+   "obs": "eef260a8-87ef-442b-8b94-74c0916203b1",
+   "by": "Ellie B",
+   "login": "lasagana",
+   "license": "cc-by",
+   "observedOn": "2023-10-14"
+  },
+  {
+   "file": "amanita-excelsa/81154940.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 81154940,
+   "obs": "17c0bf37-6428-4174-b908-b1e3f62db58b",
+   "by": "Hana Váchová",
+   "login": "hana31",
+   "license": "cc-by",
+   "observedOn": "2020-06-27"
+  },
+  {
+   "file": "amanita-excelsa/342903293.jpg",
+   "w": 1000,
+   "h": 724,
+   "photoId": 342903293,
+   "obs": "372e488c-6e74-431c-8ea7-408269bc18bd",
+   "by": "Lucian Clanet",
+   "login": "lucian_clanet",
+   "license": "cc-by",
+   "observedOn": "2023-09-30"
+  },
+  {
+   "file": "amanita-excelsa/548029211.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 548029211,
+   "obs": "3eeebef9-1dfb-416e-8082-12b0c04e5aa1",
+   "by": "Erik",
+   "login": "erikoid",
+   "license": "cc-by",
+   "observedOn": "2025-08-05"
+  }
+ ],
+ "boletus-edulis": [
+  {
+   "file": "boletus-edulis/752355415.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 752355415,
+   "obs": "4bd1d4ae-b2b4-4718-a1a4-68002d87d134",
+   "by": "Katharine Khamhaengwong",
+   "login": "katharinegk",
+   "license": "cc-by",
+   "observedOn": "2026-10-16"
+  },
+  {
+   "file": "boletus-edulis/357441833.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 357441833,
+   "obs": "34add412-0991-4c2a-9a41-43b593931fda",
+   "by": "Heiko Weber",
+   "login": "run4",
+   "license": "cc-by",
+   "observedOn": "2009-11-14"
+  },
+  {
+   "file": "boletus-edulis/551409054.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 551409054,
+   "obs": "6aed1ae7-2c6b-43e1-818e-5c3b2592211c",
+   "by": "ewandavidson",
+   "login": "ewandavidson",
+   "license": "cc0",
+   "observedOn": "2025-08-09"
+  },
+  {
+   "file": "boletus-edulis/575998571.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 575998571,
+   "obs": "746ed0a2-fc97-427d-b21a-79eeb17bad0e",
+   "by": "Katharine Khamhaengwong",
+   "login": "katharinegk",
+   "license": "cc-by",
+   "observedOn": "2025-10-03"
+  }
+ ],
+ "tylopilus-felleus": [
+  {
+   "file": "tylopilus-felleus/86414876.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 86414876,
+   "obs": "cfc6a605-c189-4505-a3db-8f239b2bdf28",
+   "by": "Shirley Zundell",
+   "login": "sdz456",
+   "license": "cc-by",
+   "observedOn": "2020-07-24"
+  },
+  {
+   "file": "tylopilus-felleus/231073511.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 231073511,
+   "obs": "8b64528f-80c9-4c3c-8557-0812d8146b2b",
+   "by": "Jeff",
+   "login": "mushycarrots",
+   "license": "cc-by",
+   "observedOn": "2022-09-14"
+  },
+  {
+   "file": "tylopilus-felleus/553823132.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 553823132,
+   "obs": "ce566dae-938b-40c3-a2fd-cd351e769c2c",
+   "by": "paviitan",
+   "login": "paviitan",
+   "license": "cc-by-sa",
+   "observedOn": "2025-08-17"
+  },
+  {
+   "file": "tylopilus-felleus/306702185.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 306702185,
+   "obs": "53105adc-e54b-49ef-bcd7-c03796a741ef",
+   "by": "Peter Gabler",
+   "login": "peter_gabler",
+   "license": "cc0",
+   "observedOn": "2023-08-03"
+  }
+ ],
+ "rubroboletus-satanas": [
+  {
+   "file": "rubroboletus-satanas/563267507.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 563267507,
+   "obs": "02440071-16d1-4611-9695-964626e89f4c",
+   "by": "Manuela Fiorini",
+   "login": "manuela9012",
+   "license": "cc-by",
+   "observedOn": "2025-09-06"
+  },
+  {
+   "file": "rubroboletus-satanas/151832350.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 151832350,
+   "obs": "94014228-e648-487e-937d-373bc10b8ce0",
+   "by": "Дауд Арсанукаев",
+   "login": "salazar95",
+   "license": "cc-by",
+   "observedOn": "2021-08-16"
+  },
+  {
+   "file": "rubroboletus-satanas/320613880.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 320613880,
+   "obs": "7beb83af-ed44-4d6c-bd9d-c49ea2154548",
+   "by": "MichellePrice_CJBG",
+   "login": "michellejprice",
+   "license": "cc-by",
+   "observedOn": "2023-09-17"
+  },
+  {
+   "file": "rubroboletus-satanas/739983969.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 739983969,
+   "obs": "ba7f98b9-5cc3-4e15-b20d-8269c5a24ebc",
+   "by": "Stephan Mende",
+   "login": "grid33",
+   "license": "cc-by",
+   "observedOn": "2026-09-19"
+  }
+ ],
+ "neoboletus-luridiformis": [
+  {
+   "file": "neoboletus-luridiformis/447546805.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 447546805,
+   "obs": "fc2e49b3-984e-4dc6-b320-77cd08f0a097",
+   "by": "carnifex",
+   "login": "carnifex",
+   "license": "cc-by",
+   "observedOn": "2024-11-03"
+  },
+  {
+   "file": "neoboletus-luridiformis/386435832.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 386435832,
+   "obs": "47cbc9de-a917-434e-9e45-dca43db1fedf",
+   "by": "james_ferns_etc",
+   "login": "james_ferns_etc",
+   "license": "cc-by",
+   "observedOn": "2024-05-26"
+  },
+  {
+   "file": "neoboletus-luridiformis/354728242.jpg",
+   "w": 1000,
+   "h": 992,
+   "photoId": 354728242,
+   "obs": "980be4a1-e2c7-499f-b504-a2011a27a40e",
+   "by": "bogsuckers",
+   "login": "bogsuckers",
+   "license": "cc-by",
+   "observedOn": "2024-03-02"
+  },
+  {
+   "file": "neoboletus-luridiformis/542694178.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 542694178,
+   "obs": "05c79ef3-4ea8-4d44-b621-759351b77e6d",
+   "by": "vcpd",
+   "login": "vcpd",
+   "license": "cc-by-sa",
+   "observedOn": "2025-07-26"
+  }
+ ],
+ "agaricus-xanthodermus": [
+  {
+   "file": "agaricus-xanthodermus/573774301.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 573774301,
+   "obs": "0567639e-0a7e-4315-8278-e256ca5c848b",
+   "by": "Valentin Isen",
+   "login": "valentin262",
+   "license": "cc-by",
+   "observedOn": "2025-09-29"
+  },
+  {
+   "file": "agaricus-xanthodermus/235071795.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 235071795,
+   "obs": "e6636118-0807-4bcd-9f1f-663973a3c0df",
+   "by": "Lee Miller",
+   "login": "ranger_lee",
+   "license": "cc-by",
+   "observedOn": "2022-09-23"
+  },
+  {
+   "file": "agaricus-xanthodermus/756208725.jpg",
+   "w": 1000,
+   "h": 738,
+   "photoId": 756208725,
+   "obs": "2c84d654-35ec-42aa-87a3-1f28e0138624",
+   "by": "Adam J. Searcy",
+   "login": "serpophaga",
+   "license": "cc-by",
+   "observedOn": "2026-10-26"
+  },
+  {
+   "file": "agaricus-xanthodermus/100548685.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 100548685,
+   "obs": "55f7b5fc-0b61-430e-bf76-86bce4c92ab9",
+   "by": "Eleftherios Katsillis",
+   "login": "eleftherioskats",
+   "license": "cc-by",
+   "observedOn": "2020-10-16"
+  }
+ ],
+ "agaricus-arvensis": [
+  {
+   "file": "agaricus-arvensis/114692446.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 114692446,
+   "obs": "5761f2b9-0d74-4899-bb4b-3abaebec9d71",
+   "by": "Nova Patch",
+   "login": "novapatch",
+   "license": "cc-by-sa",
+   "observedOn": "2020-11-01"
+  },
+  {
+   "file": "agaricus-arvensis/238703094.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 238703094,
+   "obs": "dc8da775-0304-4981-a43d-ca0846530254",
+   "by": "Jamie O'Neill",
+   "login": "swimjamie",
+   "license": "cc-by",
+   "observedOn": "2022-10-20"
+  },
+  {
+   "file": "agaricus-arvensis/171562023.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 171562023,
+   "obs": "66fd4472-7a08-4827-b66f-1e2c5f8a4f9a",
+   "by": "Nicolas Olejnik",
+   "login": "nicoolejnik",
+   "license": "cc-by",
+   "observedOn": "2021-12-04"
+  },
+  {
+   "file": "agaricus-arvensis/228601972.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 228601972,
+   "obs": "ce7bbd38-5fdb-4edc-b1a7-a0d172eccf73",
+   "by": "Michal Honskus",
+   "login": "jolinarm",
+   "license": "cc-by",
+   "observedOn": "2022-09-08"
+  }
+ ],
+ "pleurotus-ostreatus": [
+  {
+   "file": "pleurotus-ostreatus/250678733.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 250678733,
+   "obs": "6bf5e3c2-9aed-4823-8273-c0eda412d90d",
+   "by": "empressmoth",
+   "login": "empressmoth",
+   "license": "cc0",
+   "observedOn": "2023-01-05"
+  },
+  {
+   "file": "pleurotus-ostreatus/234498583.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 234498583,
+   "obs": "cf7f6df4-b6e3-459a-bd4f-3c510c9d5f57",
+   "by": "Taro Ietaka",
+   "login": "t_tallhouse",
+   "license": "cc-by",
+   "observedOn": "2022-10-02"
+  },
+  {
+   "file": "pleurotus-ostreatus/455491567.jpg",
+   "w": 753,
+   "h": 1000,
+   "photoId": 455491567,
+   "obs": "6543ac11-3314-45af-85d5-45923df5fb06",
+   "by": "Aaron Chidwick",
+   "login": "physcia_descendens",
+   "license": "cc-by",
+   "observedOn": "2024-12-05"
+  },
+  {
+   "file": "pleurotus-ostreatus/8963872.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 8963872,
+   "obs": "402dbf8f-f965-4ffd-9405-9654c7233954",
+   "by": "Django Grootmyers",
+   "login": "heelsplitter",
+   "license": "cc-by-sa",
+   "observedOn": "2014-10-10"
+  }
+ ],
+ "pleurocybella-porrigens": [
+  {
+   "file": "pleurocybella-porrigens/96805904.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 96805904,
+   "obs": "06928ad7-8997-4434-aae1-43f3b3e88324",
+   "by": "Paco Bergson",
+   "login": "pacondition",
+   "license": "cc-by",
+   "observedOn": "2019-09-15"
+  },
+  {
+   "file": "pleurocybella-porrigens/434958821.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 434958821,
+   "obs": "4ab7e072-84e8-43ee-bc11-9aed04d447e2",
+   "by": "Camille Boucher",
+   "login": "cam_boucher",
+   "license": "cc0",
+   "observedOn": "2024-09-18"
+  },
+  {
+   "file": "pleurocybella-porrigens/236577881.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 236577881,
+   "obs": "9432311d-b54d-4836-b566-f4adc2b9a47d",
+   "by": "Andrew Melton",
+   "login": "andrewmelton",
+   "license": "cc-by",
+   "observedOn": "2022-10-11"
+  },
+  {
+   "file": "pleurocybella-porrigens/26706572.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 26706572,
+   "obs": "96d19c8f-d1e8-42c7-83dc-6a88b52fdf14",
+   "by": "Bonnie Isaac",
+   "login": "huntingbon",
+   "license": "cc0",
+   "observedOn": "2018-10-14"
+  }
+ ],
+ "laccaria-amethystina": [
+  {
+   "file": "laccaria-amethystina/747374459.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 747374459,
+   "obs": "7e924f30-bee6-48b5-976e-3d1325dbf184",
+   "by": "Hannah Allen",
+   "login": "hanallen",
+   "license": "cc-by",
+   "observedOn": "2026-10-08"
+  },
+  {
+   "file": "laccaria-amethystina/556449477.jpg",
+   "w": 1000,
+   "h": 715,
+   "photoId": 556449477,
+   "obs": "e9177320-3544-43b9-81a9-e3afdf0cca3b",
+   "by": "Zihao Wang",
+   "login": "zihaowang",
+   "license": "cc-by",
+   "observedOn": "2025-08-22"
+  },
+  {
+   "file": "laccaria-amethystina/755063426.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 755063426,
+   "obs": "598045f8-434e-4af4-a547-b080a4604177",
+   "by": "Katrin Simon",
+   "login": "katrin_simon",
+   "license": "cc-by",
+   "observedOn": "2026-10-24"
+  },
+  {
+   "file": "laccaria-amethystina/704570260.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 704570260,
+   "obs": "c5ae9fc1-996c-4e37-a361-a43dd27faa14",
+   "by": "Anwen Evans",
+   "login": "anwenevans",
+   "license": "cc-by",
+   "observedOn": "2021-10-11"
+  }
+ ],
+ "mycena-pura": [
+  {
+   "file": "mycena-pura/162374334.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 162374334,
+   "obs": "700349d7-c8a5-43fb-8dd6-180c4eb3888f",
+   "by": "Mandy Hackney",
+   "login": "mandymushii",
+   "license": "cc-by",
+   "observedOn": "2021-10-08"
+  },
+  {
+   "file": "mycena-pura/243005727.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 243005727,
+   "obs": "d4d93a98-8c49-47f0-88a0-5ebb4eff25fc",
+   "by": "Jason Grant",
+   "login": "jasonrgrant",
+   "license": "cc-by",
+   "observedOn": "2022-11-12"
+  },
+  {
+   "file": "mycena-pura/445541240.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 445541240,
+   "obs": "f38ea7c4-90bf-40da-8596-836114d84e28",
+   "by": "Lindsey K. Wise",
+   "login": "wisel",
+   "license": "cc-by",
+   "observedOn": "2024-10-25"
+  },
+  {
+   "file": "mycena-pura/441671625.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 441671625,
+   "obs": "5d57cda3-6b00-45a8-8bb0-a1984d5b8088",
+   "by": "victor laborde",
+   "login": "mycototor",
+   "license": "cc-by",
+   "observedOn": "2024-10-14"
+  }
+ ],
+ "lepista-nuda": [
+  {
+   "file": "lepista-nuda/597483266.jpg",
+   "w": 1000,
+   "h": 963,
+   "photoId": 597483266,
+   "obs": "cd9de746-dc6b-4b5b-ba95-69477eb4820a",
+   "by": "Chuck Wilson",
+   "login": "hllrnnr",
+   "license": "cc0",
+   "observedOn": "2025-12-04"
+  },
+  {
+   "file": "lepista-nuda/589833032.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 589833032,
+   "obs": "7b600aab-85ab-4f30-8518-71cc7dc6ab0d",
+   "by": "Eliza Crofts",
+   "login": "elizacrofts",
+   "license": "cc-by",
+   "observedOn": "2025-11-09"
+  },
+  {
+   "file": "lepista-nuda/167751763.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 167751763,
+   "obs": "b4d593a0-9b47-49ef-807e-9726a0bb403c",
+   "by": "bogsuckers",
+   "login": "bogsuckers",
+   "license": "cc-by",
+   "observedOn": "2021-11-07"
+  },
+  {
+   "file": "lepista-nuda/56355421.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 56355421,
+   "obs": "04b5961b-e598-4ce9-87e5-ed6b236c1f1d",
+   "by": "Karim Haddad",
+   "login": "karimhaddad",
+   "license": "cc-by",
+   "observedOn": "2019-11-15"
+  }
+ ],
+ "cortinarius-traganus": [
+  {
+   "file": "cortinarius-traganus/326835835.jpg",
+   "w": 751,
+   "h": 1000,
+   "photoId": 326835835,
+   "obs": "f2bfbbcb-ce5e-4c74-a0a7-b909bf2a555d",
+   "by": "wweellll",
+   "login": "wweellll",
+   "license": "cc-by",
+   "observedOn": "2023-10-09"
+  },
+  {
+   "file": "cortinarius-traganus/157212503.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 157212503,
+   "obs": "3070cd20-3023-4f6e-9849-41b13fa8137e",
+   "by": "Daniel Zucker",
+   "login": "spankythewonderdog",
+   "license": "cc-by",
+   "observedOn": "2021-09-12"
+  },
+  {
+   "file": "cortinarius-traganus/565381051.jpg",
+   "w": 562,
+   "h": 1000,
+   "photoId": 565381051,
+   "obs": "3721be71-6e92-4656-9e23-da1a75a66a71",
+   "by": "Lutra lutra",
+   "login": "sudenkorentoko",
+   "license": "cc0",
+   "observedOn": "2025-09-11"
+  },
+  {
+   "file": "cortinarius-traganus/445552461.jpg",
+   "w": 970,
+   "h": 1000,
+   "photoId": 445552461,
+   "obs": "59b40248-33d4-4d70-8491-ff64dfcaf3f5",
+   "by": "Ben Keen",
+   "login": "benkeen",
+   "license": "cc0",
+   "observedOn": "2024-10-26"
+  }
+ ],
+ "trametes-versicolor": [
+  {
+   "file": "trametes-versicolor/150442661.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 150442661,
+   "obs": "68ce1c9f-a511-4ad9-bb1c-2bb5519913f4",
+   "by": "helen_golubeva",
+   "login": "helen_golubeva",
+   "license": "cc-by",
+   "observedOn": "2021-08-13"
+  },
+  {
+   "file": "trametes-versicolor/164327852.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 164327852,
+   "obs": "721d2708-25ac-4f97-a926-da9e8b78a494",
+   "by": "sudomir",
+   "login": "sudomir",
+   "license": "cc-by",
+   "observedOn": "2021-10-18"
+  },
+  {
+   "file": "trametes-versicolor/75442616.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 75442616,
+   "obs": "b740f40d-d4a7-4277-a1d4-414923906f09",
+   "by": "Jana Miller",
+   "login": "janabuggs",
+   "license": "cc0",
+   "observedOn": "2020-05-27"
+  },
+  {
+   "file": "trametes-versicolor/162273593.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 162273593,
+   "obs": "e72a25a7-328f-4379-9ea7-75bfa3543261",
+   "by": "Chris",
+   "login": "chalax91",
+   "license": "cc-by-sa",
+   "observedOn": "2021-10-03"
+  }
+ ],
+ "stereum-ostrea": [
+  {
+   "file": "stereum-ostrea/536375187.jpg",
+   "w": 1000,
+   "h": 665,
+   "photoId": 536375187,
+   "obs": "eb2ce58f-b4a5-4451-a9dc-716adcde3229",
+   "by": "M Rutherford",
+   "login": "lobotaniser",
+   "license": "cc-by",
+   "observedOn": "2025-07-13"
+  },
+  {
+   "file": "stereum-ostrea/21644901.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 21644901,
+   "obs": "07050f44-006a-40c3-ac04-d11e30825406",
+   "by": "David Whyte",
+   "login": "davidwhyte",
+   "license": "cc-by-sa",
+   "observedOn": "2018-07-20"
+  },
+  {
+   "file": "stereum-ostrea/486953858.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 486953858,
+   "obs": "c55437e2-d41e-4bc4-8db6-b387764809f9",
+   "by": "Caleb Catto",
+   "login": "calebcatto",
+   "license": "cc-by",
+   "observedOn": "2025-03-23"
+  },
+  {
+   "file": "stereum-ostrea/277444562.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 277444562,
+   "obs": "d169ca9e-e5e0-48f2-aca4-5b482e9f2e7b",
+   "by": "pimelea",
+   "login": "pimelea",
+   "license": "cc-by",
+   "observedOn": "2023-02-01"
+  }
+ ],
+ "lycoperdon-perlatum": [
+  {
+   "file": "lycoperdon-perlatum/735483208.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 735483208,
+   "obs": "ad665deb-94d1-4f09-abe9-9339424c5c46",
+   "by": "Vincent B.",
+   "login": "vincent_b",
+   "license": "cc-by",
+   "observedOn": "2026-09-16"
+  },
+  {
+   "file": "lycoperdon-perlatum/156378224.jpg",
+   "w": 801,
+   "h": 1000,
+   "photoId": 156378224,
+   "obs": "984759c4-0430-40e9-8478-4a43eddcccc5",
+   "by": "Roger Rittmaster",
+   "login": "rogerritt",
+   "license": "cc-by",
+   "observedOn": "2021-09-09"
+  },
+  {
+   "file": "lycoperdon-perlatum/445433423.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 445433423,
+   "obs": "a499056e-ec7a-4588-8518-06b189d12aa3",
+   "by": "Matej Frančeškin",
+   "login": "matejfranceskin",
+   "license": "cc-by",
+   "observedOn": "2024-10-26"
+  },
+  {
+   "file": "lycoperdon-perlatum/131134286.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 131134286,
+   "obs": "d7d8f026-0779-4d1d-bb31-7d9a8e9a6672",
+   "by": "Marcus Tamura",
+   "login": "marcus_t",
+   "license": "cc0",
+   "observedOn": "2020-12-31"
+  }
+ ],
+ "scleroderma-citrinum": [
+  {
+   "file": "scleroderma-citrinum/423494708.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 423494708,
+   "obs": "128b9945-a120-4cae-972c-d7fdeb26dbe4",
+   "by": "Adam F",
+   "login": "adam24061",
+   "license": "cc-by",
+   "observedOn": "2024-08-25"
+  },
+  {
+   "file": "scleroderma-citrinum/102294358.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 102294358,
+   "obs": "6672655b-1bc6-43cb-ba51-5738d2274ef6",
+   "by": "Stephen James McWilliam",
+   "login": "steve_mcwilliam",
+   "license": "cc0",
+   "observedOn": "2020-10-28"
+  },
+  {
+   "file": "scleroderma-citrinum/308452469.jpg",
+   "w": 1000,
+   "h": 746,
+   "photoId": 308452469,
+   "obs": "ac24980e-d404-4727-a391-a6adb7f83699",
+   "by": "Alan Rockefeller",
+   "login": "alan_rockefeller",
+   "license": "cc-by",
+   "observedOn": "2023-08-07"
+  },
+  {
+   "file": "scleroderma-citrinum/232030116.jpg",
+   "w": 1000,
+   "h": 951,
+   "photoId": 232030116,
+   "obs": "7ed21c06-82fc-45d8-829c-c586d0c4263f",
+   "by": "Henry Van T. Cotter",
+   "login": "cotterh",
+   "license": "cc-by",
+   "observedOn": "2022-09-20"
+  }
+ ],
+ "russula-emetica": [
+  {
+   "file": "russula-emetica/99901367.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 99901367,
+   "obs": "58fddecb-3bae-4c1c-9679-166d9e708190",
+   "by": "Alan Rockefeller",
+   "login": "alan_rockefeller",
+   "license": "cc-by",
+   "observedOn": "2020-10-11"
+  },
+  {
+   "file": "russula-emetica/735740898.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 735740898,
+   "obs": "f4f9768b-006d-43a4-af0f-69a397de8d67",
+   "by": "Eli Talhouk",
+   "login": "mythical_mold",
+   "license": "cc-by",
+   "observedOn": "2026-09-16"
+  },
+  {
+   "file": "russula-emetica/441115975.jpg",
+   "w": 1000,
+   "h": 965,
+   "photoId": 441115975,
+   "obs": "d1a9549b-a793-4a7d-8444-b21ec4813f45",
+   "by": "Ben Keen",
+   "login": "benkeen",
+   "license": "cc0",
+   "observedOn": "2024-10-12"
+  },
+  {
+   "file": "russula-emetica/570138740.jpg",
+   "w": 811,
+   "h": 1000,
+   "photoId": 570138740,
+   "obs": "714fbc9d-8a5d-4156-997a-01ef089578be",
+   "by": "Charlotte Forrest-King",
+   "login": "charl_forrest-king",
+   "license": "cc-by",
+   "observedOn": "2025-09-17"
+  }
+ ],
+ "russula-xerampelina": [
+  {
+   "file": "russula-xerampelina/420314373.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 420314373,
+   "obs": "9346ae90-e9ee-4904-a09d-5e5709ce5524",
+   "by": "norgram",
+   "login": "norgram",
+   "license": "cc-by",
+   "observedOn": "2024-08-17"
+  },
+  {
+   "file": "russula-xerampelina/169904364.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 169904364,
+   "obs": "d888a1b0-2136-4c70-a5bd-22c2d4eaab53",
+   "by": "Kristin M. Tolle",
+   "login": "kristintolle",
+   "license": "cc-by",
+   "observedOn": "2021-11-22"
+  },
+  {
+   "file": "russula-xerampelina/239371625.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 239371625,
+   "obs": "e718176e-2398-4e70-9e9e-2c99a57eb430",
+   "by": "Katrin Simon",
+   "login": "katrin_simon",
+   "license": "cc-by",
+   "observedOn": "2022-10-24"
+  },
+  {
+   "file": "russula-xerampelina/340367330.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 340367330,
+   "obs": "04fc8290-805d-4b45-97fd-68dfba989e99",
+   "by": "Arvel Hernandez",
+   "login": "arvel",
+   "license": "cc-by",
+   "observedOn": "2023-12-10"
+  }
+ ],
+ "lactarius-deliciosus": [
+  {
+   "file": "lactarius-deliciosus/98560272.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 98560272,
+   "obs": "10a9c6f7-da16-4274-b8ab-96e1bcc24af3",
+   "by": "Виктория Билоус",
+   "login": "viktoriabilous",
+   "license": "cc-by",
+   "observedOn": "2020-09-29"
+  },
+  {
+   "file": "lactarius-deliciosus/444887525.jpg",
+   "w": 1000,
+   "h": 913,
+   "photoId": 444887525,
+   "obs": "fb859d3c-85ca-4370-adb2-7bcaaf8e3b36",
+   "by": "Katrin Simon",
+   "login": "katrin_simon",
+   "license": "cc-by",
+   "observedOn": "2024-10-23"
+  },
+  {
+   "file": "lactarius-deliciosus/195604905.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 195604905,
+   "obs": "661ff8b5-f4a5-4b14-bbf0-3af34368cc39",
+   "by": "djsc0",
+   "login": "djsc0",
+   "license": "cc-by-sa",
+   "observedOn": "2022-04-15"
+  },
+  {
+   "file": "lactarius-deliciosus/15101313.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 15101313,
+   "obs": "7f0bb39f-8658-4dcb-a9ce-9f65da2bb4cf",
+   "by": "Nicola van Berkel",
+   "login": "nicky",
+   "license": "cc-by-sa",
+   "observedOn": "2011-06-12"
+  }
+ ],
+ "lactarius-torminosus": [
+  {
+   "file": "lactarius-torminosus/564113386.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 564113386,
+   "obs": "3f5f1dee-6592-44bc-8fec-3cb369b1254e",
+   "by": "Axel Gudmundsson",
+   "login": "axel_gud",
+   "license": "cc-by",
+   "observedOn": "2025-09-08"
+  },
+  {
+   "file": "lactarius-torminosus/558476359.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 558476359,
+   "obs": "2aeaa773-1d70-40a7-b295-ba6d8b8e4811",
+   "by": "open_a_ir",
+   "login": "open_a_ir",
+   "license": "cc-by",
+   "observedOn": "2025-08-27"
+  },
+  {
+   "file": "lactarius-torminosus/735018892.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 735018892,
+   "obs": "41d729ad-f072-4c3e-a6ab-3fde33be1d7a",
+   "by": "michaelzabransky",
+   "login": "michaelzabransky",
+   "license": "cc-by",
+   "observedOn": "2026-09-14"
+  },
+  {
+   "file": "lactarius-torminosus/320742287.jpg",
+   "w": 751,
+   "h": 1000,
+   "photoId": 320742287,
+   "obs": "a7abccee-cc1d-42da-85a3-a6ac33751515",
+   "by": "Марина Давлетшина",
+   "login": "naturalist57011",
+   "license": "cc-by",
+   "observedOn": "2023-09-17"
+  }
+ ],
+ "grifola-frondosa": [
+  {
+   "file": "grifola-frondosa/233280464.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 233280464,
+   "obs": "f76f14b2-4f53-4ea9-8be1-2a22cb5ced3d",
+   "by": "Dominika Nowak",
+   "login": "minifix",
+   "license": "cc-by",
+   "observedOn": "2022-09-20"
+  },
+  {
+   "file": "grifola-frondosa/101293185.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 101293185,
+   "obs": "f843d4a2-64a6-4034-bba5-6f663f5f219e",
+   "by": "cgmayers",
+   "login": "cgmayers",
+   "license": "cc0",
+   "observedOn": "2019-09-23"
+  },
+  {
+   "file": "grifola-frondosa/237330030.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 237330030,
+   "obs": "5b9f1c40-a700-467a-b133-4c014e4d2f49",
+   "by": "Johannes",
+   "login": "jobangles",
+   "license": "cc0",
+   "observedOn": "2022-09-29"
+  },
+  {
+   "file": "grifola-frondosa/328014780.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 328014780,
+   "obs": "62b01d6a-491a-47aa-8aef-aead4bffbb68",
+   "by": "Michelle Campbell",
+   "login": "michellekc",
+   "license": "cc0",
+   "observedOn": "2023-10-14"
+  }
+ ],
+ "meripilus-giganteus": [
+  {
+   "file": "meripilus-giganteus/232783106.jpg",
+   "w": 1000,
+   "h": 752,
+   "photoId": 232783106,
+   "obs": "32d08bd6-d62a-45ab-b8a0-6a839d6890aa",
+   "by": "drtimk",
+   "login": "drtimk",
+   "license": "cc0",
+   "observedOn": "2022-09-24"
+  },
+  {
+   "file": "meripilus-giganteus/436914350.jpg",
+   "w": 1000,
+   "h": 881,
+   "photoId": 436914350,
+   "obs": "3febefc7-172a-4175-affa-a4b472f6c446",
+   "by": "Jon Mortin",
+   "login": "major_bombylius",
+   "license": "cc-by",
+   "observedOn": "2024-09-30"
+  },
+  {
+   "file": "meripilus-giganteus/311256636.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 311256636,
+   "obs": "390ff756-58c0-493f-9257-e5ea9cce52cb",
+   "by": "Björn Sothmann",
+   "login": "bjoerns",
+   "license": "cc-by-sa",
+   "observedOn": "2023-08-13"
+  },
+  {
+   "file": "meripilus-giganteus/734879749.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 734879749,
+   "obs": "ad6464bb-72fe-4c7e-96da-5d4ee34d6541",
+   "by": "Paul Lewis",
+   "login": "birdmanuk68",
+   "license": "cc-by",
+   "observedOn": "2026-09-15"
+  }
+ ],
+ "laetiporus-sulphureus": [
+  {
+   "file": "laetiporus-sulphureus/728318837.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 728318837,
+   "obs": "4a3be4fd-8b5f-41b6-88fd-4ac6adf2c699",
+   "by": "Andrey Polstianoi",
+   "login": "p_andrey",
+   "license": "cc-by",
+   "observedOn": "2026-09-04"
+  },
+  {
+   "file": "laetiporus-sulphureus/94233225.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 94233225,
+   "obs": "d81ae12b-b4a9-4ae3-a663-098390a45d89",
+   "by": "George Pushkal",
+   "login": "georgemushkal",
+   "license": "cc-by",
+   "observedOn": "2020-09-06"
+  },
+  {
+   "file": "laetiporus-sulphureus/98429.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 98429,
+   "obs": "88f0e6f9-19ea-4b21-b86a-b8fe3b412428",
+   "by": "Katja Schulz",
+   "login": "treegrow",
+   "license": "cc-by",
+   "observedOn": "2010-09-29"
+  },
+  {
+   "file": "laetiporus-sulphureus/268972574.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 268972574,
+   "obs": "55a1effd-6a0a-4981-af4e-121bed9815a1",
+   "by": "baccatta",
+   "login": "baccatta",
+   "license": "cc-by",
+   "observedOn": "2022-05-22"
+  }
+ ],
+ "phaeolus-schweinitzii": [
+  {
+   "file": "phaeolus-schweinitzii/542430451.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 542430451,
+   "obs": "5577c20b-cfe5-476a-9474-66a3b15924df",
+   "by": "Scott Shanks",
+   "login": "scottshanks",
+   "license": "cc-by",
+   "observedOn": "2025-07-25"
+  },
+  {
+   "file": "phaeolus-schweinitzii/709722125.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 709722125,
+   "obs": "f26eeeea-bd72-4ac6-a94c-963eb2c6e6a5",
+   "by": "Johan Adler",
+   "login": "johan8153",
+   "license": "cc-by",
+   "observedOn": "2026-08-02"
+  },
+  {
+   "file": "phaeolus-schweinitzii/212299624.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 212299624,
+   "obs": "75f51892-4e51-4563-b8b0-61bd767899b4",
+   "by": "aga_l_",
+   "login": "aga_l_",
+   "license": "cc-by",
+   "observedOn": "2022-07-02"
+  },
+  {
+   "file": "phaeolus-schweinitzii/542427176.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 542427176,
+   "obs": "11416185-4b3d-4ca0-b799-e43517f768f3",
+   "by": "Peter Gabler",
+   "login": "peter_gabler",
+   "license": "cc0",
+   "observedOn": "2025-07-25"
+  }
+ ],
+ "fomes-fomentarius": [
+  {
+   "file": "fomes-fomentarius/468277876.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 468277876,
+   "obs": "ba01eb5a-5003-441b-b5e4-16bdb9918fc3",
+   "by": "Francesco Santoro",
+   "login": "f_s",
+   "license": "cc-by",
+   "observedOn": "2025-02-05"
+  },
+  {
+   "file": "fomes-fomentarius/109004031.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 109004031,
+   "obs": "baf01f32-5eb6-4577-850f-d348ba5f2da0",
+   "by": "bemma",
+   "login": "bemma",
+   "license": "cc-by",
+   "observedOn": "2021-01-02"
+  },
+  {
+   "file": "fomes-fomentarius/155332902.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 155332902,
+   "obs": "3d81aca7-6975-417f-9b0b-2bfb807eefaf",
+   "by": "Yves Bas",
+   "login": "yvesbas",
+   "license": "cc-by",
+   "observedOn": "2021-08-31"
+  },
+  {
+   "file": "fomes-fomentarius/654288808.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 654288808,
+   "obs": "f7c30670-b6e7-401e-98aa-32c34d3f9d0d",
+   "by": "emilyd47",
+   "login": "emilyd47",
+   "license": "cc-by-sa",
+   "observedOn": "2026-05-05"
+  }
+ ],
+ "ganoderma-applanatum": [
+  {
+   "file": "ganoderma-applanatum/25461460.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 25461460,
+   "obs": "05368396-2047-42bd-9b53-160f14ea5e92",
+   "by": "Quinten Wiegersma",
+   "login": "birds_bugs_botany",
+   "license": "cc-by",
+   "observedOn": "2018-09-23"
+  },
+  {
+   "file": "ganoderma-applanatum/176298771.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 176298771,
+   "obs": "d3e01f61-b27a-4e86-a55b-389dc4bb7197",
+   "by": "Andrew Meeds",
+   "login": "ameeds",
+   "license": "cc-by",
+   "observedOn": "2021-08-06"
+  },
+  {
+   "file": "ganoderma-applanatum/533010391.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 533010391,
+   "obs": "6c338062-211b-4f25-9caa-d97e41641afe",
+   "by": "Paulame",
+   "login": "paulame",
+   "license": "cc-by",
+   "observedOn": "2025-06-16"
+  },
+  {
+   "file": "ganoderma-applanatum/241989948.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 241989948,
+   "obs": "c2a4d191-5841-462f-9fd7-efd3b55bcd7d",
+   "by": "George Pushkal",
+   "login": "georgemushkal",
+   "license": "cc-by",
+   "observedOn": "2022-07-16"
+  }
+ ],
+ "tremella-mesenterica": [
+  {
+   "file": "tremella-mesenterica/63575837.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 63575837,
+   "obs": "195c2fbc-475b-4831-8752-661a2c785603",
+   "by": "saltyhiker",
+   "login": "saltyhiker",
+   "license": "cc-by",
+   "observedOn": "2020-03-15"
+  },
+  {
+   "file": "tremella-mesenterica/475770495.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 475770495,
+   "obs": "5b493abb-90ac-4833-8dcd-3258e5428a3f",
+   "by": "lejones417",
+   "login": "lejones417",
+   "license": "cc-by-sa",
+   "observedOn": "2025-03-07"
+  },
+  {
+   "file": "tremella-mesenterica/60159411.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 60159411,
+   "obs": "c300faa8-a697-48b0-ae0a-bcfdce197a93",
+   "by": "joergmlpts",
+   "login": "joergmlpts",
+   "license": "cc-by",
+   "observedOn": "2020-01-23"
+  },
+  {
+   "file": "tremella-mesenterica/353576480.jpg",
+   "w": 1000,
+   "h": 563,
+   "photoId": 353576480,
+   "obs": "03227fd9-4ce1-4e39-b3bf-70e40262a476",
+   "by": "Michel Langeveld",
+   "login": "rudolphous",
+   "license": "cc-by",
+   "observedOn": "2024-02-25"
+  }
+ ],
+ "dacrymyces-chrysospermus": [
+  {
+   "file": "dacrymyces-chrysospermus/234540424.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 234540424,
+   "obs": "dc51eac5-800d-4898-8ed1-ff12ed96935e",
+   "by": "Larry Jensen",
+   "login": "larry216",
+   "license": "cc-by",
+   "observedOn": "2022-09-30"
+  },
+  {
+   "file": "dacrymyces-chrysospermus/258898200.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 258898200,
+   "obs": "4768dfe3-612e-4a2c-9df6-d859d2833f43",
+   "by": "mgentile",
+   "login": "mgentile",
+   "license": "cc0",
+   "observedOn": "2023-03-03"
+  },
+  {
+   "file": "dacrymyces-chrysospermus/477874073.jpg",
+   "w": 982,
+   "h": 1000,
+   "photoId": 477874073,
+   "obs": "1be36d2b-d488-4e8a-b448-14706cf85f53",
+   "by": "Tyler Ekholm",
+   "login": "chickenparmesan24",
+   "license": "cc-by",
+   "observedOn": "2025-03-19"
+  },
+  {
+   "file": "dacrymyces-chrysospermus/114230612.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 114230612,
+   "obs": "5a7280f3-9c72-4978-a055-0c62f2de15dd",
+   "by": "Bryn",
+   "login": "bryn_",
+   "license": "cc-by",
+   "observedOn": "2021-02-27"
+  }
+ ],
+ "coprinus-comatus": [
+  {
+   "file": "coprinus-comatus/100131128.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 100131128,
+   "obs": "6a61bd51-75e2-4313-8da4-bf576fc01939",
+   "by": "José Antonio León Mangado",
+   "login": "sololeon",
+   "license": "cc0",
+   "observedOn": "2020-10-13"
+  },
+  {
+   "file": "coprinus-comatus/398069731.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 398069731,
+   "obs": "eb653b1f-18b5-4f6a-9f85-3c87865928ed",
+   "by": "Evelyn Z",
+   "login": "evietchi",
+   "license": "cc-by-sa",
+   "observedOn": "2024-06-23"
+  },
+  {
+   "file": "coprinus-comatus/579274694.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 579274694,
+   "obs": "91eea1f0-7cb6-4b98-ae8a-371f92c6e461",
+   "by": "Jiří Podhorecký",
+   "login": "jiri8",
+   "license": "cc0",
+   "observedOn": "2025-10-12"
+  },
+  {
+   "file": "coprinus-comatus/31211290.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 31211290,
+   "obs": "ff0b31d9-9d3f-46f4-9283-ee56a1306c4f",
+   "by": "José Garrido",
+   "login": "josegarrido",
+   "license": "cc-by",
+   "observedOn": "2017-08-17"
+  }
+ ],
+ "coprinopsis-atramentaria": [
+  {
+   "file": "coprinopsis-atramentaria/27775767.jpg",
+   "w": 1000,
+   "h": 751,
+   "photoId": 27775767,
+   "obs": "ad9d1d61-f72d-4084-b2ab-24f8e5b96fd2",
+   "by": "Tim Kennedy",
+   "login": "tmkennedy",
+   "license": "cc-by",
+   "observedOn": "2018-11-05"
+  },
+  {
+   "file": "coprinopsis-atramentaria/322726298.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 322726298,
+   "obs": "7aec42da-f0b6-4968-885c-1342379d9421",
+   "by": "Marilyne Busque-Dubois",
+   "login": "marilynebdubois",
+   "license": "cc-by",
+   "observedOn": "2023-09-11"
+  },
+  {
+   "file": "coprinopsis-atramentaria/586653841.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 586653841,
+   "obs": "8a35fa60-4529-499e-9a2f-d107e8195cc4",
+   "by": "Johan Adler",
+   "login": "johan8153",
+   "license": "cc-by",
+   "observedOn": "2025-10-31"
+  },
+  {
+   "file": "coprinopsis-atramentaria/238340169.jpg",
+   "w": 959,
+   "h": 1000,
+   "photoId": 238340169,
+   "obs": "8b191e00-4ee9-4b9a-9be2-82b6f7127a1a",
+   "by": "Barry Cottam",
+   "login": "pei-ott",
+   "license": "cc-by",
+   "observedOn": "2022-10-09"
+  }
+ ],
+ "pholiota-squarrosa": [
+  {
+   "file": "pholiota-squarrosa/742250028.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 742250028,
+   "obs": "108924e3-4fac-4876-a9ce-aeda26e819df",
+   "by": "ieatfrogsandbugsanddirt",
+   "login": "ieatfrogsandbugsanddirt",
+   "license": "cc-by",
+   "observedOn": "2026-09-28"
+  },
+  {
+   "file": "pholiota-squarrosa/443257523.jpg",
+   "w": 1000,
+   "h": 933,
+   "photoId": 443257523,
+   "obs": "b8379ff3-7a86-4908-b517-7b77266b0a56",
+   "by": "Jane Concannon",
+   "login": "concannonjm",
+   "license": "cc0",
+   "observedOn": "2024-10-19"
+  },
+  {
+   "file": "pholiota-squarrosa/586683813.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 586683813,
+   "obs": "04e5d325-3777-435a-94bb-83dfbfa46c6a",
+   "by": "considerthelilies",
+   "login": "considerthelilies",
+   "license": "cc-by",
+   "observedOn": "2025-10-31"
+  },
+  {
+   "file": "pholiota-squarrosa/164934300.jpg",
+   "w": 1000,
+   "h": 750,
+   "photoId": 164934300,
+   "obs": "05ffed68-0b2b-4a9d-95ae-4dd50ea6eaf5",
+   "by": "J V",
+   "login": "j_v",
+   "license": "cc-by",
+   "observedOn": "2021-10-22"
+  }
+ ],
+ "omphalotus-nidiformis": [
+  {
+   "file": "omphalotus-nidiformis/9148017.jpg",
+   "w": 1000,
+   "h": 667,
+   "photoId": 9148017,
+   "obs": "09d27682-82c0-4006-be12-94e24cc94554",
+   "by": "John Barkla",
+   "login": "john_barkla",
+   "license": "cc-by",
+   "observedOn": "2017-07-02"
+  },
+  {
+   "file": "omphalotus-nidiformis/61599768.jpg",
+   "w": 750,
+   "h": 1000,
+   "photoId": 61599768,
+   "obs": "4bfb57fa-eadc-45f7-9928-bed9e0ca2df1",
+   "by": "Eileen Laidlaw",
+   "login": "pel56",
+   "license": "cc0",
+   "observedOn": "2020-02-17"
+  },
+  {
+   "file": "omphalotus-nidiformis/382416742.jpg",
+   "w": 1000,
+   "h": 1000,
+   "photoId": 382416742,
+   "obs": "b748e85b-1743-4464-b8f7-22461fe652cc",
+   "by": "Eileen Laidlaw",
+   "login": "pel56",
+   "license": "cc0",
+   "observedOn": "2024-05-17"
+  },
+  {
+   "file": "omphalotus-nidiformis/189795416.jpg",
+   "w": 819,
+   "h": 1000,
+   "photoId": 189795416,
+   "obs": "f83e96c1-e381-4d2e-ae8f-a9d0e1bcc458",
+   "by": "Eamonn Culhane",
+   "login": "eamonn_c",
+   "license": "cc-by",
+   "observedOn": "2022-04-22"
+  }
+ ]
+}
