@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local tooling caches (photo pipeline downloads, contact sheets, etc.)
+.cache/
+tools/.work/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
