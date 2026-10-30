@@ -1,0 +1,47 @@
+.credits {
+  max-width: 1000px;
+}
+
+.credit-species {
+  margin-top: 28px;
+}
+
+.credit-species h2 {
+  font-size: 1.3rem;
+}
+
+.credit-species h2 em {
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.credit-species h2 .badge {
+  vertical-align: middle;
+  font-family: var(--sans);
+}
+
+.credit-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credit-photos img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.credit-photos p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}

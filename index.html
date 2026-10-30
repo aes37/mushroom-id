@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mushroom ID: the daily lookalike challenge</title>
+  <meta name="description" content="Twenty pairs of lookalike mushrooms a day. Pick the one that matches the name, learn how to tell them apart, and earn your mushroom rank.">
+  <meta name="theme-color" content="#f5efe4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15110d" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%84%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span aria-hidden="true">🍄</span> Mushroom ID</a>
+    <nav class="topnav">
+      <button type="button" class="icon-btn" id="btn-help" aria-label="How to play" title="How to play">?</button>
+      <button type="button" class="icon-btn" id="btn-stats" aria-label="Your stats" title="Your stats">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 20h3V10H4v10Zm6.5 0h3V4h-3v16ZM17 20h3v-7h-3v7Z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section id="screen-loading" class="screen">
+      <p class="muted center">Loading…</p>
+    </section>
+
+    <section id="screen-intro" class="screen intro" hidden>
+      <div class="hero" aria-hidden="true">
+        <img id="hero-a" alt=""><span class="hero-or">or</span><img id="hero-b" alt="">
+      </div>
+      <p class="eyebrow" id="intro-number"></p>
+      <h1>Can you tell the lookalikes apart?</h1>
+      <p class="lede">Twenty pairs of mushrooms that people mix up, often with nasty results. Each round, pick the photo that matches the name.</p>
+      <ul class="points">
+        <li><span class="pts good">+1</span> right</li>
+        <li><span class="pts neutral">0</span> don't know</li>
+        <li><span class="pts bad">−1</span> wrong</li>
+      </ul>
+      <p class="muted">When in doubt, throw it out: a wrong ID costs you more than admitting you're not sure. Same 20 pairs for everyone today.</p>
+      <div class="intro-actions">
+        <button type="button" class="btn primary" id="btn-start">Start today's challenge</button>
+        <button type="button" class="btn ghost" id="btn-practice-intro">Practice round</button>
+      </div>
+    </section>
+
+    <section id="screen-play" class="screen play" hidden>
+      <div class="progress">
+        <span id="q-count" class="q-count"></span>
+        <span id="mode-tag" class="mode-tag" hidden>Practice</span>
+        <span id="running-score" class="running-score"></span>
+      </div>
+      <ol id="dots" class="dots" aria-hidden="true"></ol>
+
+      <h2 class="prompt">Which one is <span id="prompt-article">the</span> <span id="prompt-name"></span>?</h2>
+      <p class="prompt-sci" id="prompt-sci"></p>
+
+      <div class="cards">
+        <figure class="card" id="card-left">
+          <button type="button" class="pick" data-choice="left" aria-label="Choose the left photo">
+            <img alt="Left mushroom photo" decoding="async">
+          </button>
+          <button type="button" class="zoom" data-zoom="left" aria-label="Enlarge left photo" title="Enlarge">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M14 3h7v7h-2V6.41l-5.29 5.3-1.42-1.42L17.59 5H14V3ZM3 14h2v3.59l5.29-5.3 1.42 1.42L6.41 19H10v2H3v-7Z"/></svg>
+          </button>
+          <figcaption class="label" hidden></figcaption>
+        </figure>
+        <figure class="card" id="card-right">
+          <button type="button" class="pick" data-choice="right" aria-label="Choose the right photo">
+            <img alt="Right mushroom photo" decoding="async">
+          </button>
+          <button type="button" class="zoom" data-zoom="right" aria-label="Enlarge right photo" title="Enlarge">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M14 3h7v7h-2V6.41l-5.29 5.3-1.42-1.42L17.59 5H14V3ZM3 14h2v3.59l5.29-5.3 1.42 1.42L6.41 19H10v2H3v-7Z"/></svg>
+          </button>
+          <figcaption class="label" hidden></figcaption>
+        </figure>
+      </div>
+
+      <div class="answer-actions" id="answer-actions">
+        <button type="button" class="btn choice" data-choice="left"><span aria-hidden="true">←</span> Left</button>
+        <button type="button" class="btn choice unsure" data-choice="unsure">Don't know</button>
+        <button type="button" class="btn choice" data-choice="right">Right <span aria-hidden="true">→</span></button>
+      </div>
+
+      <div class="feedback" id="feedback" hidden>
+        <p class="verdict" id="verdict" role="status"></p>
+        <ul class="ids" id="ids"></ul>
+        <div class="tip">
+          <h3>How to tell them apart</h3>
+          <p id="tip"></p>
+          <p class="sources" id="tip-sources"></p>
+        </div>
+        <button type="button" class="btn primary" id="btn-next">Next</button>
+      </div>
+    </section>
+
+    <section id="screen-results" class="screen results" hidden>
+      <p class="eyebrow" id="results-title"></p>
+      <div class="rank">
+        <div class="rank-emoji" id="rank-emoji" aria-hidden="true"></div>
+        <h1 class="rank-title" id="rank-title"></h1>
+        <p class="rank-blurb" id="rank-blurb"></p>
+      </div>
+      <p class="score-line"><span class="score" id="score"></span> <span class="muted">points out of <span id="score-max"></span></span></p>
+      <p class="breakdown" id="breakdown"></p>
+      <ol class="grid" id="result-grid" aria-label="Your answers"></ol>
+      <div class="fatal" id="fatal" hidden></div>
+      <div class="result-actions">
+        <button type="button" class="btn primary" id="btn-share">Share result</button>
+        <button type="button" class="btn ghost" id="btn-practice">Practice round</button>
+      </div>
+      <p class="next-puzzle"><span id="streak-line"></span><span id="next-puzzle"></span></p>
+      <details class="review">
+        <summary>Review all 20 pairs</summary>
+        <ol id="review-list" class="review-list"></ol>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>For training only.</strong> Never eat a wild mushroom based on a photo, an app or this game. Have every find checked in person by an expert.</p>
+    <p>Photos from <a href="https://www.inaturalist.org/">iNaturalist</a> contributors under Creative Commons licenses. <a href="credits.html">Photo credits</a></p>
+  </footer>
+
+  <dialog id="dlg-help" class="dialog">
+    <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
+    <h2>How to play</h2>
+    <ul class="help-list">
+      <li>Every day there's a new set of 20 lookalike pairs, the same for everyone.</li>
+      <li>Two photos appear side by side. Tap the one that matches the name, or press <kbd>←</kbd> / <kbd>→</kbd>.</li>
+      <li>Not sure? Press <strong>Don't know</strong> (or <kbd>↓</kbd>). It scores 0, while a wrong answer costs a point.</li>
+      <li>After each answer you'll see both names, whether they're edible, and how to tell them apart.</li>
+      <li>Wrong answers on pairs involving a deadly species show up as 💀 in your results.</li>
+      <li>Use the <span aria-hidden="true">⤢</span> button to enlarge a photo.</li>
+    </ul>
+    <h3>Ranks</h3>
+    <ul class="rank-list" id="rank-list"></ul>
+    <p class="muted small">Photos are real observations, so some show only part of the mushroom, the same way you'd meet them in the field. That's part of the challenge.</p>
+  </dialog>
+
+  <dialog id="dlg-stats" class="dialog">
+    <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
+    <h2>Your stats</h2>
+    <div class="stats" id="stats"></div>
+    <p class="muted small">Stats are stored only in this browser.</p>
+  </dialog>
+
+  <dialog id="dlg-zoom" class="dialog zoom-dialog">
+    <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="Close">✕</button></form>
+    <img id="zoom-img" alt="">
+    <p class="zoom-credit" id="zoom-credit"></p>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
